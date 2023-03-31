@@ -1,0 +1,46 @@
+Addr  OP    M    
+0     JMP   9    
+1     LIT   44   
+2     LIT   44   
+3     NEQ   0    
+4     JPC   2    
+5     JMP   3    
+6     NOP   0    
+7     JMP   -6   
+8     RTN   0    
+9     INC   3    
+10    CAL   1    
+11    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     JMP   9    
+PC: 9 BP: 0 SP: 0
+stack: 
+==> addr: 9     INC   3    
+PC: 10 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 10    CAL   1    
+PC: 1 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 11 
+==> addr: 1     LIT   44   
+PC: 2 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 11 S[6]: 44 
+==> addr: 2     LIT   44   
+PC: 3 BP: 3 SP: 8
+stack: S[3]: 0 S[4]: 0 S[5]: 11 S[6]: 44 S[7]: 44 
+==> addr: 3     NEQ   0    
+PC: 4 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 11 S[6]: 0 
+==> addr: 4     JPC   2    
+PC: 5 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 11 
+==> addr: 5     JMP   3    
+PC: 8 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 11 
+==> addr: 8     RTN   0    
+PC: 11 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 11    HLT   0    
+PC: 12 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 

@@ -1,0 +1,10 @@
+# $Id: hw4-vmtest-proc2.pl0,v 1.1 2023/03/23 05:23:01 leavens Exp $
+procedure one; write 49;
+procedure two; write 49+1;
+procedure nl; write 10;
+begin
+  call one;
+  call nl;
+  call two;
+  call nl
+end.

@@ -1,0 +1,16 @@
+Addr  OP    M    
+0     INC   3    
+1     NOP   0    
+2     HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     INC   3    
+PC: 1 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 1     NOP   0    
+PC: 2 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 2     HLT   0    
+PC: 3 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 

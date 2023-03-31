@@ -1,0 +1,29 @@
+# $Id: hw4-vmtest-proc4.pl0,v 1.1 2023/03/23 05:23:01 leavens Exp $
+const c1 = 49;
+const nl = 10;
+var arg, x, y, two;
+procedure inc; arg := arg+1;
+procedure swap;
+  var temp;
+  begin
+    temp := x;
+    x := y;
+    y := temp
+  end;
+procedure printXY;
+  begin
+    write x;
+    write nl;
+    write y;
+    write nl
+  end;
+begin
+  x := 50;
+  y := 52;
+  call swap;
+  call printXY;
+  arg := x;
+  call inc;
+  x := arg;
+  call printXY
+end.

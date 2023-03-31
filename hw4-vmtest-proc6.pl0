@@ -1,0 +1,22 @@
+# $Id: hw4-vmtest-proc6.pl0,v 1.2 2023/03/23 08:12:28 leavens Exp $
+const nl = 10, five = 5, three = 3;
+procedure p;
+  const y = 121, n = 110;
+  procedure q;
+    var varSym;
+    begin
+      varSym := five - three;
+      if varSym = 2
+      then
+        begin
+          write y;
+          write nl
+        end
+      else
+        begin
+          write n;
+          write nl
+        end
+    end;
+  call q;
+call p.

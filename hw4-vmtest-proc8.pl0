@@ -1,0 +1,11 @@
+# $Id: hw4-vmtest-proc8.pl0,v 1.1 2023/03/23 19:58:57 leavens Exp $
+const c = 7;
+var x;
+procedure p;
+  var y;
+  begin
+    x := c;
+    y := x+3
+  end;
+call p.
+  

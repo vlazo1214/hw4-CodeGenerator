@@ -1,0 +1,29 @@
+# $Id: hw4-vmtest-proc5.pl0,v 1.2 2023/03/23 05:23:01 leavens Exp $
+const ten = 10;
+const char0 = 48;
+var modArg1, modArg2;
+var modRet;
+procedure err;
+   var q;
+   q := q / 0;
+procedure mod;
+  var n,d;
+  begin
+     n := modArg1;
+     d := modArg2;
+     while n >= d
+     do
+        n := n - d;
+     modRet := n
+  end;
+procedure mod10;
+  begin
+    modArg2 := 10;
+    call mod
+  end;
+begin
+  modArg1 := 86;
+  call mod10;
+  write modRet+char0;
+  write ten # newline
+end.

@@ -1,0 +1,10 @@
+# $Id: hw4-vmtest7.pl0,v 1.2 2023/03/22 02:07:55 leavens Exp $
+const Y = 89, N = 78, nl =10;
+begin
+  if 99 > 86
+  then
+     write Y
+  else
+     write N;
+  write nl
+end.

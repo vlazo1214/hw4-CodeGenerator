@@ -1,0 +1,11 @@
+# $Id: hw4-vmtest-proc3.pl0,v 1.1 2023/03/23 05:23:01 leavens Exp $
+const c1 = 49;
+procedure one; write c1;
+procedure two; write c1+1;
+procedure nl; const c = 10; write c;
+begin
+  call one;
+  call nl;
+  call two;
+  call nl
+end.

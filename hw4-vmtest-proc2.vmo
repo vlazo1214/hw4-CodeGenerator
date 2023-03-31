@@ -1,0 +1,87 @@
+Addr  OP    M    
+0     JMP   12   
+1     LIT   49   
+2     CHO   0    
+3     RTN   0    
+4     LIT   49   
+5     LIT   1    
+6     ADD   0    
+7     CHO   0    
+8     RTN   0    
+9     LIT   10   
+10    CHO   0    
+11    RTN   0    
+12    INC   3    
+13    CAL   1    
+14    CAL   9    
+15    CAL   4    
+16    CAL   9    
+17    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     JMP   12   
+PC: 12 BP: 0 SP: 0
+stack: 
+==> addr: 12    INC   3    
+PC: 13 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 13    CAL   1    
+PC: 1 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 14 
+==> addr: 1     LIT   49   
+PC: 2 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 14 S[6]: 49 
+==> addr: 2     CHO   0    
+PC: 3 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 14 
+==> addr: 3     RTN   0    
+PC: 14 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 14    CAL   9    
+PC: 9 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 15 
+==> addr: 9     LIT   10   
+PC: 10 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 15 S[6]: 10 
+==> addr: 10    CHO   0    
+PC: 11 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 15 
+==> addr: 11    RTN   0    
+PC: 15 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 15    CAL   4    
+PC: 4 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 16 
+==> addr: 4     LIT   49   
+PC: 5 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 16 S[6]: 49 
+==> addr: 5     LIT   1    
+PC: 6 BP: 3 SP: 8
+stack: S[3]: 0 S[4]: 0 S[5]: 16 S[6]: 49 S[7]: 1 
+==> addr: 6     ADD   0    
+PC: 7 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 16 S[6]: 50 
+==> addr: 7     CHO   0    
+PC: 8 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 16 
+==> addr: 8     RTN   0    
+PC: 16 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 16    CAL   9    
+PC: 9 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 17 
+==> addr: 9     LIT   10   
+PC: 10 BP: 3 SP: 7
+stack: S[3]: 0 S[4]: 0 S[5]: 17 S[6]: 10 
+==> addr: 10    CHO   0    
+PC: 11 BP: 3 SP: 6
+stack: S[3]: 0 S[4]: 0 S[5]: 17 
+==> addr: 11    RTN   0    
+PC: 17 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 17    HLT   0    
+PC: 18 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+1
+2

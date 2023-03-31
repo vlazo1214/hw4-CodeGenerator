@@ -1,0 +1,92 @@
+Addr  OP    M    
+0     JMP   17   
+1     INC   1    
+2     PBP   0    
+3     PSI   0    
+4     PBP   0    
+5     PSI   0    
+6     LOD   3    
+7     STO   4    
+8     PBP   0    
+9     PBP   0    
+10    PSI   0    
+11    LOD   4    
+12    LIT   3    
+13    ADD   0    
+14    STO   3    
+15    INC   -1   
+16    RTN   0    
+17    INC   3    
+18    LIT   7    
+19    INC   1    
+20    CAL   1    
+21    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     JMP   17   
+PC: 17 BP: 0 SP: 0
+stack: 
+==> addr: 17    INC   3    
+PC: 18 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 18    LIT   7    
+PC: 19 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 7 
+==> addr: 19    INC   1    
+PC: 20 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 7 S[4]: 0 
+==> addr: 20    CAL   1    
+PC: 1 BP: 5 SP: 8
+stack: S[5]: 0 S[6]: 0 S[7]: 21 
+==> addr: 1     INC   1    
+PC: 2 BP: 5 SP: 9
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 
+==> addr: 2     PBP   0    
+PC: 3 BP: 5 SP: 10
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 
+==> addr: 3     PSI   0    
+PC: 4 BP: 5 SP: 10
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 0 
+==> addr: 4     PBP   0    
+PC: 5 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 0 S[10]: 5 
+==> addr: 5     PSI   0    
+PC: 6 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 0 S[10]: 0 
+==> addr: 6     LOD   3    
+PC: 7 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 0 S[10]: 7 
+==> addr: 7     STO   4    
+PC: 8 BP: 5 SP: 9
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 
+==> addr: 8     PBP   0    
+PC: 9 BP: 5 SP: 10
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 
+==> addr: 9     PBP   0    
+PC: 10 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 S[10]: 5 
+==> addr: 10    PSI   0    
+PC: 11 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 S[10]: 0 
+==> addr: 11    LOD   4    
+PC: 12 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 S[10]: 7 
+==> addr: 12    LIT   3    
+PC: 13 BP: 5 SP: 12
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 S[10]: 7 S[11]: 3 
+==> addr: 13    ADD   0    
+PC: 14 BP: 5 SP: 11
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 0 S[9]: 5 S[10]: 10 
+==> addr: 14    STO   3    
+PC: 15 BP: 5 SP: 9
+stack: S[5]: 0 S[6]: 0 S[7]: 21 S[8]: 10 
+==> addr: 15    INC   -1   
+PC: 16 BP: 5 SP: 8
+stack: S[5]: 0 S[6]: 0 S[7]: 21 
+==> addr: 16    RTN   0    
+PC: 21 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 7 S[4]: 7 
+==> addr: 21    HLT   0    
+PC: 22 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 7 S[4]: 7 

@@ -1,0 +1,235 @@
+Addr  OP    M    
+0     JMP   20   
+1     PBP   0    
+2     PSI   0    
+3     LOD   3    
+4     LIT   0    
+5     GTR   0    
+6     JPC   2    
+7     JMP   11   
+8     PBP   0    
+9     PSI   0    
+10    PBP   0    
+11    PSI   0    
+12    LOD   3    
+13    LIT   1    
+14    SUB   0    
+15    STO   3    
+16    CAL   1    
+17    JMP   2    
+18    NOP   0    
+19    RTN   0    
+20    INC   3    
+21    INC   1    
+22    PBP   0    
+23    LIT   3    
+24    STO   3    
+25    CAL   1    
+26    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     JMP   20   
+PC: 20 BP: 0 SP: 0
+stack: 
+==> addr: 20    INC   3    
+PC: 21 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 21    INC   1    
+PC: 22 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 
+==> addr: 22    PBP   0    
+PC: 23 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 
+==> addr: 23    LIT   3    
+PC: 24 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 S[5]: 3 
+==> addr: 24    STO   3    
+PC: 25 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 3 
+==> addr: 25    CAL   1    
+PC: 1 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 26 
+==> addr: 1     PBP   0    
+PC: 2 BP: 4 SP: 8
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 4 
+==> addr: 2     PSI   0    
+PC: 3 BP: 4 SP: 8
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 
+==> addr: 3     LOD   3    
+PC: 4 BP: 4 SP: 8
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 3 
+==> addr: 4     LIT   0    
+PC: 5 BP: 4 SP: 9
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 3 S[8]: 0 
+==> addr: 5     GTR   0    
+PC: 6 BP: 4 SP: 8
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 1 
+==> addr: 6     JPC   2    
+PC: 8 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 26 
+==> addr: 8     PBP   0    
+PC: 9 BP: 4 SP: 8
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 4 
+==> addr: 9     PSI   0    
+PC: 10 BP: 4 SP: 8
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 
+==> addr: 10    PBP   0    
+PC: 11 BP: 4 SP: 9
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 S[8]: 4 
+==> addr: 11    PSI   0    
+PC: 12 BP: 4 SP: 9
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 S[8]: 0 
+==> addr: 12    LOD   3    
+PC: 13 BP: 4 SP: 9
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 S[8]: 3 
+==> addr: 13    LIT   1    
+PC: 14 BP: 4 SP: 10
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 S[8]: 3 S[9]: 1 
+==> addr: 14    SUB   0    
+PC: 15 BP: 4 SP: 9
+stack: S[4]: 0 S[5]: 0 S[6]: 26 S[7]: 0 S[8]: 2 
+==> addr: 15    STO   3    
+PC: 16 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 26 
+==> addr: 16    CAL   1    
+PC: 1 BP: 7 SP: 10
+stack: S[7]: 0 S[8]: 4 S[9]: 17 
+==> addr: 1     PBP   0    
+PC: 2 BP: 7 SP: 11
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 7 
+==> addr: 2     PSI   0    
+PC: 3 BP: 7 SP: 11
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 
+==> addr: 3     LOD   3    
+PC: 4 BP: 7 SP: 11
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 2 
+==> addr: 4     LIT   0    
+PC: 5 BP: 7 SP: 12
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 2 S[11]: 0 
+==> addr: 5     GTR   0    
+PC: 6 BP: 7 SP: 11
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 1 
+==> addr: 6     JPC   2    
+PC: 8 BP: 7 SP: 10
+stack: S[7]: 0 S[8]: 4 S[9]: 17 
+==> addr: 8     PBP   0    
+PC: 9 BP: 7 SP: 11
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 7 
+==> addr: 9     PSI   0    
+PC: 10 BP: 7 SP: 11
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 
+==> addr: 10    PBP   0    
+PC: 11 BP: 7 SP: 12
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 S[11]: 7 
+==> addr: 11    PSI   0    
+PC: 12 BP: 7 SP: 12
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 S[11]: 0 
+==> addr: 12    LOD   3    
+PC: 13 BP: 7 SP: 12
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 S[11]: 2 
+==> addr: 13    LIT   1    
+PC: 14 BP: 7 SP: 13
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 S[11]: 2 S[12]: 1 
+==> addr: 14    SUB   0    
+PC: 15 BP: 7 SP: 12
+stack: S[7]: 0 S[8]: 4 S[9]: 17 S[10]: 0 S[11]: 1 
+==> addr: 15    STO   3    
+PC: 16 BP: 7 SP: 10
+stack: S[7]: 0 S[8]: 4 S[9]: 17 
+==> addr: 16    CAL   1    
+PC: 1 BP: 10 SP: 13
+stack: S[10]: 0 S[11]: 7 S[12]: 17 
+==> addr: 1     PBP   0    
+PC: 2 BP: 10 SP: 14
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 10 
+==> addr: 2     PSI   0    
+PC: 3 BP: 10 SP: 14
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 
+==> addr: 3     LOD   3    
+PC: 4 BP: 10 SP: 14
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 1 
+==> addr: 4     LIT   0    
+PC: 5 BP: 10 SP: 15
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 1 S[14]: 0 
+==> addr: 5     GTR   0    
+PC: 6 BP: 10 SP: 14
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 1 
+==> addr: 6     JPC   2    
+PC: 8 BP: 10 SP: 13
+stack: S[10]: 0 S[11]: 7 S[12]: 17 
+==> addr: 8     PBP   0    
+PC: 9 BP: 10 SP: 14
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 10 
+==> addr: 9     PSI   0    
+PC: 10 BP: 10 SP: 14
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 
+==> addr: 10    PBP   0    
+PC: 11 BP: 10 SP: 15
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 S[14]: 10 
+==> addr: 11    PSI   0    
+PC: 12 BP: 10 SP: 15
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 S[14]: 0 
+==> addr: 12    LOD   3    
+PC: 13 BP: 10 SP: 15
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 S[14]: 1 
+==> addr: 13    LIT   1    
+PC: 14 BP: 10 SP: 16
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 S[14]: 1 S[15]: 1 
+==> addr: 14    SUB   0    
+PC: 15 BP: 10 SP: 15
+stack: S[10]: 0 S[11]: 7 S[12]: 17 S[13]: 0 S[14]: 0 
+==> addr: 15    STO   3    
+PC: 16 BP: 10 SP: 13
+stack: S[10]: 0 S[11]: 7 S[12]: 17 
+==> addr: 16    CAL   1    
+PC: 1 BP: 13 SP: 16
+stack: S[13]: 0 S[14]: 10 S[15]: 17 
+==> addr: 1     PBP   0    
+PC: 2 BP: 13 SP: 17
+stack: S[13]: 0 S[14]: 10 S[15]: 17 S[16]: 13 
+==> addr: 2     PSI   0    
+PC: 3 BP: 13 SP: 17
+stack: S[13]: 0 S[14]: 10 S[15]: 17 S[16]: 0 
+==> addr: 3     LOD   3    
+PC: 4 BP: 13 SP: 17
+stack: S[13]: 0 S[14]: 10 S[15]: 17 S[16]: 0 
+==> addr: 4     LIT   0    
+PC: 5 BP: 13 SP: 18
+stack: S[13]: 0 S[14]: 10 S[15]: 17 S[16]: 0 S[17]: 0 
+==> addr: 5     GTR   0    
+PC: 6 BP: 13 SP: 17
+stack: S[13]: 0 S[14]: 10 S[15]: 17 S[16]: 0 
+==> addr: 6     JPC   2    
+PC: 7 BP: 13 SP: 16
+stack: S[13]: 0 S[14]: 10 S[15]: 17 
+==> addr: 7     JMP   11   
+PC: 18 BP: 13 SP: 16
+stack: S[13]: 0 S[14]: 10 S[15]: 17 
+==> addr: 18    NOP   0    
+PC: 19 BP: 13 SP: 16
+stack: S[13]: 0 S[14]: 10 S[15]: 17 
+==> addr: 19    RTN   0    
+PC: 17 BP: 10 SP: 13
+stack: S[10]: 0 S[11]: 7 S[12]: 17 
+==> addr: 17    JMP   2    
+PC: 19 BP: 10 SP: 13
+stack: S[10]: 0 S[11]: 7 S[12]: 17 
+==> addr: 19    RTN   0    
+PC: 17 BP: 7 SP: 10
+stack: S[7]: 0 S[8]: 4 S[9]: 17 
+==> addr: 17    JMP   2    
+PC: 19 BP: 7 SP: 10
+stack: S[7]: 0 S[8]: 4 S[9]: 17 
+==> addr: 19    RTN   0    
+PC: 17 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 26 
+==> addr: 17    JMP   2    
+PC: 19 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 26 
+==> addr: 19    RTN   0    
+PC: 26 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 
+==> addr: 26    HLT   0    
+PC: 27 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 

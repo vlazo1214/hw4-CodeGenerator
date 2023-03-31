@@ -1,0 +1,73 @@
+Addr  OP    M    
+0     INC   3    
+1     LIT   89   
+2     LIT   78   
+3     LIT   10   
+4     LIT   99   
+5     LIT   86   
+6     GTR   0    
+7     JPC   2    
+8     JMP   5    
+9     PBP   0    
+10    LOD   3    
+11    CHO   0    
+12    JMP   4    
+13    PBP   0    
+14    LOD   4    
+15    CHO   0    
+16    PBP   0    
+17    LOD   5    
+18    CHO   0    
+19    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     INC   3    
+PC: 1 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 1     LIT   89   
+PC: 2 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 
+==> addr: 2     LIT   78   
+PC: 3 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 
+==> addr: 3     LIT   10   
+PC: 4 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 
+==> addr: 4     LIT   99   
+PC: 5 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 99 
+==> addr: 5     LIT   86   
+PC: 6 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 99 S[7]: 86 
+==> addr: 6     GTR   0    
+PC: 7 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 1 
+==> addr: 7     JPC   2    
+PC: 9 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 
+==> addr: 9     PBP   0    
+PC: 10 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 0 
+==> addr: 10    LOD   3    
+PC: 11 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 89 
+==> addr: 11    CHO   0    
+PC: 12 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 
+==> addr: 12    JMP   4    
+PC: 16 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 
+==> addr: 16    PBP   0    
+PC: 17 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 0 
+==> addr: 17    LOD   5    
+PC: 18 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 S[6]: 10 
+==> addr: 18    CHO   0    
+PC: 19 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 
+==> addr: 19    HLT   0    
+PC: 20 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 89 S[4]: 78 S[5]: 10 
+Y

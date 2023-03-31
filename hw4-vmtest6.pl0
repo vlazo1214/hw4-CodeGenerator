@@ -1,0 +1,9 @@
+# $Id: hw4-vmtest6.pl0,v 1.1 2023/03/20 23:46:46 leavens Exp $
+const nl = 10, y = 121;
+var x, z, q;
+begin
+   x := nl+1+0-0*10/10;
+   z := x - x + y - (1 - 2 + 1);
+   q := x / z;
+   write q-0-0
+end.

@@ -1,0 +1,3 @@
+# $Id: hw4-vmtest-proc1.pl0,v 1.3 2023/03/23 01:38:43 leavens Exp $
+procedure p; skip;
+call p.

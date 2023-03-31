@@ -1,0 +1,15 @@
+# $Id: hw4-vmtest9.pl0,v 1.1 2023/03/21 21:10:35 leavens Exp $
+const q = 7;
+var x, y, z;
+begin
+   x := 86;
+   y := 99;
+   z := 1001;
+   if odd (x-y)
+   then
+      x := z+1+q
+   else
+      begin
+        y := y-1*z
+      end
+end.

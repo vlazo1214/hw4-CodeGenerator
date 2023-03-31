@@ -1,0 +1,27 @@
+# $Id: hw4-vmtest-procA.pl0,v 1.1 2023/03/23 19:58:57 leavens Exp $
+var outsideP1;
+procedure P1;
+  var outsideP2;
+  procedure P2;
+    var outsideP3;
+    procedure P3;
+      var outsideP4;
+      procedure P4;
+        var insideP4;
+        begin
+          begin
+            while 44 <> 44
+            do
+	      begin
+                outsideP1 := 44+1;
+                outsideP2 := 55 - outsideP1;
+                outsideP3 := 66 * outsideP2;
+	        outsideP4 := 77 / outsideP1;
+	        insideP4 := outsideP2
+              end
+	  end
+        end;
+      call P4;
+    call P3;
+  call P2;
+call P1.
