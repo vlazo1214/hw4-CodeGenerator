@@ -38,7 +38,7 @@ Addr  OP    M
 36    LIT   1    
 37    PBP   0    
 38    LOD   6    
-39    SUB   0    
+39    MUL   0    
 40    SUB   0    
 41    STO   5    
 42    HLT   0    

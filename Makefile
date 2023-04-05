@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.27 2023/03/29 21:31:35 leavens Exp leavens $
+# $Id: Makefile,v 1.28 2023/03/30 00:42:13 leavens Exp leavens $
 # Makefile for PL/0 compiler and code generation
 
 # Add .exe to the end of target to get that suffix in the rules
@@ -171,7 +171,7 @@ digest digest.txt:
         done >digest.txt
 
 .PHONY: vmdigest
-vmdigest vmdigest.txt: 
+vmdigest vmdigest.txt: create-vm-outputs
 	for f in `ls $(VMTESTS) | sed -e 's/\\.$(SUF)//g'`; \
         do cat $$f.$(SUF); echo " "; cat $$f.vmo; echo " "; echo " "; \
         done >vmdigest.txt

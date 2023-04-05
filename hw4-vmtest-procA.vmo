@@ -37,7 +37,7 @@ Addr  OP    M
 35    PSI   0    
 36    PSI   0    
 37    LOD   3    
-38    SUB   0    
+38    MUL   0    
 39    STO   3    
 40    PBP   0    
 41    PSI   0    
