@@ -117,7 +117,7 @@ code_seq gen_code_beginStmt(AST *stmt)
     return ret;
 }
 
-// generate code for the statement
+// from lab || generate code for the statement
 code_seq gen_code_ifStmt(AST *stmt)
 {
     /* design:
@@ -131,14 +131,28 @@ code_seq gen_code_ifStmt(AST *stmt)
 	code_seq elsec = gen_code_stmt(stmt->data.if_stmt.elsestmt);
     code_seq ret = code_seq_add_to_end(condc, code_jpc(2));
 
-    ret = code_seq_add_to_end(ret, code_jmp(code_seq_size(thenc)+1));
+    ret = code_seq_add_to_end(ret, code_jmp(code_seq_size(thenc)+2));
     ret = code_seq_concat(ret, thenc);
 	ret = code_seq_add_to_end(ret, code_jmp(code_seq_size(elsec)+1));
     ret = code_seq_concat(ret, elsec);
     return ret;
 }
 
-// generate code for the statement
+// from lab
+code_seq gen_code_whileStmt(AST *stmt)
+{
+	code_seq condc = gen_code_expr(stmt->data.while_stmt.cond);
+    code_seq bodyc = gen_code_stmt(stmt->data.while_stmt.stmt);
+    code_seq ret = code_seq_add_to_end(condc, code_jpc(2));
+
+	ret = code_seq_add_to_end(ret, code_jmp(code_seq_size(bodyc) + 2));
+	ret = code_seq_concat(ret, bodyc);
+	ret = code_seq_add_to_end(ret, code_jmp(-1 * (code_seq_size(bodyc) + code_seq_size(condc) + 2)));
+
+	return ret;
+}
+
+// should be self-explanatory || generate code for the statement
 code_seq gen_code_readStmt(AST *stmt)
 {
     /* design:
@@ -153,7 +167,7 @@ code_seq gen_code_readStmt(AST *stmt)
     return ret;
 }
 
-// generate code for the statement
+// should be self-explanatory || generate code for the statement
 code_seq gen_code_writeStmt(AST *stmt)
 {
     /* design:
@@ -164,24 +178,25 @@ code_seq gen_code_writeStmt(AST *stmt)
     return code_seq_add_to_end(ret, code_cho());
 }
 
-// generate code for the expresion
+// !! generate code for the expresion
 code_seq gen_code_expr(AST *exp)
 {
-    switch (exp->type_tag) {
-    case number_ast:
-	return gen_code_number_expr(exp);
-	break;
-    case ident_ast:
-	return gen_code_ident_expr(exp);
-	break;
-    case bin_expr_ast:
-	return gen_code_bin_expr(exp);
-	break;
-    default:
-	bail_with_error("gen_code_expr passed bad AST!");
-	// The following should never execute
-	return code_seq_empty();
-	break;
+    switch (exp->type_tag)
+	{
+		case number_ast:
+			return gen_code_number_expr(exp);
+			break;
+		case ident_ast:
+			return gen_code_ident_expr(exp);
+			break;
+		case bin_expr_ast:
+			return gen_code_bin_expr(exp);
+			break;
+		default:
+			bail_with_error("gen_code_expr passed bad AST!");
+			// The following should never execute
+			return code_seq_empty();
+			break;
     }
 }
 
@@ -208,6 +223,12 @@ code_seq gen_code_bin_cond(AST *exp)
 			break;
 		case leqop:
 			return code_seq_add_to_end(ret, code_leq());
+			break;
+		case gtop:
+			return code_seq_add_to_end(ret, code_gtr());
+			break;
+		case geqop:
+			return code_seq_add_to_end(ret, code_geq());
 			break;
 		default:
 			bail_with_error("gen_code_bin_cond passed AST with bad op!");
