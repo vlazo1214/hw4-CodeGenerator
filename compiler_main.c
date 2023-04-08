@@ -1,3 +1,4 @@
+// By: Vincent Lazo and Christian Manuel
 /* $Id: compiler_main.c,v 1.11 2023/03/23 02:57:55 leavens Exp $ */
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,28 +35,35 @@ int main(int argc, char *argv[])
     argc--;
     argv++;
     // possible options: -l, -d, and -u
-    while (argc > 0 && strlen(argv[0]) >= 2 && argv[0][0] == '-') {
-	if (strcmp(argv[0],"-l") == 0) {
-	    lexer_print_output = true;
-	    argc--;
-	    argv++;
-        /*} else if (strcmp(argv[0],"-d") == 0) {
-	    debug_asm = true;
-	    argc--;
-	    argv++; */
-	} else if (strcmp(argv[0],"-u") == 0) {
-	    parser_unparse = true;
-	    argc--;
-	    argv++;
-	} else {
-	    // bad option!
-	    usage(cmdname);
-	}
+    while (argc > 0 && strlen(argv[0]) >= 2 && argv[0][0] == '-')
+	{
+		if (strcmp(argv[0],"-l") == 0)
+		{
+			lexer_print_output = true;
+			argc--;
+			argv++;
+			/*} else if (strcmp(argv[0],"-d") == 0) {
+			debug_asm = true;
+			argc--;
+			argv++; */
+		}
+		else if (strcmp(argv[0],"-u") == 0)
+		{
+			parser_unparse = true;
+			argc--;
+			argv++;
+		}
+		else
+		{
+			// bad option!
+			usage(cmdname);
+		}
     }
 
     // give usage message if -l and other options are used
-    if (lexer_print_output && /* (debug_asm || */ parser_unparse/*)*/ ) {
-	usage(cmdname);
+    if (lexer_print_output && /* (debug_asm || */ parser_unparse/*)*/ )
+	{
+		usage(cmdname);
     }
 
     /*
@@ -66,19 +74,21 @@ int main(int argc, char *argv[])
     */
 
     // must have a file name
-    if (argc <= 0 || (strlen(argv[0]) >= 2 && argv[0][0] == '-')) {
-	usage(cmdname);
+    if (argc <= 0 || (strlen(argv[0]) >= 2 && argv[0][0] == '-'))
+	{
+		usage(cmdname);
     }
 
     // the name of the file
     const char *filename = argv[0];
 
-    if (lexer_print_output) {
-	// with the lexer_print_output option, nothing else is done
-	lexer_open(filename);
-	lexer_output();
-	lexer_close();
-	return EXIT_SUCCESS;
+    if (lexer_print_output)
+	{
+		// with the lexer_print_output option, nothing else is done
+		lexer_open(filename);
+		lexer_output();
+		lexer_close();
+		return EXIT_SUCCESS;
     }
 
     // otherwise (if not lexer_print_outout) continue to parse etc.
@@ -86,8 +96,9 @@ int main(int argc, char *argv[])
     AST * progast = parseProgram();
     parser_close();
 
-    if (parser_unparse) {
-	unparseProgram(stdout, progast);
+    if (parser_unparse)
+	{
+		unparseProgram(stdout, progast);
     }
 
     // build symbol table and...
@@ -96,8 +107,9 @@ int main(int argc, char *argv[])
     // this modifies progast
     scope_check_program(progast);
 
-    if (parser_unparse) {
-	return EXIT_SUCCESS;
+    if (parser_unparse)
+	{
+		return EXIT_SUCCESS;
     }
 
     // generate code from the ASTs
