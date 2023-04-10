@@ -131,4 +131,4 @@ stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 1
 ==> addr: -13   LIT   0    
 PC: -12 BP: 0 SP: 7
 stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 1 S[6]: 0 
-==> addr: bIllegal opcode: -586799456
+==> addr: bIllegal opcode: -491317600

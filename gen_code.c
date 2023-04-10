@@ -262,7 +262,10 @@ code_seq gen_code_cond(AST *cond)
 
 code_seq gen_code_odd_cond(AST *cond)
 {
-	return gen_code_expr(cond->data.odd_cond.exp);
+	code_seq ret = gen_code_expr(cond->data.odd_cond.exp);
+	ret = code_seq_add_to_end(ret, code_lit(2));
+	ret = code_seq_add_to_end(ret, code_mod());
+	return ret;
 }
 
 // should be self-explanatory || generate code for the statement
