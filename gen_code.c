@@ -234,11 +234,12 @@ code_seq gen_code_whileStmt(AST *stmt)
 	code_seq condc = gen_code_cond(stmt->data.while_stmt.cond);
     code_seq bodyc = gen_code_stmt(stmt->data.while_stmt.stmt);
     code_seq ret = code_seq_first(condc);
+	unsigned int condSize = code_seq_size(condc);
 
 	ret = code_seq_add_to_end(ret, code_jpc(2));
 	ret = code_seq_add_to_end(ret, code_jmp(code_seq_size(bodyc) + 2));
 	ret = code_seq_concat(ret, bodyc);
-	ret = code_seq_add_to_end(ret, code_jmp(-1 * (code_seq_size(bodyc) + code_seq_size(condc) + 2)));
+	ret = code_seq_add_to_end(ret, code_jmp(-1 * (code_seq_size(bodyc) + condSize + 2)));
 
 	return ret;
 }
