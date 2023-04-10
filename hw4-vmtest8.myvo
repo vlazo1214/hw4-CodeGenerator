@@ -1,0 +1,56 @@
+Addr  OP    M    
+0     INC   3    
+1     INC   1    
+2     INC   1    
+3     LIT   99   
+4     LIT   86   
+5     LSS   0    
+6     JPC   2    
+7     JMP   5    
+8     PBP   0    
+9     LIT   0    
+10    STO   3    
+11    JMP   4    
+12    PBP   0    
+13    LIT   1    
+14    STO   4    
+15    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     INC   3    
+PC: 1 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 1     INC   1    
+PC: 2 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 
+==> addr: 2     INC   1    
+PC: 3 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 
+==> addr: 3     LIT   99   
+PC: 4 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 S[5]: 99 
+==> addr: 4     LIT   86   
+PC: 5 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 S[5]: 99 S[6]: 86 
+==> addr: 5     LSS   0    
+PC: 6 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 S[5]: 0 
+==> addr: 6     JPC   2    
+PC: 7 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 
+==> addr: 7     JMP   5    
+PC: 12 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 
+==> addr: 12    PBP   0    
+PC: 13 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 S[5]: 0 
+==> addr: 13    LIT   1    
+PC: 14 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 0 S[5]: 0 S[6]: 1 
+==> addr: 14    STO   4    
+PC: 15 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 1 
+==> addr: 15    HLT   0    
+PC: 16 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 0 S[4]: 1 

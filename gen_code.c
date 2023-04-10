@@ -1,15 +1,14 @@
 // By: Vincent Lazo and Christian Manuel
 // programmer's note: mainly referred to Enhanced Abstract Syntax
 
-// Credits to Dr. Leavens for the initial template
+// Credits to Dr. Leavens for the initial stubs
 /* $Id: gen_code.c,v 1.10 2023/03/30 21:28:07 leavens Exp $ */
 #include "utilities.h"
 #include "gen_code.h"
 
 // global variables for procedures
-// this will act as a pointer to the procedure declarations to be used in their respective
-// locations
-// (delete later) note: use for gen_code_procDecls()
+// procDecls is the ptr to the whole list of decls, procDecl is an indexing
+// ptr that helps concatenate the decls
 code_seq procDecls;
 code_seq procDecl;
 
@@ -23,13 +22,6 @@ void gen_code_initialize()
 
 code_seq gen_code_program(AST *prog)
 {
-	code_seq ret = gen_code_block(prog);
-
-	return ret;
-}
-
-code_seq gen_code_block(AST *blk)
-{
     /* design:
        [code to make space for the static link, INC 1]
        [code to allocate space for all the vars declared.]
@@ -37,12 +29,12 @@ code_seq gen_code_block(AST *blk)
        HLT
      */
     code_seq ret = code_seq_singleton(code_inc(LINKS_SIZE));
-	ret = code_seq_concat(ret, gen_code_constDecls(blk->data.program.cds));
-    ret = code_seq_concat(ret, gen_code_varDecls(blk->data.program.vds));
+	ret = code_seq_concat(ret, gen_code_constDecls(prog->data.program.cds));
+    ret = code_seq_concat(ret, gen_code_varDecls(prog->data.program.vds));
 
-	gen_code_procDecls(blk->data.program.pds);
+	gen_code_procDecls(prog->data.program.pds);
     
-	ret = code_seq_concat(ret, gen_code_stmt(blk->data.program.stmt));
+	ret = code_seq_concat(ret, gen_code_stmt(prog->data.program.stmt));
     ret = code_seq_add_to_end(ret, code_hlt());
     return ret;
 }
@@ -53,8 +45,7 @@ code_seq gen_code_constDecls(AST_list cds)
     code_seq ret = code_seq_empty();
     while (!ast_list_is_empty(cds))
 	{
-		ret = code_seq_concat(ret,
-					gen_code_constDecl(ast_list_first(cds)));
+		ret = code_seq_concat(ret, gen_code_constDecl(ast_list_first(cds)));
 		cds = ast_list_rest(cds);
     }
     return ret;
@@ -64,10 +55,8 @@ code_seq gen_code_constDecls(AST_list cds)
 // recall: <const-decl> ::= const <name> = <number>
 code_seq gen_code_constDecl(AST *cd)
 {
-	// account for name
-	code_seq ret = code_seq_add_to_end(ret, code_inc(1));
-	ret = code_seq_add_to_end(ret, gen_code_number_expr(cd->data.const_decl.num_val));
-	return ret;
+	return code_seq_singleton(code_lit(cd->data.const_decl.num_val));
+
 }
 
 // generate code for the declarations in vds
@@ -76,8 +65,7 @@ code_seq gen_code_varDecls(AST_list vds)
     code_seq ret = code_seq_empty();
     while (!ast_list_is_empty(vds))
 	{
-		ret = code_seq_concat(ret,
-					gen_code_varDecl(ast_list_first(vds)));
+		ret = code_seq_concat(ret, gen_code_varDecl(ast_list_first(vds)));
 		vds = ast_list_rest(vds);
     }
     return ret;
@@ -100,10 +88,18 @@ void gen_code_procDecls(AST_list pds)
     }
 }
 
+// procDecls = { procDecl }
+// procDecl = <program>, label
+
 void gen_code_procDecl(AST *pd)
 {
-	procDecl = code_seq_add_to_end(procDecl, code_inc(1));
+	// initialize procedure label
+	procDecl->lab = pd->data.proc_decl.lab;
+
+	// 										might be pd->data.proc_decl.block
 	procDecl = code_seq_concat(procDecl, gen_code_program(pd));
+	
+	procDecl = code_seq_rest(procDecl);
 }
 
 // generate code for the statement
@@ -150,28 +146,42 @@ code_seq gen_code_assignStmt(AST *stmt)
        [get value of expression on top of stack]
        STO([offset for the variable])
      */
-    unsigned int outLevels
-	= stmt->data.assign_stmt.ident->data.ident.idu->levelsOutward;
-    code_seq ret = code_compute_fp(outLevels);
-    ret = code_seq_concat(ret,
-			  gen_code_expr(stmt->data.assign_stmt.exp));
-    unsigned int ofst
-	= stmt->data.assign_stmt.ident->data.ident.idu->attrs->loc_offset;
+    unsigned int outLevels = stmt->data.assign_stmt.ident->data.ident.idu->levelsOutward;
+    unsigned int ofst = stmt->data.assign_stmt.ident->data.ident.idu->attrs->loc_offset;
+    
+	code_seq ret = code_compute_fp(outLevels);
+    ret = code_seq_concat(ret, gen_code_expr(stmt->data.assign_stmt.exp));
     ret = code_seq_add_to_end(ret, code_sto(ofst));
     return ret;
 }
 
-// call <ident>
+// <call-stmt> ::= call <ident>
 code_seq gen_code_callStmt(AST *stmt)
 {
-	unsigned int outLevels
-	= stmt->data.call_stmt.ident->data.ident.idu->levelsOutward;
+	unsigned int outLevels = stmt->data.call_stmt.ident->data.ident.idu->levelsOutward;
+	unsigned int ofst = stmt->data.call_stmt.ident->data.ident.idu->attrs->loc_offset;
+	label *identLabel = stmt->data.call_stmt.ident->data.ident.idu->attrs->lab;
+
     code_seq ret = code_compute_fp(outLevels);
-    unsigned int ofst
-	= stmt->data.call_stmt.ident->data.ident.idu->attrs->loc_offset;
-    ret = code_seq_add_to_end(ret, code_sto(ofst));
+    
+	ret = code_seq_add_to_end(ret, code_sto(ofst));
+	
+	ret = code_seq_add_to_end(ret, code_cal(identLabel));
+	// code *code_cal(label *lab)
+	// code_seq_fix_labels(code_seq cs)
+
+	return ret;
 }
 
+// save the static link (surronding scope's BP) on stack
+// code_seq ret = code_seq_singleton(code_pbp());
+// // set the BP to SP-1
+// ret = code_seq_add_to_end(ret, code_psp());
+// ret = code_seq_add_to_end(ret, code_lit(1));
+// ret = code_seq_add_to_end(ret, code_sub());
+// RBP (restore break pointer) does not exist in our grammar, do we need to substitute?
+// ret = code_seq_add_to_end(ret, code_rbp());
+// add code for all the statements
 // generate code for begin statement
 code_seq gen_code_beginStmt(AST *stmt)
 {
@@ -183,16 +193,9 @@ code_seq gen_code_beginStmt(AST *stmt)
 	[if there are variables, pop them off the stack]
         [RBP]
      */
-    // save the static link (surronding scope's BP) on stack
-    code_seq ret = code_seq_singleton(code_pbp());
-    // set the BP to SP-1
-    ret = code_seq_add_to_end(ret, code_psp());
-    ret = code_seq_add_to_end(ret, code_lit(1));
-    ret = code_seq_add_to_end(ret, code_sub());
-	// RBP (restore break pointer) does not exist in our grammar, do we need to substitute?
-    // ret = code_seq_add_to_end(ret, code_rbp());
-    // add code for all the statements
+	code_seq ret = code_seq_empty();
     AST_list stmts = stmt->data.begin_stmt.stmts;
+
     while (!ast_list_is_empty(stmts))
 	{
 		ret = code_seq_concat(ret, gen_code_stmt(ast_list_first(stmts)));
@@ -285,7 +288,8 @@ code_seq gen_code_writeStmt(AST *stmt)
        CHO
      */
     code_seq ret = gen_code_expr(stmt->data.write_stmt.exp);
-    return code_seq_add_to_end(ret, code_cho());
+	ret = code_seq_add_to_end(ret, code_cho());
+    return ret;
 }
 
 code_seq gen_code_skipStmt(AST *stmt)
@@ -328,22 +332,28 @@ code_seq gen_code_bin_cond(AST *exp)
     switch (exp->data.bin_cond.relop)
 	{
 		case eqop:
-			return code_seq_add_to_end(ret, code_eql());
+			ret = code_seq_add_to_end(ret, code_eql());
+			return ret;
 			break;
 		case neqop:
-			return code_seq_add_to_end(ret, code_neq());
+			ret = code_seq_add_to_end(ret, code_neq());
+			return ret;
 			break;
 		case ltop:
-			return code_seq_add_to_end(ret, code_lss());
+			ret = code_seq_add_to_end(ret, code_lss());
+			return ret;
 			break;
 		case leqop:
-			return code_seq_add_to_end(ret, code_leq());
+			ret = code_seq_add_to_end(ret, code_leq());
+			return ret;
 			break;
 		case gtop:
-			return code_seq_add_to_end(ret, code_gtr());
+			ret = code_seq_add_to_end(ret, code_gtr());
+			return ret;
 			break;
 		case geqop:
-			return code_seq_add_to_end(ret, code_geq());
+			ret = code_seq_add_to_end(ret, code_geq());
+			return ret;
 			break;
 		default:
 			bail_with_error("gen_code_bin_cond passed AST with bad op!");
@@ -365,16 +375,20 @@ code_seq gen_code_bin_expr(AST *exp)
     switch (exp->data.bin_expr.arith_op)
 	{
 		case addop:
-			return code_seq_add_to_end(ret, code_add());
+			ret = code_seq_add_to_end(ret, code_add());
+			return ret;
 			break;
 		case subop:
-			return code_seq_add_to_end(ret, code_sub());
+			ret = code_seq_add_to_end(ret, code_sub());
+			return ret;
 			break;
 		case multop:
-			return code_seq_add_to_end(ret, code_mul());
+			ret = code_seq_add_to_end(ret, code_mul());
+			return ret;
 			break;
 		case divop:
-			return code_seq_add_to_end(ret, code_div());
+			ret = code_seq_add_to_end(ret, code_div());
+			return ret;
 			break;
 		default:
 			bail_with_error("gen_code_bin_expr passed AST with bad op!");
@@ -391,8 +405,7 @@ code_seq gen_code_ident_expr(AST *ident)
        LOD [offset for the variable]
      */
     id_use *idu = ident->data.ident.idu;
-    lexical_address *la = lexical_address_create(idu->levelsOutward,
-						 idu->attrs->loc_offset);
+    lexical_address *la = lexical_address_create(idu->levelsOutward, idu->attrs->loc_offset);
     return code_load_from_lexical_address(la);
 }
 

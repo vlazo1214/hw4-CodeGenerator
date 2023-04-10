@@ -1,0 +1,134 @@
+Addr  OP    M    
+0     INC   3    
+1     LIT   97   
+2     INC   1    
+3     INC   1    
+4     PBP   0    
+5     LIT   0    
+6     STO   5    
+7     PBP   0    
+8     LOD   5    
+9     LIT   10   
+10    LSS   0    
+11    JPC   2    
+12    JMP   20   
+13    PBP   0    
+14    PBP   0    
+15    LOD   3    
+16    PBP   0    
+17    LOD   5    
+18    ADD   0    
+19    STO   4    
+20    PBP   0    
+21    LOD   4    
+22    LIT   1    
+23    ADD   0    
+24    CHO   0    
+25    PBP   0    
+26    PBP   0    
+27    LOD   5    
+28    LIT   1    
+29    ADD   0    
+30    STO   5    
+31    JMP   -44  
+32    HLT   0    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     INC   3    
+PC: 1 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 1     LIT   97   
+PC: 2 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 
+==> addr: 2     INC   1    
+PC: 3 BP: 0 SP: 5
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 
+==> addr: 3     INC   1    
+PC: 4 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 
+==> addr: 4     PBP   0    
+PC: 5 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 
+==> addr: 5     LIT   0    
+PC: 6 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 0 
+==> addr: 6     STO   5    
+PC: 7 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 
+==> addr: 7     PBP   0    
+PC: 8 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 
+==> addr: 8     LOD   5    
+PC: 9 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 
+==> addr: 9     LIT   10   
+PC: 10 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 10 
+==> addr: 10    LSS   0    
+PC: 11 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 1 
+==> addr: 11    JPC   2    
+PC: 13 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 
+==> addr: 13    PBP   0    
+PC: 14 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 
+==> addr: 14    PBP   0    
+PC: 15 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 0 
+==> addr: 15    LOD   3    
+PC: 16 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 97 
+==> addr: 16    PBP   0    
+PC: 17 BP: 0 SP: 9
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 97 S[8]: 0 
+==> addr: 17    LOD   5    
+PC: 18 BP: 0 SP: 9
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 97 S[8]: 0 
+==> addr: 18    ADD   0    
+PC: 19 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 0 S[5]: 0 S[6]: 0 S[7]: 97 
+==> addr: 19    STO   4    
+PC: 20 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 
+==> addr: 20    PBP   0    
+PC: 21 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 0 
+==> addr: 21    LOD   4    
+PC: 22 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 97 
+==> addr: 22    LIT   1    
+PC: 23 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 97 S[7]: 1 
+==> addr: 23    ADD   0    
+PC: 24 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 98 
+==> addr: 24    CHO   0    
+PC: 25 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 
+==> addr: 25    PBP   0    
+PC: 26 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 0 
+==> addr: 26    PBP   0    
+PC: 27 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 0 S[7]: 0 
+==> addr: 27    LOD   5    
+PC: 28 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 0 S[7]: 0 
+==> addr: 28    LIT   1    
+PC: 29 BP: 0 SP: 9
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 0 S[7]: 0 S[8]: 1 
+==> addr: 29    ADD   0    
+PC: 30 BP: 0 SP: 8
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 0 S[6]: 0 S[7]: 1 
+==> addr: 30    STO   5    
+PC: 31 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 1 
+==> addr: 31    JMP   -44  
+PC: -13 BP: 0 SP: 6
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 1 
+==> addr: -13   LIT   0    
+PC: -12 BP: 0 SP: 7
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 97 S[4]: 97 S[5]: 1 S[6]: 0 
+==> addr: bIllegal opcode: -586799456

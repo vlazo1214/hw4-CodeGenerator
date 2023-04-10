@@ -1,0 +1,1541 @@
+Addr  OP    M    
+Tracing ...
+PC: 0 BP: 0 SP: 0
+stack: 
+==> addr: 0     NOP   0    
+PC: 1 BP: 0 SP: 0
+stack: 
+==> addr: 1     NOP   0    
+PC: 2 BP: 0 SP: 0
+stack: 
+==> addr: 2     NOP   0    
+PC: 3 BP: 0 SP: 0
+stack: 
+==> addr: 3     NOP   0    
+PC: 4 BP: 0 SP: 0
+stack: 
+==> addr: 4     NOP   0    
+PC: 5 BP: 0 SP: 0
+stack: 
+==> addr: 5     NOP   0    
+PC: 6 BP: 0 SP: 0
+stack: 
+==> addr: 6     NOP   0    
+PC: 7 BP: 0 SP: 0
+stack: 
+==> addr: 7     NOP   0    
+PC: 8 BP: 0 SP: 0
+stack: 
+==> addr: 8     NOP   0    
+PC: 9 BP: 0 SP: 0
+stack: 
+==> addr: 9     NOP   0    
+PC: 10 BP: 0 SP: 0
+stack: 
+==> addr: 10    NOP   0    
+PC: 11 BP: 0 SP: 0
+stack: 
+==> addr: 11    NOP   0    
+PC: 12 BP: 0 SP: 0
+stack: 
+==> addr: 12    NOP   0    
+PC: 13 BP: 0 SP: 0
+stack: 
+==> addr: 13    NOP   0    
+PC: 14 BP: 0 SP: 0
+stack: 
+==> addr: 14    NOP   0    
+PC: 15 BP: 0 SP: 0
+stack: 
+==> addr: 15    NOP   0    
+PC: 16 BP: 0 SP: 0
+stack: 
+==> addr: 16    NOP   0    
+PC: 17 BP: 0 SP: 0
+stack: 
+==> addr: 17    NOP   0    
+PC: 18 BP: 0 SP: 0
+stack: 
+==> addr: 18    NOP   0    
+PC: 19 BP: 0 SP: 0
+stack: 
+==> addr: 19    NOP   0    
+PC: 20 BP: 0 SP: 0
+stack: 
+==> addr: 20    NOP   0    
+PC: 21 BP: 0 SP: 0
+stack: 
+==> addr: 21    NOP   0    
+PC: 22 BP: 0 SP: 0
+stack: 
+==> addr: 22    NOP   0    
+PC: 23 BP: 0 SP: 0
+stack: 
+==> addr: 23    NOP   0    
+PC: 24 BP: 0 SP: 0
+stack: 
+==> addr: 24    NOP   0    
+PC: 25 BP: 0 SP: 0
+stack: 
+==> addr: 25    NOP   0    
+PC: 26 BP: 0 SP: 0
+stack: 
+==> addr: 26    NOP   0    
+PC: 27 BP: 0 SP: 0
+stack: 
+==> addr: 27    NOP   0    
+PC: 28 BP: 0 SP: 0
+stack: 
+==> addr: 28    NOP   0    
+PC: 29 BP: 0 SP: 0
+stack: 
+==> addr: 29    NOP   0    
+PC: 30 BP: 0 SP: 0
+stack: 
+==> addr: 30    NOP   0    
+PC: 31 BP: 0 SP: 0
+stack: 
+==> addr: 31    NOP   0    
+PC: 32 BP: 0 SP: 0
+stack: 
+==> addr: 32    NOP   0    
+PC: 33 BP: 0 SP: 0
+stack: 
+==> addr: 33    NOP   0    
+PC: 34 BP: 0 SP: 0
+stack: 
+==> addr: 34    NOP   0    
+PC: 35 BP: 0 SP: 0
+stack: 
+==> addr: 35    NOP   0    
+PC: 36 BP: 0 SP: 0
+stack: 
+==> addr: 36    NOP   0    
+PC: 37 BP: 0 SP: 0
+stack: 
+==> addr: 37    NOP   0    
+PC: 38 BP: 0 SP: 0
+stack: 
+==> addr: 38    NOP   0    
+PC: 39 BP: 0 SP: 0
+stack: 
+==> addr: 39    NOP   0    
+PC: 40 BP: 0 SP: 0
+stack: 
+==> addr: 40    NOP   0    
+PC: 41 BP: 0 SP: 0
+stack: 
+==> addr: 41    NOP   0    
+PC: 42 BP: 0 SP: 0
+stack: 
+==> addr: 42    NOP   0    
+PC: 43 BP: 0 SP: 0
+stack: 
+==> addr: 43    NOP   0    
+PC: 44 BP: 0 SP: 0
+stack: 
+==> addr: 44    NOP   0    
+PC: 45 BP: 0 SP: 0
+stack: 
+==> addr: 45    NOP   0    
+PC: 46 BP: 0 SP: 0
+stack: 
+==> addr: 46    NOP   0    
+PC: 47 BP: 0 SP: 0
+stack: 
+==> addr: 47    NOP   0    
+PC: 48 BP: 0 SP: 0
+stack: 
+==> addr: 48    NOP   0    
+PC: 49 BP: 0 SP: 0
+stack: 
+==> addr: 49    NOP   0    
+PC: 50 BP: 0 SP: 0
+stack: 
+==> addr: 50    NOP   0    
+PC: 51 BP: 0 SP: 0
+stack: 
+==> addr: 51    NOP   0    
+PC: 52 BP: 0 SP: 0
+stack: 
+==> addr: 52    NOP   0    
+PC: 53 BP: 0 SP: 0
+stack: 
+==> addr: 53    NOP   0    
+PC: 54 BP: 0 SP: 0
+stack: 
+==> addr: 54    NOP   0    
+PC: 55 BP: 0 SP: 0
+stack: 
+==> addr: 55    NOP   0    
+PC: 56 BP: 0 SP: 0
+stack: 
+==> addr: 56    NOP   0    
+PC: 57 BP: 0 SP: 0
+stack: 
+==> addr: 57    NOP   0    
+PC: 58 BP: 0 SP: 0
+stack: 
+==> addr: 58    NOP   0    
+PC: 59 BP: 0 SP: 0
+stack: 
+==> addr: 59    NOP   0    
+PC: 60 BP: 0 SP: 0
+stack: 
+==> addr: 60    NOP   0    
+PC: 61 BP: 0 SP: 0
+stack: 
+==> addr: 61    NOP   0    
+PC: 62 BP: 0 SP: 0
+stack: 
+==> addr: 62    NOP   0    
+PC: 63 BP: 0 SP: 0
+stack: 
+==> addr: 63    NOP   0    
+PC: 64 BP: 0 SP: 0
+stack: 
+==> addr: 64    NOP   0    
+PC: 65 BP: 0 SP: 0
+stack: 
+==> addr: 65    NOP   0    
+PC: 66 BP: 0 SP: 0
+stack: 
+==> addr: 66    NOP   0    
+PC: 67 BP: 0 SP: 0
+stack: 
+==> addr: 67    NOP   0    
+PC: 68 BP: 0 SP: 0
+stack: 
+==> addr: 68    NOP   0    
+PC: 69 BP: 0 SP: 0
+stack: 
+==> addr: 69    NOP   0    
+PC: 70 BP: 0 SP: 0
+stack: 
+==> addr: 70    NOP   0    
+PC: 71 BP: 0 SP: 0
+stack: 
+==> addr: 71    NOP   0    
+PC: 72 BP: 0 SP: 0
+stack: 
+==> addr: 72    NOP   0    
+PC: 73 BP: 0 SP: 0
+stack: 
+==> addr: 73    NOP   0    
+PC: 74 BP: 0 SP: 0
+stack: 
+==> addr: 74    NOP   0    
+PC: 75 BP: 0 SP: 0
+stack: 
+==> addr: 75    NOP   0    
+PC: 76 BP: 0 SP: 0
+stack: 
+==> addr: 76    NOP   0    
+PC: 77 BP: 0 SP: 0
+stack: 
+==> addr: 77    NOP   0    
+PC: 78 BP: 0 SP: 0
+stack: 
+==> addr: 78    NOP   0    
+PC: 79 BP: 0 SP: 0
+stack: 
+==> addr: 79    NOP   0    
+PC: 80 BP: 0 SP: 0
+stack: 
+==> addr: 80    NOP   0    
+PC: 81 BP: 0 SP: 0
+stack: 
+==> addr: 81    NOP   0    
+PC: 82 BP: 0 SP: 0
+stack: 
+==> addr: 82    NOP   0    
+PC: 83 BP: 0 SP: 0
+stack: 
+==> addr: 83    NOP   0    
+PC: 84 BP: 0 SP: 0
+stack: 
+==> addr: 84    NOP   0    
+PC: 85 BP: 0 SP: 0
+stack: 
+==> addr: 85    NOP   0    
+PC: 86 BP: 0 SP: 0
+stack: 
+==> addr: 86    NOP   0    
+PC: 87 BP: 0 SP: 0
+stack: 
+==> addr: 87    NOP   0    
+PC: 88 BP: 0 SP: 0
+stack: 
+==> addr: 88    NOP   0    
+PC: 89 BP: 0 SP: 0
+stack: 
+==> addr: 89    NOP   0    
+PC: 90 BP: 0 SP: 0
+stack: 
+==> addr: 90    NOP   0    
+PC: 91 BP: 0 SP: 0
+stack: 
+==> addr: 91    NOP   0    
+PC: 92 BP: 0 SP: 0
+stack: 
+==> addr: 92    NOP   0    
+PC: 93 BP: 0 SP: 0
+stack: 
+==> addr: 93    NOP   0    
+PC: 94 BP: 0 SP: 0
+stack: 
+==> addr: 94    NOP   0    
+PC: 95 BP: 0 SP: 0
+stack: 
+==> addr: 95    NOP   0    
+PC: 96 BP: 0 SP: 0
+stack: 
+==> addr: 96    NOP   0    
+PC: 97 BP: 0 SP: 0
+stack: 
+==> addr: 97    NOP   0    
+PC: 98 BP: 0 SP: 0
+stack: 
+==> addr: 98    NOP   0    
+PC: 99 BP: 0 SP: 0
+stack: 
+==> addr: 99    NOP   0    
+PC: 100 BP: 0 SP: 0
+stack: 
+==> addr: 100   NOP   0    
+PC: 101 BP: 0 SP: 0
+stack: 
+==> addr: 101   NOP   0    
+PC: 102 BP: 0 SP: 0
+stack: 
+==> addr: 102   NOP   0    
+PC: 103 BP: 0 SP: 0
+stack: 
+==> addr: 103   NOP   0    
+PC: 104 BP: 0 SP: 0
+stack: 
+==> addr: 104   NOP   0    
+PC: 105 BP: 0 SP: 0
+stack: 
+==> addr: 105   NOP   0    
+PC: 106 BP: 0 SP: 0
+stack: 
+==> addr: 106   NOP   0    
+PC: 107 BP: 0 SP: 0
+stack: 
+==> addr: 107   NOP   0    
+PC: 108 BP: 0 SP: 0
+stack: 
+==> addr: 108   NOP   0    
+PC: 109 BP: 0 SP: 0
+stack: 
+==> addr: 109   NOP   0    
+PC: 110 BP: 0 SP: 0
+stack: 
+==> addr: 110   NOP   0    
+PC: 111 BP: 0 SP: 0
+stack: 
+==> addr: 111   NOP   0    
+PC: 112 BP: 0 SP: 0
+stack: 
+==> addr: 112   NOP   0    
+PC: 113 BP: 0 SP: 0
+stack: 
+==> addr: 113   NOP   0    
+PC: 114 BP: 0 SP: 0
+stack: 
+==> addr: 114   NOP   0    
+PC: 115 BP: 0 SP: 0
+stack: 
+==> addr: 115   NOP   0    
+PC: 116 BP: 0 SP: 0
+stack: 
+==> addr: 116   NOP   0    
+PC: 117 BP: 0 SP: 0
+stack: 
+==> addr: 117   NOP   0    
+PC: 118 BP: 0 SP: 0
+stack: 
+==> addr: 118   NOP   0    
+PC: 119 BP: 0 SP: 0
+stack: 
+==> addr: 119   NOP   0    
+PC: 120 BP: 0 SP: 0
+stack: 
+==> addr: 120   NOP   0    
+PC: 121 BP: 0 SP: 0
+stack: 
+==> addr: 121   NOP   0    
+PC: 122 BP: 0 SP: 0
+stack: 
+==> addr: 122   NOP   0    
+PC: 123 BP: 0 SP: 0
+stack: 
+==> addr: 123   NOP   0    
+PC: 124 BP: 0 SP: 0
+stack: 
+==> addr: 124   NOP   0    
+PC: 125 BP: 0 SP: 0
+stack: 
+==> addr: 125   NOP   0    
+PC: 126 BP: 0 SP: 0
+stack: 
+==> addr: 126   NOP   0    
+PC: 127 BP: 0 SP: 0
+stack: 
+==> addr: 127   NOP   0    
+PC: 128 BP: 0 SP: 0
+stack: 
+==> addr: 128   NOP   0    
+PC: 129 BP: 0 SP: 0
+stack: 
+==> addr: 129   NOP   0    
+PC: 130 BP: 0 SP: 0
+stack: 
+==> addr: 130   NOP   0    
+PC: 131 BP: 0 SP: 0
+stack: 
+==> addr: 131   NOP   0    
+PC: 132 BP: 0 SP: 0
+stack: 
+==> addr: 132   NOP   0    
+PC: 133 BP: 0 SP: 0
+stack: 
+==> addr: 133   NOP   0    
+PC: 134 BP: 0 SP: 0
+stack: 
+==> addr: 134   NOP   0    
+PC: 135 BP: 0 SP: 0
+stack: 
+==> addr: 135   NOP   0    
+PC: 136 BP: 0 SP: 0
+stack: 
+==> addr: 136   NOP   0    
+PC: 137 BP: 0 SP: 0
+stack: 
+==> addr: 137   NOP   0    
+PC: 138 BP: 0 SP: 0
+stack: 
+==> addr: 138   NOP   0    
+PC: 139 BP: 0 SP: 0
+stack: 
+==> addr: 139   NOP   0    
+PC: 140 BP: 0 SP: 0
+stack: 
+==> addr: 140   NOP   0    
+PC: 141 BP: 0 SP: 0
+stack: 
+==> addr: 141   NOP   0    
+PC: 142 BP: 0 SP: 0
+stack: 
+==> addr: 142   NOP   0    
+PC: 143 BP: 0 SP: 0
+stack: 
+==> addr: 143   NOP   0    
+PC: 144 BP: 0 SP: 0
+stack: 
+==> addr: 144   NOP   0    
+PC: 145 BP: 0 SP: 0
+stack: 
+==> addr: 145   NOP   0    
+PC: 146 BP: 0 SP: 0
+stack: 
+==> addr: 146   NOP   0    
+PC: 147 BP: 0 SP: 0
+stack: 
+==> addr: 147   NOP   0    
+PC: 148 BP: 0 SP: 0
+stack: 
+==> addr: 148   NOP   0    
+PC: 149 BP: 0 SP: 0
+stack: 
+==> addr: 149   NOP   0    
+PC: 150 BP: 0 SP: 0
+stack: 
+==> addr: 150   NOP   0    
+PC: 151 BP: 0 SP: 0
+stack: 
+==> addr: 151   NOP   0    
+PC: 152 BP: 0 SP: 0
+stack: 
+==> addr: 152   NOP   0    
+PC: 153 BP: 0 SP: 0
+stack: 
+==> addr: 153   NOP   0    
+PC: 154 BP: 0 SP: 0
+stack: 
+==> addr: 154   NOP   0    
+PC: 155 BP: 0 SP: 0
+stack: 
+==> addr: 155   NOP   0    
+PC: 156 BP: 0 SP: 0
+stack: 
+==> addr: 156   NOP   0    
+PC: 157 BP: 0 SP: 0
+stack: 
+==> addr: 157   NOP   0    
+PC: 158 BP: 0 SP: 0
+stack: 
+==> addr: 158   NOP   0    
+PC: 159 BP: 0 SP: 0
+stack: 
+==> addr: 159   NOP   0    
+PC: 160 BP: 0 SP: 0
+stack: 
+==> addr: 160   NOP   0    
+PC: 161 BP: 0 SP: 0
+stack: 
+==> addr: 161   NOP   0    
+PC: 162 BP: 0 SP: 0
+stack: 
+==> addr: 162   NOP   0    
+PC: 163 BP: 0 SP: 0
+stack: 
+==> addr: 163   NOP   0    
+PC: 164 BP: 0 SP: 0
+stack: 
+==> addr: 164   NOP   0    
+PC: 165 BP: 0 SP: 0
+stack: 
+==> addr: 165   NOP   0    
+PC: 166 BP: 0 SP: 0
+stack: 
+==> addr: 166   NOP   0    
+PC: 167 BP: 0 SP: 0
+stack: 
+==> addr: 167   NOP   0    
+PC: 168 BP: 0 SP: 0
+stack: 
+==> addr: 168   NOP   0    
+PC: 169 BP: 0 SP: 0
+stack: 
+==> addr: 169   NOP   0    
+PC: 170 BP: 0 SP: 0
+stack: 
+==> addr: 170   NOP   0    
+PC: 171 BP: 0 SP: 0
+stack: 
+==> addr: 171   NOP   0    
+PC: 172 BP: 0 SP: 0
+stack: 
+==> addr: 172   NOP   0    
+PC: 173 BP: 0 SP: 0
+stack: 
+==> addr: 173   NOP   0    
+PC: 174 BP: 0 SP: 0
+stack: 
+==> addr: 174   NOP   0    
+PC: 175 BP: 0 SP: 0
+stack: 
+==> addr: 175   NOP   0    
+PC: 176 BP: 0 SP: 0
+stack: 
+==> addr: 176   NOP   0    
+PC: 177 BP: 0 SP: 0
+stack: 
+==> addr: 177   NOP   0    
+PC: 178 BP: 0 SP: 0
+stack: 
+==> addr: 178   NOP   0    
+PC: 179 BP: 0 SP: 0
+stack: 
+==> addr: 179   NOP   0    
+PC: 180 BP: 0 SP: 0
+stack: 
+==> addr: 180   NOP   0    
+PC: 181 BP: 0 SP: 0
+stack: 
+==> addr: 181   NOP   0    
+PC: 182 BP: 0 SP: 0
+stack: 
+==> addr: 182   NOP   0    
+PC: 183 BP: 0 SP: 0
+stack: 
+==> addr: 183   NOP   0    
+PC: 184 BP: 0 SP: 0
+stack: 
+==> addr: 184   NOP   0    
+PC: 185 BP: 0 SP: 0
+stack: 
+==> addr: 185   NOP   0    
+PC: 186 BP: 0 SP: 0
+stack: 
+==> addr: 186   NOP   0    
+PC: 187 BP: 0 SP: 0
+stack: 
+==> addr: 187   NOP   0    
+PC: 188 BP: 0 SP: 0
+stack: 
+==> addr: 188   NOP   0    
+PC: 189 BP: 0 SP: 0
+stack: 
+==> addr: 189   NOP   0    
+PC: 190 BP: 0 SP: 0
+stack: 
+==> addr: 190   NOP   0    
+PC: 191 BP: 0 SP: 0
+stack: 
+==> addr: 191   NOP   0    
+PC: 192 BP: 0 SP: 0
+stack: 
+==> addr: 192   NOP   0    
+PC: 193 BP: 0 SP: 0
+stack: 
+==> addr: 193   NOP   0    
+PC: 194 BP: 0 SP: 0
+stack: 
+==> addr: 194   NOP   0    
+PC: 195 BP: 0 SP: 0
+stack: 
+==> addr: 195   NOP   0    
+PC: 196 BP: 0 SP: 0
+stack: 
+==> addr: 196   NOP   0    
+PC: 197 BP: 0 SP: 0
+stack: 
+==> addr: 197   NOP   0    
+PC: 198 BP: 0 SP: 0
+stack: 
+==> addr: 198   NOP   0    
+PC: 199 BP: 0 SP: 0
+stack: 
+==> addr: 199   NOP   0    
+PC: 200 BP: 0 SP: 0
+stack: 
+==> addr: 200   NOP   0    
+PC: 201 BP: 0 SP: 0
+stack: 
+==> addr: 201   NOP   0    
+PC: 202 BP: 0 SP: 0
+stack: 
+==> addr: 202   NOP   0    
+PC: 203 BP: 0 SP: 0
+stack: 
+==> addr: 203   NOP   0    
+PC: 204 BP: 0 SP: 0
+stack: 
+==> addr: 204   NOP   0    
+PC: 205 BP: 0 SP: 0
+stack: 
+==> addr: 205   NOP   0    
+PC: 206 BP: 0 SP: 0
+stack: 
+==> addr: 206   NOP   0    
+PC: 207 BP: 0 SP: 0
+stack: 
+==> addr: 207   NOP   0    
+PC: 208 BP: 0 SP: 0
+stack: 
+==> addr: 208   NOP   0    
+PC: 209 BP: 0 SP: 0
+stack: 
+==> addr: 209   NOP   0    
+PC: 210 BP: 0 SP: 0
+stack: 
+==> addr: 210   NOP   0    
+PC: 211 BP: 0 SP: 0
+stack: 
+==> addr: 211   NOP   0    
+PC: 212 BP: 0 SP: 0
+stack: 
+==> addr: 212   NOP   0    
+PC: 213 BP: 0 SP: 0
+stack: 
+==> addr: 213   NOP   0    
+PC: 214 BP: 0 SP: 0
+stack: 
+==> addr: 214   NOP   0    
+PC: 215 BP: 0 SP: 0
+stack: 
+==> addr: 215   NOP   0    
+PC: 216 BP: 0 SP: 0
+stack: 
+==> addr: 216   NOP   0    
+PC: 217 BP: 0 SP: 0
+stack: 
+==> addr: 217   NOP   0    
+PC: 218 BP: 0 SP: 0
+stack: 
+==> addr: 218   NOP   0    
+PC: 219 BP: 0 SP: 0
+stack: 
+==> addr: 219   NOP   0    
+PC: 220 BP: 0 SP: 0
+stack: 
+==> addr: 220   NOP   0    
+PC: 221 BP: 0 SP: 0
+stack: 
+==> addr: 221   NOP   0    
+PC: 222 BP: 0 SP: 0
+stack: 
+==> addr: 222   NOP   0    
+PC: 223 BP: 0 SP: 0
+stack: 
+==> addr: 223   NOP   0    
+PC: 224 BP: 0 SP: 0
+stack: 
+==> addr: 224   NOP   0    
+PC: 225 BP: 0 SP: 0
+stack: 
+==> addr: 225   NOP   0    
+PC: 226 BP: 0 SP: 0
+stack: 
+==> addr: 226   NOP   0    
+PC: 227 BP: 0 SP: 0
+stack: 
+==> addr: 227   NOP   0    
+PC: 228 BP: 0 SP: 0
+stack: 
+==> addr: 228   NOP   0    
+PC: 229 BP: 0 SP: 0
+stack: 
+==> addr: 229   NOP   0    
+PC: 230 BP: 0 SP: 0
+stack: 
+==> addr: 230   NOP   0    
+PC: 231 BP: 0 SP: 0
+stack: 
+==> addr: 231   NOP   0    
+PC: 232 BP: 0 SP: 0
+stack: 
+==> addr: 232   NOP   0    
+PC: 233 BP: 0 SP: 0
+stack: 
+==> addr: 233   NOP   0    
+PC: 234 BP: 0 SP: 0
+stack: 
+==> addr: 234   NOP   0    
+PC: 235 BP: 0 SP: 0
+stack: 
+==> addr: 235   NOP   0    
+PC: 236 BP: 0 SP: 0
+stack: 
+==> addr: 236   NOP   0    
+PC: 237 BP: 0 SP: 0
+stack: 
+==> addr: 237   NOP   0    
+PC: 238 BP: 0 SP: 0
+stack: 
+==> addr: 238   NOP   0    
+PC: 239 BP: 0 SP: 0
+stack: 
+==> addr: 239   NOP   0    
+PC: 240 BP: 0 SP: 0
+stack: 
+==> addr: 240   NOP   0    
+PC: 241 BP: 0 SP: 0
+stack: 
+==> addr: 241   NOP   0    
+PC: 242 BP: 0 SP: 0
+stack: 
+==> addr: 242   NOP   0    
+PC: 243 BP: 0 SP: 0
+stack: 
+==> addr: 243   NOP   0    
+PC: 244 BP: 0 SP: 0
+stack: 
+==> addr: 244   NOP   0    
+PC: 245 BP: 0 SP: 0
+stack: 
+==> addr: 245   NOP   0    
+PC: 246 BP: 0 SP: 0
+stack: 
+==> addr: 246   NOP   0    
+PC: 247 BP: 0 SP: 0
+stack: 
+==> addr: 247   NOP   0    
+PC: 248 BP: 0 SP: 0
+stack: 
+==> addr: 248   NOP   0    
+PC: 249 BP: 0 SP: 0
+stack: 
+==> addr: 249   NOP   0    
+PC: 250 BP: 0 SP: 0
+stack: 
+==> addr: 250   NOP   0    
+PC: 251 BP: 0 SP: 0
+stack: 
+==> addr: 251   NOP   0    
+PC: 252 BP: 0 SP: 0
+stack: 
+==> addr: 252   NOP   0    
+PC: 253 BP: 0 SP: 0
+stack: 
+==> addr: 253   NOP   0    
+PC: 254 BP: 0 SP: 0
+stack: 
+==> addr: 254   NOP   0    
+PC: 255 BP: 0 SP: 0
+stack: 
+==> addr: 255   NOP   0    
+PC: 256 BP: 0 SP: 0
+stack: 
+==> addr: 256   NOP   0    
+PC: 257 BP: 0 SP: 0
+stack: 
+==> addr: 257   NOP   0    
+PC: 258 BP: 0 SP: 0
+stack: 
+==> addr: 258   NOP   0    
+PC: 259 BP: 0 SP: 0
+stack: 
+==> addr: 259   NOP   0    
+PC: 260 BP: 0 SP: 0
+stack: 
+==> addr: 260   NOP   0    
+PC: 261 BP: 0 SP: 0
+stack: 
+==> addr: 261   NOP   0    
+PC: 262 BP: 0 SP: 0
+stack: 
+==> addr: 262   NOP   0    
+PC: 263 BP: 0 SP: 0
+stack: 
+==> addr: 263   NOP   0    
+PC: 264 BP: 0 SP: 0
+stack: 
+==> addr: 264   NOP   0    
+PC: 265 BP: 0 SP: 0
+stack: 
+==> addr: 265   NOP   0    
+PC: 266 BP: 0 SP: 0
+stack: 
+==> addr: 266   NOP   0    
+PC: 267 BP: 0 SP: 0
+stack: 
+==> addr: 267   NOP   0    
+PC: 268 BP: 0 SP: 0
+stack: 
+==> addr: 268   NOP   0    
+PC: 269 BP: 0 SP: 0
+stack: 
+==> addr: 269   NOP   0    
+PC: 270 BP: 0 SP: 0
+stack: 
+==> addr: 270   NOP   0    
+PC: 271 BP: 0 SP: 0
+stack: 
+==> addr: 271   NOP   0    
+PC: 272 BP: 0 SP: 0
+stack: 
+==> addr: 272   NOP   0    
+PC: 273 BP: 0 SP: 0
+stack: 
+==> addr: 273   NOP   0    
+PC: 274 BP: 0 SP: 0
+stack: 
+==> addr: 274   NOP   0    
+PC: 275 BP: 0 SP: 0
+stack: 
+==> addr: 275   NOP   0    
+PC: 276 BP: 0 SP: 0
+stack: 
+==> addr: 276   NOP   0    
+PC: 277 BP: 0 SP: 0
+stack: 
+==> addr: 277   NOP   0    
+PC: 278 BP: 0 SP: 0
+stack: 
+==> addr: 278   NOP   0    
+PC: 279 BP: 0 SP: 0
+stack: 
+==> addr: 279   NOP   0    
+PC: 280 BP: 0 SP: 0
+stack: 
+==> addr: 280   NOP   0    
+PC: 281 BP: 0 SP: 0
+stack: 
+==> addr: 281   NOP   0    
+PC: 282 BP: 0 SP: 0
+stack: 
+==> addr: 282   NOP   0    
+PC: 283 BP: 0 SP: 0
+stack: 
+==> addr: 283   NOP   0    
+PC: 284 BP: 0 SP: 0
+stack: 
+==> addr: 284   NOP   0    
+PC: 285 BP: 0 SP: 0
+stack: 
+==> addr: 285   NOP   0    
+PC: 286 BP: 0 SP: 0
+stack: 
+==> addr: 286   NOP   0    
+PC: 287 BP: 0 SP: 0
+stack: 
+==> addr: 287   NOP   0    
+PC: 288 BP: 0 SP: 0
+stack: 
+==> addr: 288   NOP   0    
+PC: 289 BP: 0 SP: 0
+stack: 
+==> addr: 289   NOP   0    
+PC: 290 BP: 0 SP: 0
+stack: 
+==> addr: 290   NOP   0    
+PC: 291 BP: 0 SP: 0
+stack: 
+==> addr: 291   NOP   0    
+PC: 292 BP: 0 SP: 0
+stack: 
+==> addr: 292   NOP   0    
+PC: 293 BP: 0 SP: 0
+stack: 
+==> addr: 293   NOP   0    
+PC: 294 BP: 0 SP: 0
+stack: 
+==> addr: 294   NOP   0    
+PC: 295 BP: 0 SP: 0
+stack: 
+==> addr: 295   NOP   0    
+PC: 296 BP: 0 SP: 0
+stack: 
+==> addr: 296   NOP   0    
+PC: 297 BP: 0 SP: 0
+stack: 
+==> addr: 297   NOP   0    
+PC: 298 BP: 0 SP: 0
+stack: 
+==> addr: 298   NOP   0    
+PC: 299 BP: 0 SP: 0
+stack: 
+==> addr: 299   NOP   0    
+PC: 300 BP: 0 SP: 0
+stack: 
+==> addr: 300   NOP   0    
+PC: 301 BP: 0 SP: 0
+stack: 
+==> addr: 301   NOP   0    
+PC: 302 BP: 0 SP: 0
+stack: 
+==> addr: 302   NOP   0    
+PC: 303 BP: 0 SP: 0
+stack: 
+==> addr: 303   NOP   0    
+PC: 304 BP: 0 SP: 0
+stack: 
+==> addr: 304   NOP   0    
+PC: 305 BP: 0 SP: 0
+stack: 
+==> addr: 305   NOP   0    
+PC: 306 BP: 0 SP: 0
+stack: 
+==> addr: 306   NOP   0    
+PC: 307 BP: 0 SP: 0
+stack: 
+==> addr: 307   NOP   0    
+PC: 308 BP: 0 SP: 0
+stack: 
+==> addr: 308   NOP   0    
+PC: 309 BP: 0 SP: 0
+stack: 
+==> addr: 309   NOP   0    
+PC: 310 BP: 0 SP: 0
+stack: 
+==> addr: 310   NOP   0    
+PC: 311 BP: 0 SP: 0
+stack: 
+==> addr: 311   NOP   0    
+PC: 312 BP: 0 SP: 0
+stack: 
+==> addr: 312   NOP   0    
+PC: 313 BP: 0 SP: 0
+stack: 
+==> addr: 313   NOP   0    
+PC: 314 BP: 0 SP: 0
+stack: 
+==> addr: 314   NOP   0    
+PC: 315 BP: 0 SP: 0
+stack: 
+==> addr: 315   NOP   0    
+PC: 316 BP: 0 SP: 0
+stack: 
+==> addr: 316   NOP   0    
+PC: 317 BP: 0 SP: 0
+stack: 
+==> addr: 317   NOP   0    
+PC: 318 BP: 0 SP: 0
+stack: 
+==> addr: 318   NOP   0    
+PC: 319 BP: 0 SP: 0
+stack: 
+==> addr: 319   NOP   0    
+PC: 320 BP: 0 SP: 0
+stack: 
+==> addr: 320   NOP   0    
+PC: 321 BP: 0 SP: 0
+stack: 
+==> addr: 321   NOP   0    
+PC: 322 BP: 0 SP: 0
+stack: 
+==> addr: 322   NOP   0    
+PC: 323 BP: 0 SP: 0
+stack: 
+==> addr: 323   NOP   0    
+PC: 324 BP: 0 SP: 0
+stack: 
+==> addr: 324   NOP   0    
+PC: 325 BP: 0 SP: 0
+stack: 
+==> addr: 325   NOP   0    
+PC: 326 BP: 0 SP: 0
+stack: 
+==> addr: 326   NOP   0    
+PC: 327 BP: 0 SP: 0
+stack: 
+==> addr: 327   NOP   0    
+PC: 328 BP: 0 SP: 0
+stack: 
+==> addr: 328   NOP   0    
+PC: 329 BP: 0 SP: 0
+stack: 
+==> addr: 329   NOP   0    
+PC: 330 BP: 0 SP: 0
+stack: 
+==> addr: 330   NOP   0    
+PC: 331 BP: 0 SP: 0
+stack: 
+==> addr: 331   NOP   0    
+PC: 332 BP: 0 SP: 0
+stack: 
+==> addr: 332   NOP   0    
+PC: 333 BP: 0 SP: 0
+stack: 
+==> addr: 333   NOP   0    
+PC: 334 BP: 0 SP: 0
+stack: 
+==> addr: 334   NOP   0    
+PC: 335 BP: 0 SP: 0
+stack: 
+==> addr: 335   NOP   0    
+PC: 336 BP: 0 SP: 0
+stack: 
+==> addr: 336   NOP   0    
+PC: 337 BP: 0 SP: 0
+stack: 
+==> addr: 337   NOP   0    
+PC: 338 BP: 0 SP: 0
+stack: 
+==> addr: 338   NOP   0    
+PC: 339 BP: 0 SP: 0
+stack: 
+==> addr: 339   NOP   0    
+PC: 340 BP: 0 SP: 0
+stack: 
+==> addr: 340   NOP   0    
+PC: 341 BP: 0 SP: 0
+stack: 
+==> addr: 341   NOP   0    
+PC: 342 BP: 0 SP: 0
+stack: 
+==> addr: 342   NOP   0    
+PC: 343 BP: 0 SP: 0
+stack: 
+==> addr: 343   NOP   0    
+PC: 344 BP: 0 SP: 0
+stack: 
+==> addr: 344   NOP   0    
+PC: 345 BP: 0 SP: 0
+stack: 
+==> addr: 345   NOP   0    
+PC: 346 BP: 0 SP: 0
+stack: 
+==> addr: 346   NOP   0    
+PC: 347 BP: 0 SP: 0
+stack: 
+==> addr: 347   NOP   0    
+PC: 348 BP: 0 SP: 0
+stack: 
+==> addr: 348   NOP   0    
+PC: 349 BP: 0 SP: 0
+stack: 
+==> addr: 349   NOP   0    
+PC: 350 BP: 0 SP: 0
+stack: 
+==> addr: 350   NOP   0    
+PC: 351 BP: 0 SP: 0
+stack: 
+==> addr: 351   NOP   0    
+PC: 352 BP: 0 SP: 0
+stack: 
+==> addr: 352   NOP   0    
+PC: 353 BP: 0 SP: 0
+stack: 
+==> addr: 353   NOP   0    
+PC: 354 BP: 0 SP: 0
+stack: 
+==> addr: 354   NOP   0    
+PC: 355 BP: 0 SP: 0
+stack: 
+==> addr: 355   NOP   0    
+PC: 356 BP: 0 SP: 0
+stack: 
+==> addr: 356   NOP   0    
+PC: 357 BP: 0 SP: 0
+stack: 
+==> addr: 357   NOP   0    
+PC: 358 BP: 0 SP: 0
+stack: 
+==> addr: 358   NOP   0    
+PC: 359 BP: 0 SP: 0
+stack: 
+==> addr: 359   NOP   0    
+PC: 360 BP: 0 SP: 0
+stack: 
+==> addr: 360   NOP   0    
+PC: 361 BP: 0 SP: 0
+stack: 
+==> addr: 361   NOP   0    
+PC: 362 BP: 0 SP: 0
+stack: 
+==> addr: 362   NOP   0    
+PC: 363 BP: 0 SP: 0
+stack: 
+==> addr: 363   NOP   0    
+PC: 364 BP: 0 SP: 0
+stack: 
+==> addr: 364   NOP   0    
+PC: 365 BP: 0 SP: 0
+stack: 
+==> addr: 365   NOP   0    
+PC: 366 BP: 0 SP: 0
+stack: 
+==> addr: 366   NOP   0    
+PC: 367 BP: 0 SP: 0
+stack: 
+==> addr: 367   NOP   0    
+PC: 368 BP: 0 SP: 0
+stack: 
+==> addr: 368   NOP   0    
+PC: 369 BP: 0 SP: 0
+stack: 
+==> addr: 369   NOP   0    
+PC: 370 BP: 0 SP: 0
+stack: 
+==> addr: 370   NOP   0    
+PC: 371 BP: 0 SP: 0
+stack: 
+==> addr: 371   NOP   0    
+PC: 372 BP: 0 SP: 0
+stack: 
+==> addr: 372   NOP   0    
+PC: 373 BP: 0 SP: 0
+stack: 
+==> addr: 373   NOP   0    
+PC: 374 BP: 0 SP: 0
+stack: 
+==> addr: 374   NOP   0    
+PC: 375 BP: 0 SP: 0
+stack: 
+==> addr: 375   NOP   0    
+PC: 376 BP: 0 SP: 0
+stack: 
+==> addr: 376   NOP   0    
+PC: 377 BP: 0 SP: 0
+stack: 
+==> addr: 377   NOP   0    
+PC: 378 BP: 0 SP: 0
+stack: 
+==> addr: 378   NOP   0    
+PC: 379 BP: 0 SP: 0
+stack: 
+==> addr: 379   NOP   0    
+PC: 380 BP: 0 SP: 0
+stack: 
+==> addr: 380   NOP   0    
+PC: 381 BP: 0 SP: 0
+stack: 
+==> addr: 381   NOP   0    
+PC: 382 BP: 0 SP: 0
+stack: 
+==> addr: 382   NOP   0    
+PC: 383 BP: 0 SP: 0
+stack: 
+==> addr: 383   NOP   0    
+PC: 384 BP: 0 SP: 0
+stack: 
+==> addr: 384   NOP   0    
+PC: 385 BP: 0 SP: 0
+stack: 
+==> addr: 385   NOP   0    
+PC: 386 BP: 0 SP: 0
+stack: 
+==> addr: 386   NOP   0    
+PC: 387 BP: 0 SP: 0
+stack: 
+==> addr: 387   NOP   0    
+PC: 388 BP: 0 SP: 0
+stack: 
+==> addr: 388   NOP   0    
+PC: 389 BP: 0 SP: 0
+stack: 
+==> addr: 389   NOP   0    
+PC: 390 BP: 0 SP: 0
+stack: 
+==> addr: 390   NOP   0    
+PC: 391 BP: 0 SP: 0
+stack: 
+==> addr: 391   NOP   0    
+PC: 392 BP: 0 SP: 0
+stack: 
+==> addr: 392   NOP   0    
+PC: 393 BP: 0 SP: 0
+stack: 
+==> addr: 393   NOP   0    
+PC: 394 BP: 0 SP: 0
+stack: 
+==> addr: 394   NOP   0    
+PC: 395 BP: 0 SP: 0
+stack: 
+==> addr: 395   NOP   0    
+PC: 396 BP: 0 SP: 0
+stack: 
+==> addr: 396   NOP   0    
+PC: 397 BP: 0 SP: 0
+stack: 
+==> addr: 397   NOP   0    
+PC: 398 BP: 0 SP: 0
+stack: 
+==> addr: 398   NOP   0    
+PC: 399 BP: 0 SP: 0
+stack: 
+==> addr: 399   NOP   0    
+PC: 400 BP: 0 SP: 0
+stack: 
+==> addr: 400   NOP   0    
+PC: 401 BP: 0 SP: 0
+stack: 
+==> addr: 401   NOP   0    
+PC: 402 BP: 0 SP: 0
+stack: 
+==> addr: 402   NOP   0    
+PC: 403 BP: 0 SP: 0
+stack: 
+==> addr: 403   NOP   0    
+PC: 404 BP: 0 SP: 0
+stack: 
+==> addr: 404   NOP   0    
+PC: 405 BP: 0 SP: 0
+stack: 
+==> addr: 405   NOP   0    
+PC: 406 BP: 0 SP: 0
+stack: 
+==> addr: 406   NOP   0    
+PC: 407 BP: 0 SP: 0
+stack: 
+==> addr: 407   NOP   0    
+PC: 408 BP: 0 SP: 0
+stack: 
+==> addr: 408   NOP   0    
+PC: 409 BP: 0 SP: 0
+stack: 
+==> addr: 409   NOP   0    
+PC: 410 BP: 0 SP: 0
+stack: 
+==> addr: 410   NOP   0    
+PC: 411 BP: 0 SP: 0
+stack: 
+==> addr: 411   NOP   0    
+PC: 412 BP: 0 SP: 0
+stack: 
+==> addr: 412   NOP   0    
+PC: 413 BP: 0 SP: 0
+stack: 
+==> addr: 413   NOP   0    
+PC: 414 BP: 0 SP: 0
+stack: 
+==> addr: 414   NOP   0    
+PC: 415 BP: 0 SP: 0
+stack: 
+==> addr: 415   NOP   0    
+PC: 416 BP: 0 SP: 0
+stack: 
+==> addr: 416   NOP   0    
+PC: 417 BP: 0 SP: 0
+stack: 
+==> addr: 417   NOP   0    
+PC: 418 BP: 0 SP: 0
+stack: 
+==> addr: 418   NOP   0    
+PC: 419 BP: 0 SP: 0
+stack: 
+==> addr: 419   NOP   0    
+PC: 420 BP: 0 SP: 0
+stack: 
+==> addr: 420   NOP   0    
+PC: 421 BP: 0 SP: 0
+stack: 
+==> addr: 421   NOP   0    
+PC: 422 BP: 0 SP: 0
+stack: 
+==> addr: 422   NOP   0    
+PC: 423 BP: 0 SP: 0
+stack: 
+==> addr: 423   NOP   0    
+PC: 424 BP: 0 SP: 0
+stack: 
+==> addr: 424   NOP   0    
+PC: 425 BP: 0 SP: 0
+stack: 
+==> addr: 425   NOP   0    
+PC: 426 BP: 0 SP: 0
+stack: 
+==> addr: 426   NOP   0    
+PC: 427 BP: 0 SP: 0
+stack: 
+==> addr: 427   NOP   0    
+PC: 428 BP: 0 SP: 0
+stack: 
+==> addr: 428   NOP   0    
+PC: 429 BP: 0 SP: 0
+stack: 
+==> addr: 429   NOP   0    
+PC: 430 BP: 0 SP: 0
+stack: 
+==> addr: 430   NOP   0    
+PC: 431 BP: 0 SP: 0
+stack: 
+==> addr: 431   NOP   0    
+PC: 432 BP: 0 SP: 0
+stack: 
+==> addr: 432   NOP   0    
+PC: 433 BP: 0 SP: 0
+stack: 
+==> addr: 433   NOP   0    
+PC: 434 BP: 0 SP: 0
+stack: 
+==> addr: 434   NOP   0    
+PC: 435 BP: 0 SP: 0
+stack: 
+==> addr: 435   NOP   0    
+PC: 436 BP: 0 SP: 0
+stack: 
+==> addr: 436   NOP   0    
+PC: 437 BP: 0 SP: 0
+stack: 
+==> addr: 437   NOP   0    
+PC: 438 BP: 0 SP: 0
+stack: 
+==> addr: 438   NOP   0    
+PC: 439 BP: 0 SP: 0
+stack: 
+==> addr: 439   NOP   0    
+PC: 440 BP: 0 SP: 0
+stack: 
+==> addr: 440   NOP   0    
+PC: 441 BP: 0 SP: 0
+stack: 
+==> addr: 441   NOP   0    
+PC: 442 BP: 0 SP: 0
+stack: 
+==> addr: 442   NOP   0    
+PC: 443 BP: 0 SP: 0
+stack: 
+==> addr: 443   NOP   0    
+PC: 444 BP: 0 SP: 0
+stack: 
+==> addr: 444   NOP   0    
+PC: 445 BP: 0 SP: 0
+stack: 
+==> addr: 445   NOP   0    
+PC: 446 BP: 0 SP: 0
+stack: 
+==> addr: 446   NOP   0    
+PC: 447 BP: 0 SP: 0
+stack: 
+==> addr: 447   NOP   0    
+PC: 448 BP: 0 SP: 0
+stack: 
+==> addr: 448   NOP   0    
+PC: 449 BP: 0 SP: 0
+stack: 
+==> addr: 449   NOP   0    
+PC: 450 BP: 0 SP: 0
+stack: 
+==> addr: 450   NOP   0    
+PC: 451 BP: 0 SP: 0
+stack: 
+==> addr: 451   NOP   0    
+PC: 452 BP: 0 SP: 0
+stack: 
+==> addr: 452   NOP   0    
+PC: 453 BP: 0 SP: 0
+stack: 
+==> addr: 453   NOP   0    
+PC: 454 BP: 0 SP: 0
+stack: 
+==> addr: 454   NOP   0    
+PC: 455 BP: 0 SP: 0
+stack: 
+==> addr: 455   NOP   0    
+PC: 456 BP: 0 SP: 0
+stack: 
+==> addr: 456   NOP   0    
+PC: 457 BP: 0 SP: 0
+stack: 
+==> addr: 457   NOP   0    
+PC: 458 BP: 0 SP: 0
+stack: 
+==> addr: 458   NOP   0    
+PC: 459 BP: 0 SP: 0
+stack: 
+==> addr: 459   NOP   0    
+PC: 460 BP: 0 SP: 0
+stack: 
+==> addr: 460   NOP   0    
+PC: 461 BP: 0 SP: 0
+stack: 
+==> addr: 461   NOP   0    
+PC: 462 BP: 0 SP: 0
+stack: 
+==> addr: 462   NOP   0    
+PC: 463 BP: 0 SP: 0
+stack: 
+==> addr: 463   NOP   0    
+PC: 464 BP: 0 SP: 0
+stack: 
+==> addr: 464   NOP   0    
+PC: 465 BP: 0 SP: 0
+stack: 
+==> addr: 465   NOP   0    
+PC: 466 BP: 0 SP: 0
+stack: 
+==> addr: 466   NOP   0    
+PC: 467 BP: 0 SP: 0
+stack: 
+==> addr: 467   NOP   0    
+PC: 468 BP: 0 SP: 0
+stack: 
+==> addr: 468   NOP   0    
+PC: 469 BP: 0 SP: 0
+stack: 
+==> addr: 469   NOP   0    
+PC: 470 BP: 0 SP: 0
+stack: 
+==> addr: 470   NOP   0    
+PC: 471 BP: 0 SP: 0
+stack: 
+==> addr: 471   NOP   0    
+PC: 472 BP: 0 SP: 0
+stack: 
+==> addr: 472   NOP   0    
+PC: 473 BP: 0 SP: 0
+stack: 
+==> addr: 473   NOP   0    
+PC: 474 BP: 0 SP: 0
+stack: 
+==> addr: 474   NOP   0    
+PC: 475 BP: 0 SP: 0
+stack: 
+==> addr: 475   NOP   0    
+PC: 476 BP: 0 SP: 0
+stack: 
+==> addr: 476   NOP   0    
+PC: 477 BP: 0 SP: 0
+stack: 
+==> addr: 477   NOP   0    
+PC: 478 BP: 0 SP: 0
+stack: 
+==> addr: 478   NOP   0    
+PC: 479 BP: 0 SP: 0
+stack: 
+==> addr: 479   NOP   0    
+PC: 480 BP: 0 SP: 0
+stack: 
+==> addr: 480   NOP   0    
+PC: 481 BP: 0 SP: 0
+stack: 
+==> addr: 481   NOP   0    
+PC: 482 BP: 0 SP: 0
+stack: 
+==> addr: 482   NOP   0    
+PC: 483 BP: 0 SP: 0
+stack: 
+==> addr: 483   NOP   0    
+PC: 484 BP: 0 SP: 0
+stack: 
+==> addr: 484   NOP   0    
+PC: 485 BP: 0 SP: 0
+stack: 
+==> addr: 485   NOP   0    
+PC: 486 BP: 0 SP: 0
+stack: 
+==> addr: 486   NOP   0    
+PC: 487 BP: 0 SP: 0
+stack: 
+==> addr: 487   NOP   0    
+PC: 488 BP: 0 SP: 0
+stack: 
+==> addr: 488   NOP   0    
+PC: 489 BP: 0 SP: 0
+stack: 
+==> addr: 489   NOP   0    
+PC: 490 BP: 0 SP: 0
+stack: 
+==> addr: 490   NOP   0    
+PC: 491 BP: 0 SP: 0
+stack: 
+==> addr: 491   NOP   0    
+PC: 492 BP: 0 SP: 0
+stack: 
+==> addr: 492   NOP   0    
+PC: 493 BP: 0 SP: 0
+stack: 
+==> addr: 493   NOP   0    
+PC: 494 BP: 0 SP: 0
+stack: 
+==> addr: 494   NOP   0    
+PC: 495 BP: 0 SP: 0
+stack: 
+==> addr: 495   NOP   0    
+PC: 496 BP: 0 SP: 0
+stack: 
+==> addr: 496   NOP   0    
+PC: 497 BP: 0 SP: 0
+stack: 
+==> addr: 497   NOP   0    
+PC: 498 BP: 0 SP: 0
+stack: 
+==> addr: 498   NOP   0    
+PC: 499 BP: 0 SP: 0
+stack: 
+==> addr: 499   NOP   0    
+PC: 500 BP: 0 SP: 0
+stack: 
+==> addr: 500   NOP   0    
+PC: 501 BP: 0 SP: 0
+stack: 
+==> addr: 501   NOP   0    
+PC: 502 BP: 0 SP: 0
+stack: 
+==> addr: 502   NOP   0    
+PC: 503 BP: 0 SP: 0
+stack: 
+==> addr: 503   NOP   0    
+PC: 504 BP: 0 SP: 0
+stack: 
+==> addr: 504   NOP   0    
+PC: 505 BP: 0 SP: 0
+stack: 
+==> addr: 505   NOP   0    
+PC: 506 BP: 0 SP: 0
+stack: 
+==> addr: 506   NOP   0    
+PC: 507 BP: 0 SP: 0
+stack: 
+==> addr: 507   NOP   0    
+PC: 508 BP: 0 SP: 0
+stack: 
+==> addr: 508   NOP   0    
+PC: 509 BP: 0 SP: 0
+stack: 
+==> addr: 509   NOP   0    
+PC: 510 BP: 0 SP: 0
+stack: 
+==> addr: 510   NOP   0    
+PC: 511 BP: 0 SP: 0
+stack: 
+==> addr: 511   NOP   0    
+PC: 512 BP: 0 SP: 0
+stack: 
+==> addr: Illegal opcode: 512
