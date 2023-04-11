@@ -91,9 +91,9 @@ void gen_code_procDecls(AST_list pds)
 		procDecls = code_seq_concat(procDecls, procDecl);
 	
 		// set procDecl to the next thing in the list
-		// procDecl = code_seq_last_elem(procDecl);
-		// procDecl->next = code_seq_empty();
-		// procDecl = procDecl->next;
+		procDecl = code_seq_last_elem(procDecl);
+		procDecl->next = code_seq_empty();
+		procDecl = procDecl->next;
 	
 		pds = ast_list_rest(pds);
     }
@@ -105,13 +105,24 @@ void gen_code_procDecls(AST_list pds)
 
 void gen_code_procDecl(AST *pd)
 {
+	// printf("in procDecl\n");
+
 	code_seq tempProg = gen_code_program(pd->data.proc_decl.block);
 
-	procDecl = code_seq_add_to_end(procDecl, code_jmp(code_seq_size(tempProg)));
-	procDecl = code_seq_add_to_end(procDecl, code_rtn());
+	procDecl = code_seq_singleton(code_jmp(code_seq_size(tempProg)));
+	// printf("added jmp\n");
+	// fflush(stdout);
 	procDecl = code_seq_concat(procDecl, tempProg);
-	
+	// printf("concatted\n");
+	// fflush(stdout);
+	procDecl = code_seq_add_to_end(procDecl, code_rtn());
+	// printf("added rtn\n");
+	// fflush(stdout);
+
+	procDecl->lab = label_create();
 	label_set(procDecl->lab, pd->data.proc_decl.lab->addr);
+	// printf("setted\n");
+	// fflush(stdout);
 }
 
 // generate code for the statement
