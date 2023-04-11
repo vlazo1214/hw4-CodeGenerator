@@ -22,7 +22,16 @@ void gen_code_initialize()
 
 code_seq gen_code_program(AST *prog)
 {
-	return gen_code_block(prog);
+	gen_code_procDecls(prog->data.program.pds);
+
+	code_seq ret = code_seq_empty();
+
+	ret = code_seq_concat(ret, procDecls);
+	ret = code_seq_add_to_end(ret, code_inc(LINKS_SIZE));
+	ret = code_seq_concat(ret, gen_code_block(prog));
+	ret = code_seq_add_to_end(ret, code_hlt());
+
+	return ret;
 }
 
 code_seq gen_code_block(AST *prog)
@@ -33,14 +42,12 @@ code_seq gen_code_block(AST *prog)
        [code for the statement]
        HLT
      */
-    code_seq ret = code_seq_singleton(code_inc(LINKS_SIZE));
+    code_seq ret = code_seq_empty();
+	
 	ret = code_seq_concat(ret, gen_code_constDecls(prog->data.program.cds));
     ret = code_seq_concat(ret, gen_code_varDecls(prog->data.program.vds));
 
-	gen_code_procDecls(prog->data.program.pds);
-    
 	ret = code_seq_concat(ret, gen_code_stmt(prog->data.program.stmt));
-    ret = code_seq_add_to_end(ret, code_hlt());
     return ret;
 }
 
@@ -107,14 +114,17 @@ void gen_code_procDecl(AST *pd)
 {
 	// printf("in procDecl\n");
 
-	code_seq tempProg = gen_code_program(pd->data.proc_decl.block);
+	code_seq tempProg = gen_code_block(pd->data.proc_decl.block);
 
-	procDecl = code_seq_singleton(code_jmp(code_seq_size(tempProg)));
+	// 9 tempProgSize
+	procDecl = code_seq_singleton(code_jmp(code_seq_size(tempProg) + 2));
 	// printf("added jmp\n");
 	// fflush(stdout);
+	// tempProg
 	procDecl = code_seq_concat(procDecl, tempProg);
 	// printf("concatted\n");
 	// fflush(stdout);
+	// 2 0
 	procDecl = code_seq_add_to_end(procDecl, code_rtn());
 	// printf("added rtn\n");
 	// fflush(stdout);
@@ -181,14 +191,13 @@ code_seq gen_code_assignStmt(AST *stmt)
 // <call-stmt> ::= call <ident>
 code_seq gen_code_callStmt(AST *stmt)
 {
-	unsigned int outLevels = stmt->data.call_stmt.ident->data.ident.idu->levelsOutward;
-	unsigned int ofst = stmt->data.call_stmt.ident->data.ident.idu->attrs->loc_offset;
-	label *identLabel = stmt->data.call_stmt.ident->data.ident.idu->attrs->lab;
+	stmt->data.call_stmt.ident->data.ident.idu->attrs->lab->is_set = true;
+	address identAddr = label_read(stmt->data.call_stmt.ident->data.ident.idu->attrs->lab);
+	label *identLabel = label_create();
 
-    code_seq ret = code_compute_fp(outLevels);
-    
-	ret = code_seq_add_to_end(ret, code_sto(ofst));
-	
+	label_set(identLabel, identAddr);
+
+    code_seq ret = code_seq_empty();
 	ret = code_seq_add_to_end(ret, code_cal(identLabel));
 	// code *code_cal(label *lab)
 	// code_seq_fix_labels(code_seq cs)
