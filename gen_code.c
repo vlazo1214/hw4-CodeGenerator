@@ -22,6 +22,11 @@ void gen_code_initialize()
 
 code_seq gen_code_program(AST *prog)
 {
+	return gen_code_block(prog);
+}
+
+code_seq gen_code_block(AST *prog)
+{
     /* design:
        [code to make space for the static link, INC 1]
        [code to allocate space for all the vars declared.]
@@ -84,22 +89,29 @@ void gen_code_procDecls(AST_list pds)
 	{
 		gen_code_procDecl(ast_list_first(pds));
 		procDecls = code_seq_concat(procDecls, procDecl);
+	
+		// set procDecl to the next thing in the list
+		// procDecl = code_seq_last_elem(procDecl);
+		// procDecl->next = code_seq_empty();
+		// procDecl = procDecl->next;
+	
 		pds = ast_list_rest(pds);
     }
 }
 
-// procDecls = { procDecl }
+// proc0.pl0: procedure p; skip;
+// procDecls = |  p ( {skip;}, at address: label )  | -> NULL
 // procDecl = <program>, label
 
 void gen_code_procDecl(AST *pd)
 {
-	// initialize procedure label
-	procDecl->lab = pd->data.proc_decl.lab;
+	code_seq tempProg = gen_code_program(pd->data.proc_decl.block);
 
-	// 										might be pd->data.proc_decl.block
-	procDecl = code_seq_concat(procDecl, gen_code_program(pd));
+	procDecl = code_seq_add_to_end(procDecl, code_jmp(code_seq_size(tempProg)));
+	procDecl = code_seq_add_to_end(procDecl, code_rtn());
+	procDecl = code_seq_concat(procDecl, tempProg);
 	
-	procDecl = code_seq_rest(procDecl);
+	label_set(procDecl->lab, pd->data.proc_decl.lab->addr);
 }
 
 // generate code for the statement
