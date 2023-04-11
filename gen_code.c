@@ -5,10 +5,13 @@
 /* $Id: gen_code.c,v 1.10 2023/03/30 21:28:07 leavens Exp $ */
 #include "utilities.h"
 #include "gen_code.h"
+#include "proc_holder.h"
+#include "ast.h"
 
 // global variables for procedures
 // procDecls is the ptr to the whole list of decls, procDecl is an indexing
 // ptr that helps concatenate the decls
+int procDeclsSize;
 code_seq procDecls;
 code_seq procDecl;
 
@@ -18,18 +21,26 @@ void gen_code_initialize()
     // initialize procedure global
 	procDecls = code_seq_empty();
 	procDecl = code_seq_empty();
+	procDeclsSize = 0;
 }
 
 code_seq gen_code_program(AST *prog)
 {
-	gen_code_procDecls(prog->data.program.pds);
-
 	code_seq ret = code_seq_empty();
+	code_seq block = gen_code_block(prog);
+	int procSize = code_seq_size(procDecls);
 
-	ret = code_seq_concat(ret, procDecls);
+	if (procSize > 0)
+	{
+		ret = code_seq_add_to_end(ret, code_jmp(procSize + 1));
+		ret = code_seq_concat(ret, procDecls);
+	}
+
 	ret = code_seq_add_to_end(ret, code_inc(LINKS_SIZE));
-	ret = code_seq_concat(ret, gen_code_block(prog));
+	ret = code_seq_concat(ret, block);
 	ret = code_seq_add_to_end(ret, code_hlt());
+
+	// procDeclSize, get jmp 
 
 	return ret;
 }
@@ -44,10 +55,19 @@ code_seq gen_code_block(AST *prog)
      */
     code_seq ret = code_seq_empty();
 	
-	ret = code_seq_concat(ret, gen_code_constDecls(prog->data.program.cds));
-    ret = code_seq_concat(ret, gen_code_varDecls(prog->data.program.vds));
+	code_seq cds = gen_code_constDecls(prog->data.program.cds);
+    code_seq vds = gen_code_varDecls(prog->data.program.vds);
+	code_seq stmts = gen_code_stmt(prog->data.program.stmt);
 
-	ret = code_seq_concat(ret, gen_code_stmt(prog->data.program.stmt));
+	gen_code_procDecls(prog->data.program.pds);
+
+	// code_fix_labels
+	code_seq_fix_labels(procDecls);	
+
+	// ret = code_seq_concat(ret, procDecls);
+	ret = code_seq_concat(ret, cds);
+	ret = code_seq_concat(ret, vds);
+	ret = code_seq_concat(ret, stmts);
     return ret;
 }
 
@@ -68,7 +88,6 @@ code_seq gen_code_constDecls(AST_list cds)
 code_seq gen_code_constDecl(AST *cd)
 {
 	return code_seq_singleton(code_lit(cd->data.const_decl.num_val));
-
 }
 
 // generate code for the declarations in vds
@@ -92,18 +111,26 @@ code_seq gen_code_varDecl(AST *vd)
 
 void gen_code_procDecls(AST_list pds)
 {
-    while (!ast_list_is_empty(pds))
+	if (!ast_list_is_empty(pds))
 	{
-		gen_code_procDecl(ast_list_first(pds));
-		procDecls = code_seq_concat(procDecls, procDecl);
-	
-		// set procDecl to the next thing in the list
-		procDecl = code_seq_last_elem(procDecl);
-		procDecl->next = code_seq_empty();
-		procDecl = procDecl->next;
-	
-		pds = ast_list_rest(pds);
-    }
+		while (!ast_list_is_empty(pds))
+		{
+			gen_code_procDecl(ast_list_first(pds));
+			procDecls = code_seq_concat(procDecls, procDecl);
+		
+			// set procDecl to the next available index
+			procDecl = code_seq_last_elem(procDecl);
+			procDecl->next = code_seq_empty();
+			procDecl = procDecl->next;
+		
+			pds = ast_list_rest(pds);
+
+			procDeclsSize++;
+		}
+
+		procDecls = code_seq_add_to_end(procDecls, code_rtn());
+
+	}
 }
 
 // proc0.pl0: procedure p; skip;
@@ -112,27 +139,30 @@ void gen_code_procDecls(AST_list pds)
 
 void gen_code_procDecl(AST *pd)
 {
-	// printf("in procDecl\n");
+	AST *tempAST = pd->data.proc_decl.block;
+	code_seq tempProg = gen_code_block(tempAST);
 
-	code_seq tempProg = gen_code_block(pd->data.proc_decl.block);
+	// INC to pop call if > 0
+	// consolidate
+	if (ast_list_size(tempAST->data.program.cds) > 0)
+	{
+		int negativeCDSize = -1 * ast_list_size(tempAST->data.program.cds);
+		procDecl = code_seq_add_to_end(procDecl, code_inc(negativeCDSize));
+	}
+	if (ast_list_size(tempAST->data.program.vds) > 0 )
+	{
+		int negativeVDSize = -1 * ast_list_size(tempAST->data.program.vds);
+		procDecl = code_seq_add_to_end(procDecl, code_inc(negativeVDSize));
+	}
 
-	// 9 tempProgSize
-	procDecl = code_seq_singleton(code_jmp(code_seq_size(tempProg) + 2));
-	// printf("added jmp\n");
-	// fflush(stdout);
-	// tempProg
+	// 9 totalSize 
+	// procDecl = code_seq_singleton(code_jmp(code_seq_size(tempProg) + 2));
+	// concat tempProg
 	procDecl = code_seq_concat(procDecl, tempProg);
-	// printf("concatted\n");
-	// fflush(stdout);
 	// 2 0
-	procDecl = code_seq_add_to_end(procDecl, code_rtn());
-	// printf("added rtn\n");
-	// fflush(stdout);
 
-	procDecl->lab = label_create();
-	label_set(procDecl->lab, pd->data.proc_decl.lab->addr);
-	// printf("setted\n");
-	// fflush(stdout);
+	// procDecl->lab = label_create();
+	// label_set(procDecl->lab, pd->data.proc_decl.lab->addr);
 }
 
 // generate code for the statement
@@ -188,19 +218,72 @@ code_seq gen_code_assignStmt(AST *stmt)
     return ret;
 }
 
+	// printf("in call\n");
+	// fflush(stdout);
+
+	// int i, procDeclSize = code_seq_size(procDecls);
+	// code *index;
+	// address identAddr = stmt->data.call_stmt.ident->data.ident.idu->attrs->lab->addr;
+	// label *identLabel = stmt->data.call_stmt.ident->data.ident.idu->attrs->lab;
+    // code_seq ret = code_seq_empty();
+
+	// printf("set inital ident\n");
+	// fflush(stdout);
+
+	// label_set(identLabel, identAddr);
+
+	// printf("init complete\n");
+	// fflush(stdout);
+
+	// index = code_seq_first(procDecls);
+
+	// printf("procDeclSize: %d\n", procDeclSize);
+	// fflush(stdout);
+
+	// printf("abt to enter loop\n");
+	// fflush(stdout);
+
+	// if (procDeclSize > 0)
+	// {
+	// 	for (i = 0; i < procDeclSize; i++)
+	// 	{
+	// 		printf("iteration: %d\n", i);
+	// 		fflush(stdout);
+			
+	// 		if (index->lab == identLabel)
+	// 		{
+	// 			label_set(index->lab, identLabel->addr);
+	// 			break;
+	// 		}
+
+	// 		index = code_seq_rest(procDecls);
+	// 	}
+	// }
+	// else
+	// {
+	// 	printf("abt to set proc label\n");
+	// 	fflush(stdout);
+
+	// 	label_set(index->lab, identLabel->addr);
+	// }
+
+	// printf("done setting\n");
+	// fflush(stdout);
+
+	// ret = code_seq_add_to_end(ret, code_cal(index->lab));
 // <call-stmt> ::= call <ident>
 code_seq gen_code_callStmt(AST *stmt)
 {
 	stmt->data.call_stmt.ident->data.ident.idu->attrs->lab->is_set = true;
-	address identAddr = label_read(stmt->data.call_stmt.ident->data.ident.idu->attrs->lab);
-	label *identLabel = label_create();
+    address identAddr = label_read(stmt->data.call_stmt.ident->data.ident.idu->attrs->lab);
+    label *identLabel = label_create();
 
-	label_set(identLabel, identAddr);
+    label_set(identLabel, identAddr);
 
     code_seq ret = code_seq_empty();
-	ret = code_seq_add_to_end(ret, code_cal(identLabel));
-	// code *code_cal(label *lab)
-	// code_seq_fix_labels(code_seq cs)
+    ret = code_seq_add_to_end(ret, code_cal(identLabel));
+    // codecode_cal(label *lab)
+    // code_seq_fix_labels(code_seq cs)
 
 	return ret;
 }
@@ -260,7 +343,7 @@ code_seq gen_code_ifStmt(AST *stmt)
     return ret;
 }
 
-// from lab
+// from lab || generate code for while stmt
 code_seq gen_code_whileStmt(AST *stmt)
 {
 	code_seq condc = gen_code_cond(stmt->data.while_stmt.cond);

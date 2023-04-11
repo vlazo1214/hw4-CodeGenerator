@@ -1,0 +1,6 @@
+{
+	"files.associations": {
+		"*.embeddedhtml": "html",
+		"proc_holder.h": "c"
+	}
+}

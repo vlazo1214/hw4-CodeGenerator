@@ -22,10 +22,14 @@ extern void label_set(label *lab, address addr)
 {
 	// printf("in label_set\n");
 	// fflush(stdout);
+
     lab->addr = addr;
+	
 	// printf("lab->addr = addr;\n");
 	// fflush(stdout);
-    lab->is_set = true;
+    
+	lab->is_set = true;
+	
 	// printf("lab->is_set = true;\n");
 	// fflush(stdout);
 }

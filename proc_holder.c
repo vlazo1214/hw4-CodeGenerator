@@ -1,12 +1,22 @@
 // proc_holder.c
-// 3 functions that Mana said
+#include "ast.h"
 #include "proc_holder.h"
+#include "code.h"
 
-// 1 funct for initializing
+// initialize
 void proc_initialize()
 {
 
 }
-// 1 for registering procedure
+// register procedure
+void proc_register()
+{
 
-// 1 for returning code for all procedure
+}
+
+// return code for all procedure
+void proc_return(code_seq procDecl)
+{
+	procDecl = code_seq_add_to_end(procDecl, code_rtn());
+}
+

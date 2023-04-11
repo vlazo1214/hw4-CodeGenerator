@@ -1,1541 +1,3541 @@
 Addr  OP    M    
+0     JMP   17   
+1     PBP   0    
+2     PSI   0    
+3     LOD   3    
+4     CHO   0    
+5     PBP   0    
+6     PSI   0    
+7     LOD   3    
+8     LIT   1    
+9     ADD   0    
+10    CHO   0    
+11    INC   -1   
+12    LIT   10   
+13    PBP   0    
+14    LOD   3    
+15    CHO   0    
+16    RTN   0    
+17    INC   3    
+18    LIT   49   
+19    CAL   0    
+20    CAL   0    
+21    CAL   0    
+22    CAL   0    
+23    HLT   0    
 Tracing ...
 PC: 0 BP: 0 SP: 0
 stack: 
-==> addr: 0     NOP   0    
-PC: 1 BP: 0 SP: 0
-stack: 
-==> addr: 1     NOP   0    
-PC: 2 BP: 0 SP: 0
-stack: 
-==> addr: 2     NOP   0    
-PC: 3 BP: 0 SP: 0
-stack: 
-==> addr: 3     NOP   0    
-PC: 4 BP: 0 SP: 0
-stack: 
-==> addr: 4     NOP   0    
-PC: 5 BP: 0 SP: 0
-stack: 
-==> addr: 5     NOP   0    
-PC: 6 BP: 0 SP: 0
-stack: 
-==> addr: 6     NOP   0    
-PC: 7 BP: 0 SP: 0
-stack: 
-==> addr: 7     NOP   0    
-PC: 8 BP: 0 SP: 0
-stack: 
-==> addr: 8     NOP   0    
-PC: 9 BP: 0 SP: 0
-stack: 
-==> addr: 9     NOP   0    
-PC: 10 BP: 0 SP: 0
-stack: 
-==> addr: 10    NOP   0    
-PC: 11 BP: 0 SP: 0
-stack: 
-==> addr: 11    NOP   0    
-PC: 12 BP: 0 SP: 0
-stack: 
-==> addr: 12    NOP   0    
-PC: 13 BP: 0 SP: 0
-stack: 
-==> addr: 13    NOP   0    
-PC: 14 BP: 0 SP: 0
-stack: 
-==> addr: 14    NOP   0    
-PC: 15 BP: 0 SP: 0
-stack: 
-==> addr: 15    NOP   0    
-PC: 16 BP: 0 SP: 0
-stack: 
-==> addr: 16    NOP   0    
+==> addr: 0     JMP   17   
 PC: 17 BP: 0 SP: 0
 stack: 
-==> addr: 17    NOP   0    
-PC: 18 BP: 0 SP: 0
-stack: 
-==> addr: 18    NOP   0    
-PC: 19 BP: 0 SP: 0
-stack: 
-==> addr: 19    NOP   0    
-PC: 20 BP: 0 SP: 0
-stack: 
-==> addr: 20    NOP   0    
-PC: 21 BP: 0 SP: 0
-stack: 
-==> addr: 21    NOP   0    
-PC: 22 BP: 0 SP: 0
-stack: 
-==> addr: 22    NOP   0    
-PC: 23 BP: 0 SP: 0
-stack: 
-==> addr: 23    NOP   0    
-PC: 24 BP: 0 SP: 0
-stack: 
-==> addr: 24    NOP   0    
-PC: 25 BP: 0 SP: 0
-stack: 
-==> addr: 25    NOP   0    
-PC: 26 BP: 0 SP: 0
-stack: 
-==> addr: 26    NOP   0    
-PC: 27 BP: 0 SP: 0
-stack: 
-==> addr: 27    NOP   0    
-PC: 28 BP: 0 SP: 0
-stack: 
-==> addr: 28    NOP   0    
-PC: 29 BP: 0 SP: 0
-stack: 
-==> addr: 29    NOP   0    
-PC: 30 BP: 0 SP: 0
-stack: 
-==> addr: 30    NOP   0    
-PC: 31 BP: 0 SP: 0
-stack: 
-==> addr: 31    NOP   0    
-PC: 32 BP: 0 SP: 0
-stack: 
-==> addr: 32    NOP   0    
-PC: 33 BP: 0 SP: 0
-stack: 
-==> addr: 33    NOP   0    
-PC: 34 BP: 0 SP: 0
-stack: 
-==> addr: 34    NOP   0    
-PC: 35 BP: 0 SP: 0
-stack: 
-==> addr: 35    NOP   0    
-PC: 36 BP: 0 SP: 0
-stack: 
-==> addr: 36    NOP   0    
-PC: 37 BP: 0 SP: 0
-stack: 
-==> addr: 37    NOP   0    
-PC: 38 BP: 0 SP: 0
-stack: 
-==> addr: 38    NOP   0    
-PC: 39 BP: 0 SP: 0
-stack: 
-==> addr: 39    NOP   0    
-PC: 40 BP: 0 SP: 0
-stack: 
-==> addr: 40    NOP   0    
-PC: 41 BP: 0 SP: 0
-stack: 
-==> addr: 41    NOP   0    
-PC: 42 BP: 0 SP: 0
-stack: 
-==> addr: 42    NOP   0    
-PC: 43 BP: 0 SP: 0
-stack: 
-==> addr: 43    NOP   0    
-PC: 44 BP: 0 SP: 0
-stack: 
-==> addr: 44    NOP   0    
-PC: 45 BP: 0 SP: 0
-stack: 
-==> addr: 45    NOP   0    
-PC: 46 BP: 0 SP: 0
-stack: 
-==> addr: 46    NOP   0    
-PC: 47 BP: 0 SP: 0
-stack: 
-==> addr: 47    NOP   0    
-PC: 48 BP: 0 SP: 0
-stack: 
-==> addr: 48    NOP   0    
-PC: 49 BP: 0 SP: 0
-stack: 
-==> addr: 49    NOP   0    
-PC: 50 BP: 0 SP: 0
-stack: 
-==> addr: 50    NOP   0    
-PC: 51 BP: 0 SP: 0
-stack: 
-==> addr: 51    NOP   0    
-PC: 52 BP: 0 SP: 0
-stack: 
-==> addr: 52    NOP   0    
-PC: 53 BP: 0 SP: 0
-stack: 
-==> addr: 53    NOP   0    
-PC: 54 BP: 0 SP: 0
-stack: 
-==> addr: 54    NOP   0    
-PC: 55 BP: 0 SP: 0
-stack: 
-==> addr: 55    NOP   0    
-PC: 56 BP: 0 SP: 0
-stack: 
-==> addr: 56    NOP   0    
-PC: 57 BP: 0 SP: 0
-stack: 
-==> addr: 57    NOP   0    
-PC: 58 BP: 0 SP: 0
-stack: 
-==> addr: 58    NOP   0    
-PC: 59 BP: 0 SP: 0
-stack: 
-==> addr: 59    NOP   0    
-PC: 60 BP: 0 SP: 0
-stack: 
-==> addr: 60    NOP   0    
-PC: 61 BP: 0 SP: 0
-stack: 
-==> addr: 61    NOP   0    
-PC: 62 BP: 0 SP: 0
-stack: 
-==> addr: 62    NOP   0    
-PC: 63 BP: 0 SP: 0
-stack: 
-==> addr: 63    NOP   0    
-PC: 64 BP: 0 SP: 0
-stack: 
-==> addr: 64    NOP   0    
-PC: 65 BP: 0 SP: 0
-stack: 
-==> addr: 65    NOP   0    
-PC: 66 BP: 0 SP: 0
-stack: 
-==> addr: 66    NOP   0    
-PC: 67 BP: 0 SP: 0
-stack: 
-==> addr: 67    NOP   0    
-PC: 68 BP: 0 SP: 0
-stack: 
-==> addr: 68    NOP   0    
-PC: 69 BP: 0 SP: 0
-stack: 
-==> addr: 69    NOP   0    
-PC: 70 BP: 0 SP: 0
-stack: 
-==> addr: 70    NOP   0    
-PC: 71 BP: 0 SP: 0
-stack: 
-==> addr: 71    NOP   0    
-PC: 72 BP: 0 SP: 0
-stack: 
-==> addr: 72    NOP   0    
-PC: 73 BP: 0 SP: 0
-stack: 
-==> addr: 73    NOP   0    
-PC: 74 BP: 0 SP: 0
-stack: 
-==> addr: 74    NOP   0    
-PC: 75 BP: 0 SP: 0
-stack: 
-==> addr: 75    NOP   0    
-PC: 76 BP: 0 SP: 0
-stack: 
-==> addr: 76    NOP   0    
-PC: 77 BP: 0 SP: 0
-stack: 
-==> addr: 77    NOP   0    
-PC: 78 BP: 0 SP: 0
-stack: 
-==> addr: 78    NOP   0    
-PC: 79 BP: 0 SP: 0
-stack: 
-==> addr: 79    NOP   0    
-PC: 80 BP: 0 SP: 0
-stack: 
-==> addr: 80    NOP   0    
-PC: 81 BP: 0 SP: 0
-stack: 
-==> addr: 81    NOP   0    
-PC: 82 BP: 0 SP: 0
-stack: 
-==> addr: 82    NOP   0    
-PC: 83 BP: 0 SP: 0
-stack: 
-==> addr: 83    NOP   0    
-PC: 84 BP: 0 SP: 0
-stack: 
-==> addr: 84    NOP   0    
-PC: 85 BP: 0 SP: 0
-stack: 
-==> addr: 85    NOP   0    
-PC: 86 BP: 0 SP: 0
-stack: 
-==> addr: 86    NOP   0    
-PC: 87 BP: 0 SP: 0
-stack: 
-==> addr: 87    NOP   0    
-PC: 88 BP: 0 SP: 0
-stack: 
-==> addr: 88    NOP   0    
-PC: 89 BP: 0 SP: 0
-stack: 
-==> addr: 89    NOP   0    
-PC: 90 BP: 0 SP: 0
-stack: 
-==> addr: 90    NOP   0    
-PC: 91 BP: 0 SP: 0
-stack: 
-==> addr: 91    NOP   0    
-PC: 92 BP: 0 SP: 0
-stack: 
-==> addr: 92    NOP   0    
-PC: 93 BP: 0 SP: 0
-stack: 
-==> addr: 93    NOP   0    
-PC: 94 BP: 0 SP: 0
-stack: 
-==> addr: 94    NOP   0    
-PC: 95 BP: 0 SP: 0
-stack: 
-==> addr: 95    NOP   0    
-PC: 96 BP: 0 SP: 0
-stack: 
-==> addr: 96    NOP   0    
-PC: 97 BP: 0 SP: 0
-stack: 
-==> addr: 97    NOP   0    
-PC: 98 BP: 0 SP: 0
-stack: 
-==> addr: 98    NOP   0    
-PC: 99 BP: 0 SP: 0
-stack: 
-==> addr: 99    NOP   0    
-PC: 100 BP: 0 SP: 0
-stack: 
-==> addr: 100   NOP   0    
-PC: 101 BP: 0 SP: 0
-stack: 
-==> addr: 101   NOP   0    
-PC: 102 BP: 0 SP: 0
-stack: 
-==> addr: 102   NOP   0    
-PC: 103 BP: 0 SP: 0
-stack: 
-==> addr: 103   NOP   0    
-PC: 104 BP: 0 SP: 0
-stack: 
-==> addr: 104   NOP   0    
-PC: 105 BP: 0 SP: 0
-stack: 
-==> addr: 105   NOP   0    
-PC: 106 BP: 0 SP: 0
-stack: 
-==> addr: 106   NOP   0    
-PC: 107 BP: 0 SP: 0
-stack: 
-==> addr: 107   NOP   0    
-PC: 108 BP: 0 SP: 0
-stack: 
-==> addr: 108   NOP   0    
-PC: 109 BP: 0 SP: 0
-stack: 
-==> addr: 109   NOP   0    
-PC: 110 BP: 0 SP: 0
-stack: 
-==> addr: 110   NOP   0    
-PC: 111 BP: 0 SP: 0
-stack: 
-==> addr: 111   NOP   0    
-PC: 112 BP: 0 SP: 0
-stack: 
-==> addr: 112   NOP   0    
-PC: 113 BP: 0 SP: 0
-stack: 
-==> addr: 113   NOP   0    
-PC: 114 BP: 0 SP: 0
-stack: 
-==> addr: 114   NOP   0    
-PC: 115 BP: 0 SP: 0
-stack: 
-==> addr: 115   NOP   0    
-PC: 116 BP: 0 SP: 0
-stack: 
-==> addr: 116   NOP   0    
-PC: 117 BP: 0 SP: 0
-stack: 
-==> addr: 117   NOP   0    
-PC: 118 BP: 0 SP: 0
-stack: 
-==> addr: 118   NOP   0    
-PC: 119 BP: 0 SP: 0
-stack: 
-==> addr: 119   NOP   0    
-PC: 120 BP: 0 SP: 0
-stack: 
-==> addr: 120   NOP   0    
-PC: 121 BP: 0 SP: 0
-stack: 
-==> addr: 121   NOP   0    
-PC: 122 BP: 0 SP: 0
-stack: 
-==> addr: 122   NOP   0    
-PC: 123 BP: 0 SP: 0
-stack: 
-==> addr: 123   NOP   0    
-PC: 124 BP: 0 SP: 0
-stack: 
-==> addr: 124   NOP   0    
-PC: 125 BP: 0 SP: 0
-stack: 
-==> addr: 125   NOP   0    
-PC: 126 BP: 0 SP: 0
-stack: 
-==> addr: 126   NOP   0    
-PC: 127 BP: 0 SP: 0
-stack: 
-==> addr: 127   NOP   0    
-PC: 128 BP: 0 SP: 0
-stack: 
-==> addr: 128   NOP   0    
-PC: 129 BP: 0 SP: 0
-stack: 
-==> addr: 129   NOP   0    
-PC: 130 BP: 0 SP: 0
-stack: 
-==> addr: 130   NOP   0    
-PC: 131 BP: 0 SP: 0
-stack: 
-==> addr: 131   NOP   0    
-PC: 132 BP: 0 SP: 0
-stack: 
-==> addr: 132   NOP   0    
-PC: 133 BP: 0 SP: 0
-stack: 
-==> addr: 133   NOP   0    
-PC: 134 BP: 0 SP: 0
-stack: 
-==> addr: 134   NOP   0    
-PC: 135 BP: 0 SP: 0
-stack: 
-==> addr: 135   NOP   0    
-PC: 136 BP: 0 SP: 0
-stack: 
-==> addr: 136   NOP   0    
-PC: 137 BP: 0 SP: 0
-stack: 
-==> addr: 137   NOP   0    
-PC: 138 BP: 0 SP: 0
-stack: 
-==> addr: 138   NOP   0    
-PC: 139 BP: 0 SP: 0
-stack: 
-==> addr: 139   NOP   0    
-PC: 140 BP: 0 SP: 0
-stack: 
-==> addr: 140   NOP   0    
-PC: 141 BP: 0 SP: 0
-stack: 
-==> addr: 141   NOP   0    
-PC: 142 BP: 0 SP: 0
-stack: 
-==> addr: 142   NOP   0    
-PC: 143 BP: 0 SP: 0
-stack: 
-==> addr: 143   NOP   0    
-PC: 144 BP: 0 SP: 0
-stack: 
-==> addr: 144   NOP   0    
-PC: 145 BP: 0 SP: 0
-stack: 
-==> addr: 145   NOP   0    
-PC: 146 BP: 0 SP: 0
-stack: 
-==> addr: 146   NOP   0    
-PC: 147 BP: 0 SP: 0
-stack: 
-==> addr: 147   NOP   0    
-PC: 148 BP: 0 SP: 0
-stack: 
-==> addr: 148   NOP   0    
-PC: 149 BP: 0 SP: 0
-stack: 
-==> addr: 149   NOP   0    
-PC: 150 BP: 0 SP: 0
-stack: 
-==> addr: 150   NOP   0    
-PC: 151 BP: 0 SP: 0
-stack: 
-==> addr: 151   NOP   0    
-PC: 152 BP: 0 SP: 0
-stack: 
-==> addr: 152   NOP   0    
-PC: 153 BP: 0 SP: 0
-stack: 
-==> addr: 153   NOP   0    
-PC: 154 BP: 0 SP: 0
-stack: 
-==> addr: 154   NOP   0    
-PC: 155 BP: 0 SP: 0
-stack: 
-==> addr: 155   NOP   0    
-PC: 156 BP: 0 SP: 0
-stack: 
-==> addr: 156   NOP   0    
-PC: 157 BP: 0 SP: 0
-stack: 
-==> addr: 157   NOP   0    
-PC: 158 BP: 0 SP: 0
-stack: 
-==> addr: 158   NOP   0    
-PC: 159 BP: 0 SP: 0
-stack: 
-==> addr: 159   NOP   0    
-PC: 160 BP: 0 SP: 0
-stack: 
-==> addr: 160   NOP   0    
-PC: 161 BP: 0 SP: 0
-stack: 
-==> addr: 161   NOP   0    
-PC: 162 BP: 0 SP: 0
-stack: 
-==> addr: 162   NOP   0    
-PC: 163 BP: 0 SP: 0
-stack: 
-==> addr: 163   NOP   0    
-PC: 164 BP: 0 SP: 0
-stack: 
-==> addr: 164   NOP   0    
-PC: 165 BP: 0 SP: 0
-stack: 
-==> addr: 165   NOP   0    
-PC: 166 BP: 0 SP: 0
-stack: 
-==> addr: 166   NOP   0    
-PC: 167 BP: 0 SP: 0
-stack: 
-==> addr: 167   NOP   0    
-PC: 168 BP: 0 SP: 0
-stack: 
-==> addr: 168   NOP   0    
-PC: 169 BP: 0 SP: 0
-stack: 
-==> addr: 169   NOP   0    
-PC: 170 BP: 0 SP: 0
-stack: 
-==> addr: 170   NOP   0    
-PC: 171 BP: 0 SP: 0
-stack: 
-==> addr: 171   NOP   0    
-PC: 172 BP: 0 SP: 0
-stack: 
-==> addr: 172   NOP   0    
-PC: 173 BP: 0 SP: 0
-stack: 
-==> addr: 173   NOP   0    
-PC: 174 BP: 0 SP: 0
-stack: 
-==> addr: 174   NOP   0    
-PC: 175 BP: 0 SP: 0
-stack: 
-==> addr: 175   NOP   0    
-PC: 176 BP: 0 SP: 0
-stack: 
-==> addr: 176   NOP   0    
-PC: 177 BP: 0 SP: 0
-stack: 
-==> addr: 177   NOP   0    
-PC: 178 BP: 0 SP: 0
-stack: 
-==> addr: 178   NOP   0    
-PC: 179 BP: 0 SP: 0
-stack: 
-==> addr: 179   NOP   0    
-PC: 180 BP: 0 SP: 0
-stack: 
-==> addr: 180   NOP   0    
-PC: 181 BP: 0 SP: 0
-stack: 
-==> addr: 181   NOP   0    
-PC: 182 BP: 0 SP: 0
-stack: 
-==> addr: 182   NOP   0    
-PC: 183 BP: 0 SP: 0
-stack: 
-==> addr: 183   NOP   0    
-PC: 184 BP: 0 SP: 0
-stack: 
-==> addr: 184   NOP   0    
-PC: 185 BP: 0 SP: 0
-stack: 
-==> addr: 185   NOP   0    
-PC: 186 BP: 0 SP: 0
-stack: 
-==> addr: 186   NOP   0    
-PC: 187 BP: 0 SP: 0
-stack: 
-==> addr: 187   NOP   0    
-PC: 188 BP: 0 SP: 0
-stack: 
-==> addr: 188   NOP   0    
-PC: 189 BP: 0 SP: 0
-stack: 
-==> addr: 189   NOP   0    
-PC: 190 BP: 0 SP: 0
-stack: 
-==> addr: 190   NOP   0    
-PC: 191 BP: 0 SP: 0
-stack: 
-==> addr: 191   NOP   0    
-PC: 192 BP: 0 SP: 0
-stack: 
-==> addr: 192   NOP   0    
-PC: 193 BP: 0 SP: 0
-stack: 
-==> addr: 193   NOP   0    
-PC: 194 BP: 0 SP: 0
-stack: 
-==> addr: 194   NOP   0    
-PC: 195 BP: 0 SP: 0
-stack: 
-==> addr: 195   NOP   0    
-PC: 196 BP: 0 SP: 0
-stack: 
-==> addr: 196   NOP   0    
-PC: 197 BP: 0 SP: 0
-stack: 
-==> addr: 197   NOP   0    
-PC: 198 BP: 0 SP: 0
-stack: 
-==> addr: 198   NOP   0    
-PC: 199 BP: 0 SP: 0
-stack: 
-==> addr: 199   NOP   0    
-PC: 200 BP: 0 SP: 0
-stack: 
-==> addr: 200   NOP   0    
-PC: 201 BP: 0 SP: 0
-stack: 
-==> addr: 201   NOP   0    
-PC: 202 BP: 0 SP: 0
-stack: 
-==> addr: 202   NOP   0    
-PC: 203 BP: 0 SP: 0
-stack: 
-==> addr: 203   NOP   0    
-PC: 204 BP: 0 SP: 0
-stack: 
-==> addr: 204   NOP   0    
-PC: 205 BP: 0 SP: 0
-stack: 
-==> addr: 205   NOP   0    
-PC: 206 BP: 0 SP: 0
-stack: 
-==> addr: 206   NOP   0    
-PC: 207 BP: 0 SP: 0
-stack: 
-==> addr: 207   NOP   0    
-PC: 208 BP: 0 SP: 0
-stack: 
-==> addr: 208   NOP   0    
-PC: 209 BP: 0 SP: 0
-stack: 
-==> addr: 209   NOP   0    
-PC: 210 BP: 0 SP: 0
-stack: 
-==> addr: 210   NOP   0    
-PC: 211 BP: 0 SP: 0
-stack: 
-==> addr: 211   NOP   0    
-PC: 212 BP: 0 SP: 0
-stack: 
-==> addr: 212   NOP   0    
-PC: 213 BP: 0 SP: 0
-stack: 
-==> addr: 213   NOP   0    
-PC: 214 BP: 0 SP: 0
-stack: 
-==> addr: 214   NOP   0    
-PC: 215 BP: 0 SP: 0
-stack: 
-==> addr: 215   NOP   0    
-PC: 216 BP: 0 SP: 0
-stack: 
-==> addr: 216   NOP   0    
-PC: 217 BP: 0 SP: 0
-stack: 
-==> addr: 217   NOP   0    
-PC: 218 BP: 0 SP: 0
-stack: 
-==> addr: 218   NOP   0    
-PC: 219 BP: 0 SP: 0
-stack: 
-==> addr: 219   NOP   0    
-PC: 220 BP: 0 SP: 0
-stack: 
-==> addr: 220   NOP   0    
-PC: 221 BP: 0 SP: 0
-stack: 
-==> addr: 221   NOP   0    
-PC: 222 BP: 0 SP: 0
-stack: 
-==> addr: 222   NOP   0    
-PC: 223 BP: 0 SP: 0
-stack: 
-==> addr: 223   NOP   0    
-PC: 224 BP: 0 SP: 0
-stack: 
-==> addr: 224   NOP   0    
-PC: 225 BP: 0 SP: 0
-stack: 
-==> addr: 225   NOP   0    
-PC: 226 BP: 0 SP: 0
-stack: 
-==> addr: 226   NOP   0    
-PC: 227 BP: 0 SP: 0
-stack: 
-==> addr: 227   NOP   0    
-PC: 228 BP: 0 SP: 0
-stack: 
-==> addr: 228   NOP   0    
-PC: 229 BP: 0 SP: 0
-stack: 
-==> addr: 229   NOP   0    
-PC: 230 BP: 0 SP: 0
-stack: 
-==> addr: 230   NOP   0    
-PC: 231 BP: 0 SP: 0
-stack: 
-==> addr: 231   NOP   0    
-PC: 232 BP: 0 SP: 0
-stack: 
-==> addr: 232   NOP   0    
-PC: 233 BP: 0 SP: 0
-stack: 
-==> addr: 233   NOP   0    
-PC: 234 BP: 0 SP: 0
-stack: 
-==> addr: 234   NOP   0    
-PC: 235 BP: 0 SP: 0
-stack: 
-==> addr: 235   NOP   0    
-PC: 236 BP: 0 SP: 0
-stack: 
-==> addr: 236   NOP   0    
-PC: 237 BP: 0 SP: 0
-stack: 
-==> addr: 237   NOP   0    
-PC: 238 BP: 0 SP: 0
-stack: 
-==> addr: 238   NOP   0    
-PC: 239 BP: 0 SP: 0
-stack: 
-==> addr: 239   NOP   0    
-PC: 240 BP: 0 SP: 0
-stack: 
-==> addr: 240   NOP   0    
-PC: 241 BP: 0 SP: 0
-stack: 
-==> addr: 241   NOP   0    
-PC: 242 BP: 0 SP: 0
-stack: 
-==> addr: 242   NOP   0    
-PC: 243 BP: 0 SP: 0
-stack: 
-==> addr: 243   NOP   0    
-PC: 244 BP: 0 SP: 0
-stack: 
-==> addr: 244   NOP   0    
-PC: 245 BP: 0 SP: 0
-stack: 
-==> addr: 245   NOP   0    
-PC: 246 BP: 0 SP: 0
-stack: 
-==> addr: 246   NOP   0    
-PC: 247 BP: 0 SP: 0
-stack: 
-==> addr: 247   NOP   0    
-PC: 248 BP: 0 SP: 0
-stack: 
-==> addr: 248   NOP   0    
-PC: 249 BP: 0 SP: 0
-stack: 
-==> addr: 249   NOP   0    
-PC: 250 BP: 0 SP: 0
-stack: 
-==> addr: 250   NOP   0    
-PC: 251 BP: 0 SP: 0
-stack: 
-==> addr: 251   NOP   0    
-PC: 252 BP: 0 SP: 0
-stack: 
-==> addr: 252   NOP   0    
-PC: 253 BP: 0 SP: 0
-stack: 
-==> addr: 253   NOP   0    
-PC: 254 BP: 0 SP: 0
-stack: 
-==> addr: 254   NOP   0    
-PC: 255 BP: 0 SP: 0
-stack: 
-==> addr: 255   NOP   0    
-PC: 256 BP: 0 SP: 0
-stack: 
-==> addr: 256   NOP   0    
-PC: 257 BP: 0 SP: 0
-stack: 
-==> addr: 257   NOP   0    
-PC: 258 BP: 0 SP: 0
-stack: 
-==> addr: 258   NOP   0    
-PC: 259 BP: 0 SP: 0
-stack: 
-==> addr: 259   NOP   0    
-PC: 260 BP: 0 SP: 0
-stack: 
-==> addr: 260   NOP   0    
-PC: 261 BP: 0 SP: 0
-stack: 
-==> addr: 261   NOP   0    
-PC: 262 BP: 0 SP: 0
-stack: 
-==> addr: 262   NOP   0    
-PC: 263 BP: 0 SP: 0
-stack: 
-==> addr: 263   NOP   0    
-PC: 264 BP: 0 SP: 0
-stack: 
-==> addr: 264   NOP   0    
-PC: 265 BP: 0 SP: 0
-stack: 
-==> addr: 265   NOP   0    
-PC: 266 BP: 0 SP: 0
-stack: 
-==> addr: 266   NOP   0    
-PC: 267 BP: 0 SP: 0
-stack: 
-==> addr: 267   NOP   0    
-PC: 268 BP: 0 SP: 0
-stack: 
-==> addr: 268   NOP   0    
-PC: 269 BP: 0 SP: 0
-stack: 
-==> addr: 269   NOP   0    
-PC: 270 BP: 0 SP: 0
-stack: 
-==> addr: 270   NOP   0    
-PC: 271 BP: 0 SP: 0
-stack: 
-==> addr: 271   NOP   0    
-PC: 272 BP: 0 SP: 0
-stack: 
-==> addr: 272   NOP   0    
-PC: 273 BP: 0 SP: 0
-stack: 
-==> addr: 273   NOP   0    
-PC: 274 BP: 0 SP: 0
-stack: 
-==> addr: 274   NOP   0    
-PC: 275 BP: 0 SP: 0
-stack: 
-==> addr: 275   NOP   0    
-PC: 276 BP: 0 SP: 0
-stack: 
-==> addr: 276   NOP   0    
-PC: 277 BP: 0 SP: 0
-stack: 
-==> addr: 277   NOP   0    
-PC: 278 BP: 0 SP: 0
-stack: 
-==> addr: 278   NOP   0    
-PC: 279 BP: 0 SP: 0
-stack: 
-==> addr: 279   NOP   0    
-PC: 280 BP: 0 SP: 0
-stack: 
-==> addr: 280   NOP   0    
-PC: 281 BP: 0 SP: 0
-stack: 
-==> addr: 281   NOP   0    
-PC: 282 BP: 0 SP: 0
-stack: 
-==> addr: 282   NOP   0    
-PC: 283 BP: 0 SP: 0
-stack: 
-==> addr: 283   NOP   0    
-PC: 284 BP: 0 SP: 0
-stack: 
-==> addr: 284   NOP   0    
-PC: 285 BP: 0 SP: 0
-stack: 
-==> addr: 285   NOP   0    
-PC: 286 BP: 0 SP: 0
-stack: 
-==> addr: 286   NOP   0    
-PC: 287 BP: 0 SP: 0
-stack: 
-==> addr: 287   NOP   0    
-PC: 288 BP: 0 SP: 0
-stack: 
-==> addr: 288   NOP   0    
-PC: 289 BP: 0 SP: 0
-stack: 
-==> addr: 289   NOP   0    
-PC: 290 BP: 0 SP: 0
-stack: 
-==> addr: 290   NOP   0    
-PC: 291 BP: 0 SP: 0
-stack: 
-==> addr: 291   NOP   0    
-PC: 292 BP: 0 SP: 0
-stack: 
-==> addr: 292   NOP   0    
-PC: 293 BP: 0 SP: 0
-stack: 
-==> addr: 293   NOP   0    
-PC: 294 BP: 0 SP: 0
-stack: 
-==> addr: 294   NOP   0    
-PC: 295 BP: 0 SP: 0
-stack: 
-==> addr: 295   NOP   0    
-PC: 296 BP: 0 SP: 0
-stack: 
-==> addr: 296   NOP   0    
-PC: 297 BP: 0 SP: 0
-stack: 
-==> addr: 297   NOP   0    
-PC: 298 BP: 0 SP: 0
-stack: 
-==> addr: 298   NOP   0    
-PC: 299 BP: 0 SP: 0
-stack: 
-==> addr: 299   NOP   0    
-PC: 300 BP: 0 SP: 0
-stack: 
-==> addr: 300   NOP   0    
-PC: 301 BP: 0 SP: 0
-stack: 
-==> addr: 301   NOP   0    
-PC: 302 BP: 0 SP: 0
-stack: 
-==> addr: 302   NOP   0    
-PC: 303 BP: 0 SP: 0
-stack: 
-==> addr: 303   NOP   0    
-PC: 304 BP: 0 SP: 0
-stack: 
-==> addr: 304   NOP   0    
-PC: 305 BP: 0 SP: 0
-stack: 
-==> addr: 305   NOP   0    
-PC: 306 BP: 0 SP: 0
-stack: 
-==> addr: 306   NOP   0    
-PC: 307 BP: 0 SP: 0
-stack: 
-==> addr: 307   NOP   0    
-PC: 308 BP: 0 SP: 0
-stack: 
-==> addr: 308   NOP   0    
-PC: 309 BP: 0 SP: 0
-stack: 
-==> addr: 309   NOP   0    
-PC: 310 BP: 0 SP: 0
-stack: 
-==> addr: 310   NOP   0    
-PC: 311 BP: 0 SP: 0
-stack: 
-==> addr: 311   NOP   0    
-PC: 312 BP: 0 SP: 0
-stack: 
-==> addr: 312   NOP   0    
-PC: 313 BP: 0 SP: 0
-stack: 
-==> addr: 313   NOP   0    
-PC: 314 BP: 0 SP: 0
-stack: 
-==> addr: 314   NOP   0    
-PC: 315 BP: 0 SP: 0
-stack: 
-==> addr: 315   NOP   0    
-PC: 316 BP: 0 SP: 0
-stack: 
-==> addr: 316   NOP   0    
-PC: 317 BP: 0 SP: 0
-stack: 
-==> addr: 317   NOP   0    
-PC: 318 BP: 0 SP: 0
-stack: 
-==> addr: 318   NOP   0    
-PC: 319 BP: 0 SP: 0
-stack: 
-==> addr: 319   NOP   0    
-PC: 320 BP: 0 SP: 0
-stack: 
-==> addr: 320   NOP   0    
-PC: 321 BP: 0 SP: 0
-stack: 
-==> addr: 321   NOP   0    
-PC: 322 BP: 0 SP: 0
-stack: 
-==> addr: 322   NOP   0    
-PC: 323 BP: 0 SP: 0
-stack: 
-==> addr: 323   NOP   0    
-PC: 324 BP: 0 SP: 0
-stack: 
-==> addr: 324   NOP   0    
-PC: 325 BP: 0 SP: 0
-stack: 
-==> addr: 325   NOP   0    
-PC: 326 BP: 0 SP: 0
-stack: 
-==> addr: 326   NOP   0    
-PC: 327 BP: 0 SP: 0
-stack: 
-==> addr: 327   NOP   0    
-PC: 328 BP: 0 SP: 0
-stack: 
-==> addr: 328   NOP   0    
-PC: 329 BP: 0 SP: 0
-stack: 
-==> addr: 329   NOP   0    
-PC: 330 BP: 0 SP: 0
-stack: 
-==> addr: 330   NOP   0    
-PC: 331 BP: 0 SP: 0
-stack: 
-==> addr: 331   NOP   0    
-PC: 332 BP: 0 SP: 0
-stack: 
-==> addr: 332   NOP   0    
-PC: 333 BP: 0 SP: 0
-stack: 
-==> addr: 333   NOP   0    
-PC: 334 BP: 0 SP: 0
-stack: 
-==> addr: 334   NOP   0    
-PC: 335 BP: 0 SP: 0
-stack: 
-==> addr: 335   NOP   0    
-PC: 336 BP: 0 SP: 0
-stack: 
-==> addr: 336   NOP   0    
-PC: 337 BP: 0 SP: 0
-stack: 
-==> addr: 337   NOP   0    
-PC: 338 BP: 0 SP: 0
-stack: 
-==> addr: 338   NOP   0    
-PC: 339 BP: 0 SP: 0
-stack: 
-==> addr: 339   NOP   0    
-PC: 340 BP: 0 SP: 0
-stack: 
-==> addr: 340   NOP   0    
-PC: 341 BP: 0 SP: 0
-stack: 
-==> addr: 341   NOP   0    
-PC: 342 BP: 0 SP: 0
-stack: 
-==> addr: 342   NOP   0    
-PC: 343 BP: 0 SP: 0
-stack: 
-==> addr: 343   NOP   0    
-PC: 344 BP: 0 SP: 0
-stack: 
-==> addr: 344   NOP   0    
-PC: 345 BP: 0 SP: 0
-stack: 
-==> addr: 345   NOP   0    
-PC: 346 BP: 0 SP: 0
-stack: 
-==> addr: 346   NOP   0    
-PC: 347 BP: 0 SP: 0
-stack: 
-==> addr: 347   NOP   0    
-PC: 348 BP: 0 SP: 0
-stack: 
-==> addr: 348   NOP   0    
-PC: 349 BP: 0 SP: 0
-stack: 
-==> addr: 349   NOP   0    
-PC: 350 BP: 0 SP: 0
-stack: 
-==> addr: 350   NOP   0    
-PC: 351 BP: 0 SP: 0
-stack: 
-==> addr: 351   NOP   0    
-PC: 352 BP: 0 SP: 0
-stack: 
-==> addr: 352   NOP   0    
-PC: 353 BP: 0 SP: 0
-stack: 
-==> addr: 353   NOP   0    
-PC: 354 BP: 0 SP: 0
-stack: 
-==> addr: 354   NOP   0    
-PC: 355 BP: 0 SP: 0
-stack: 
-==> addr: 355   NOP   0    
-PC: 356 BP: 0 SP: 0
-stack: 
-==> addr: 356   NOP   0    
-PC: 357 BP: 0 SP: 0
-stack: 
-==> addr: 357   NOP   0    
-PC: 358 BP: 0 SP: 0
-stack: 
-==> addr: 358   NOP   0    
-PC: 359 BP: 0 SP: 0
-stack: 
-==> addr: 359   NOP   0    
-PC: 360 BP: 0 SP: 0
-stack: 
-==> addr: 360   NOP   0    
-PC: 361 BP: 0 SP: 0
-stack: 
-==> addr: 361   NOP   0    
-PC: 362 BP: 0 SP: 0
-stack: 
-==> addr: 362   NOP   0    
-PC: 363 BP: 0 SP: 0
-stack: 
-==> addr: 363   NOP   0    
-PC: 364 BP: 0 SP: 0
-stack: 
-==> addr: 364   NOP   0    
-PC: 365 BP: 0 SP: 0
-stack: 
-==> addr: 365   NOP   0    
-PC: 366 BP: 0 SP: 0
-stack: 
-==> addr: 366   NOP   0    
-PC: 367 BP: 0 SP: 0
-stack: 
-==> addr: 367   NOP   0    
-PC: 368 BP: 0 SP: 0
-stack: 
-==> addr: 368   NOP   0    
-PC: 369 BP: 0 SP: 0
-stack: 
-==> addr: 369   NOP   0    
-PC: 370 BP: 0 SP: 0
-stack: 
-==> addr: 370   NOP   0    
-PC: 371 BP: 0 SP: 0
-stack: 
-==> addr: 371   NOP   0    
-PC: 372 BP: 0 SP: 0
-stack: 
-==> addr: 372   NOP   0    
-PC: 373 BP: 0 SP: 0
-stack: 
-==> addr: 373   NOP   0    
-PC: 374 BP: 0 SP: 0
-stack: 
-==> addr: 374   NOP   0    
-PC: 375 BP: 0 SP: 0
-stack: 
-==> addr: 375   NOP   0    
-PC: 376 BP: 0 SP: 0
-stack: 
-==> addr: 376   NOP   0    
-PC: 377 BP: 0 SP: 0
-stack: 
-==> addr: 377   NOP   0    
-PC: 378 BP: 0 SP: 0
-stack: 
-==> addr: 378   NOP   0    
-PC: 379 BP: 0 SP: 0
-stack: 
-==> addr: 379   NOP   0    
-PC: 380 BP: 0 SP: 0
-stack: 
-==> addr: 380   NOP   0    
-PC: 381 BP: 0 SP: 0
-stack: 
-==> addr: 381   NOP   0    
-PC: 382 BP: 0 SP: 0
-stack: 
-==> addr: 382   NOP   0    
-PC: 383 BP: 0 SP: 0
-stack: 
-==> addr: 383   NOP   0    
-PC: 384 BP: 0 SP: 0
-stack: 
-==> addr: 384   NOP   0    
-PC: 385 BP: 0 SP: 0
-stack: 
-==> addr: 385   NOP   0    
-PC: 386 BP: 0 SP: 0
-stack: 
-==> addr: 386   NOP   0    
-PC: 387 BP: 0 SP: 0
-stack: 
-==> addr: 387   NOP   0    
-PC: 388 BP: 0 SP: 0
-stack: 
-==> addr: 388   NOP   0    
-PC: 389 BP: 0 SP: 0
-stack: 
-==> addr: 389   NOP   0    
-PC: 390 BP: 0 SP: 0
-stack: 
-==> addr: 390   NOP   0    
-PC: 391 BP: 0 SP: 0
-stack: 
-==> addr: 391   NOP   0    
-PC: 392 BP: 0 SP: 0
-stack: 
-==> addr: 392   NOP   0    
-PC: 393 BP: 0 SP: 0
-stack: 
-==> addr: 393   NOP   0    
-PC: 394 BP: 0 SP: 0
-stack: 
-==> addr: 394   NOP   0    
-PC: 395 BP: 0 SP: 0
-stack: 
-==> addr: 395   NOP   0    
-PC: 396 BP: 0 SP: 0
-stack: 
-==> addr: 396   NOP   0    
-PC: 397 BP: 0 SP: 0
-stack: 
-==> addr: 397   NOP   0    
-PC: 398 BP: 0 SP: 0
-stack: 
-==> addr: 398   NOP   0    
-PC: 399 BP: 0 SP: 0
-stack: 
-==> addr: 399   NOP   0    
-PC: 400 BP: 0 SP: 0
-stack: 
-==> addr: 400   NOP   0    
-PC: 401 BP: 0 SP: 0
-stack: 
-==> addr: 401   NOP   0    
-PC: 402 BP: 0 SP: 0
-stack: 
-==> addr: 402   NOP   0    
-PC: 403 BP: 0 SP: 0
-stack: 
-==> addr: 403   NOP   0    
-PC: 404 BP: 0 SP: 0
-stack: 
-==> addr: 404   NOP   0    
-PC: 405 BP: 0 SP: 0
-stack: 
-==> addr: 405   NOP   0    
-PC: 406 BP: 0 SP: 0
-stack: 
-==> addr: 406   NOP   0    
-PC: 407 BP: 0 SP: 0
-stack: 
-==> addr: 407   NOP   0    
-PC: 408 BP: 0 SP: 0
-stack: 
-==> addr: 408   NOP   0    
-PC: 409 BP: 0 SP: 0
-stack: 
-==> addr: 409   NOP   0    
-PC: 410 BP: 0 SP: 0
-stack: 
-==> addr: 410   NOP   0    
-PC: 411 BP: 0 SP: 0
-stack: 
-==> addr: 411   NOP   0    
-PC: 412 BP: 0 SP: 0
-stack: 
-==> addr: 412   NOP   0    
-PC: 413 BP: 0 SP: 0
-stack: 
-==> addr: 413   NOP   0    
-PC: 414 BP: 0 SP: 0
-stack: 
-==> addr: 414   NOP   0    
-PC: 415 BP: 0 SP: 0
-stack: 
-==> addr: 415   NOP   0    
-PC: 416 BP: 0 SP: 0
-stack: 
-==> addr: 416   NOP   0    
-PC: 417 BP: 0 SP: 0
-stack: 
-==> addr: 417   NOP   0    
-PC: 418 BP: 0 SP: 0
-stack: 
-==> addr: 418   NOP   0    
-PC: 419 BP: 0 SP: 0
-stack: 
-==> addr: 419   NOP   0    
-PC: 420 BP: 0 SP: 0
-stack: 
-==> addr: 420   NOP   0    
-PC: 421 BP: 0 SP: 0
-stack: 
-==> addr: 421   NOP   0    
-PC: 422 BP: 0 SP: 0
-stack: 
-==> addr: 422   NOP   0    
-PC: 423 BP: 0 SP: 0
-stack: 
-==> addr: 423   NOP   0    
-PC: 424 BP: 0 SP: 0
-stack: 
-==> addr: 424   NOP   0    
-PC: 425 BP: 0 SP: 0
-stack: 
-==> addr: 425   NOP   0    
-PC: 426 BP: 0 SP: 0
-stack: 
-==> addr: 426   NOP   0    
-PC: 427 BP: 0 SP: 0
-stack: 
-==> addr: 427   NOP   0    
-PC: 428 BP: 0 SP: 0
-stack: 
-==> addr: 428   NOP   0    
-PC: 429 BP: 0 SP: 0
-stack: 
-==> addr: 429   NOP   0    
-PC: 430 BP: 0 SP: 0
-stack: 
-==> addr: 430   NOP   0    
-PC: 431 BP: 0 SP: 0
-stack: 
-==> addr: 431   NOP   0    
-PC: 432 BP: 0 SP: 0
-stack: 
-==> addr: 432   NOP   0    
-PC: 433 BP: 0 SP: 0
-stack: 
-==> addr: 433   NOP   0    
-PC: 434 BP: 0 SP: 0
-stack: 
-==> addr: 434   NOP   0    
-PC: 435 BP: 0 SP: 0
-stack: 
-==> addr: 435   NOP   0    
-PC: 436 BP: 0 SP: 0
-stack: 
-==> addr: 436   NOP   0    
-PC: 437 BP: 0 SP: 0
-stack: 
-==> addr: 437   NOP   0    
-PC: 438 BP: 0 SP: 0
-stack: 
-==> addr: 438   NOP   0    
-PC: 439 BP: 0 SP: 0
-stack: 
-==> addr: 439   NOP   0    
-PC: 440 BP: 0 SP: 0
-stack: 
-==> addr: 440   NOP   0    
-PC: 441 BP: 0 SP: 0
-stack: 
-==> addr: 441   NOP   0    
-PC: 442 BP: 0 SP: 0
-stack: 
-==> addr: 442   NOP   0    
-PC: 443 BP: 0 SP: 0
-stack: 
-==> addr: 443   NOP   0    
-PC: 444 BP: 0 SP: 0
-stack: 
-==> addr: 444   NOP   0    
-PC: 445 BP: 0 SP: 0
-stack: 
-==> addr: 445   NOP   0    
-PC: 446 BP: 0 SP: 0
-stack: 
-==> addr: 446   NOP   0    
-PC: 447 BP: 0 SP: 0
-stack: 
-==> addr: 447   NOP   0    
-PC: 448 BP: 0 SP: 0
-stack: 
-==> addr: 448   NOP   0    
-PC: 449 BP: 0 SP: 0
-stack: 
-==> addr: 449   NOP   0    
-PC: 450 BP: 0 SP: 0
-stack: 
-==> addr: 450   NOP   0    
-PC: 451 BP: 0 SP: 0
-stack: 
-==> addr: 451   NOP   0    
-PC: 452 BP: 0 SP: 0
-stack: 
-==> addr: 452   NOP   0    
-PC: 453 BP: 0 SP: 0
-stack: 
-==> addr: 453   NOP   0    
-PC: 454 BP: 0 SP: 0
-stack: 
-==> addr: 454   NOP   0    
-PC: 455 BP: 0 SP: 0
-stack: 
-==> addr: 455   NOP   0    
-PC: 456 BP: 0 SP: 0
-stack: 
-==> addr: 456   NOP   0    
-PC: 457 BP: 0 SP: 0
-stack: 
-==> addr: 457   NOP   0    
-PC: 458 BP: 0 SP: 0
-stack: 
-==> addr: 458   NOP   0    
-PC: 459 BP: 0 SP: 0
-stack: 
-==> addr: 459   NOP   0    
-PC: 460 BP: 0 SP: 0
-stack: 
-==> addr: 460   NOP   0    
-PC: 461 BP: 0 SP: 0
-stack: 
-==> addr: 461   NOP   0    
-PC: 462 BP: 0 SP: 0
-stack: 
-==> addr: 462   NOP   0    
-PC: 463 BP: 0 SP: 0
-stack: 
-==> addr: 463   NOP   0    
-PC: 464 BP: 0 SP: 0
-stack: 
-==> addr: 464   NOP   0    
-PC: 465 BP: 0 SP: 0
-stack: 
-==> addr: 465   NOP   0    
-PC: 466 BP: 0 SP: 0
-stack: 
-==> addr: 466   NOP   0    
-PC: 467 BP: 0 SP: 0
-stack: 
-==> addr: 467   NOP   0    
-PC: 468 BP: 0 SP: 0
-stack: 
-==> addr: 468   NOP   0    
-PC: 469 BP: 0 SP: 0
-stack: 
-==> addr: 469   NOP   0    
-PC: 470 BP: 0 SP: 0
-stack: 
-==> addr: 470   NOP   0    
-PC: 471 BP: 0 SP: 0
-stack: 
-==> addr: 471   NOP   0    
-PC: 472 BP: 0 SP: 0
-stack: 
-==> addr: 472   NOP   0    
-PC: 473 BP: 0 SP: 0
-stack: 
-==> addr: 473   NOP   0    
-PC: 474 BP: 0 SP: 0
-stack: 
-==> addr: 474   NOP   0    
-PC: 475 BP: 0 SP: 0
-stack: 
-==> addr: 475   NOP   0    
-PC: 476 BP: 0 SP: 0
-stack: 
-==> addr: 476   NOP   0    
-PC: 477 BP: 0 SP: 0
-stack: 
-==> addr: 477   NOP   0    
-PC: 478 BP: 0 SP: 0
-stack: 
-==> addr: 478   NOP   0    
-PC: 479 BP: 0 SP: 0
-stack: 
-==> addr: 479   NOP   0    
-PC: 480 BP: 0 SP: 0
-stack: 
-==> addr: 480   NOP   0    
-PC: 481 BP: 0 SP: 0
-stack: 
-==> addr: 481   NOP   0    
-PC: 482 BP: 0 SP: 0
-stack: 
-==> addr: 482   NOP   0    
-PC: 483 BP: 0 SP: 0
-stack: 
-==> addr: 483   NOP   0    
-PC: 484 BP: 0 SP: 0
-stack: 
-==> addr: 484   NOP   0    
-PC: 485 BP: 0 SP: 0
-stack: 
-==> addr: 485   NOP   0    
-PC: 486 BP: 0 SP: 0
-stack: 
-==> addr: 486   NOP   0    
-PC: 487 BP: 0 SP: 0
-stack: 
-==> addr: 487   NOP   0    
-PC: 488 BP: 0 SP: 0
-stack: 
-==> addr: 488   NOP   0    
-PC: 489 BP: 0 SP: 0
-stack: 
-==> addr: 489   NOP   0    
-PC: 490 BP: 0 SP: 0
-stack: 
-==> addr: 490   NOP   0    
-PC: 491 BP: 0 SP: 0
-stack: 
-==> addr: 491   NOP   0    
-PC: 492 BP: 0 SP: 0
-stack: 
-==> addr: 492   NOP   0    
-PC: 493 BP: 0 SP: 0
-stack: 
-==> addr: 493   NOP   0    
-PC: 494 BP: 0 SP: 0
-stack: 
-==> addr: 494   NOP   0    
-PC: 495 BP: 0 SP: 0
-stack: 
-==> addr: 495   NOP   0    
-PC: 496 BP: 0 SP: 0
-stack: 
-==> addr: 496   NOP   0    
-PC: 497 BP: 0 SP: 0
-stack: 
-==> addr: 497   NOP   0    
-PC: 498 BP: 0 SP: 0
-stack: 
-==> addr: 498   NOP   0    
-PC: 499 BP: 0 SP: 0
-stack: 
-==> addr: 499   NOP   0    
-PC: 500 BP: 0 SP: 0
-stack: 
-==> addr: 500   NOP   0    
-PC: 501 BP: 0 SP: 0
-stack: 
-==> addr: 501   NOP   0    
-PC: 502 BP: 0 SP: 0
-stack: 
-==> addr: 502   NOP   0    
-PC: 503 BP: 0 SP: 0
-stack: 
-==> addr: 503   NOP   0    
-PC: 504 BP: 0 SP: 0
-stack: 
-==> addr: 504   NOP   0    
-PC: 505 BP: 0 SP: 0
-stack: 
-==> addr: 505   NOP   0    
-PC: 506 BP: 0 SP: 0
-stack: 
-==> addr: 506   NOP   0    
-PC: 507 BP: 0 SP: 0
-stack: 
-==> addr: 507   NOP   0    
-PC: 508 BP: 0 SP: 0
-stack: 
-==> addr: 508   NOP   0    
-PC: 509 BP: 0 SP: 0
-stack: 
-==> addr: 509   NOP   0    
-PC: 510 BP: 0 SP: 0
-stack: 
-==> addr: 510   NOP   0    
-PC: 511 BP: 0 SP: 0
-stack: 
-==> addr: 511   NOP   0    
-PC: 512 BP: 0 SP: 0
-stack: 
-==> addr: Illegal opcode: 512
+==> addr: 17    INC   3    
+PC: 18 BP: 0 SP: 3
+stack: S[0]: 0 S[1]: 0 S[2]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 0 SP: 4
+stack: S[0]: 0 S[1]: 0 S[2]: 0 S[3]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 4 SP: 7
+stack: S[4]: 0 S[5]: 0 S[6]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 4 SP: 10
+stack: S[4]: 0 S[5]: 0 S[6]: 20 S[7]: 0 S[8]: 0 S[9]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 4 SP: 11
+stack: S[4]: 0 S[5]: 0 S[6]: 20 S[7]: 0 S[8]: 0 S[9]: 0 S[10]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 11 SP: 14
+stack: S[11]: 0 S[12]: 4 S[13]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 11 SP: 14
+stack: S[11]: 0 S[12]: 4 S[13]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 11 SP: 17
+stack: S[11]: 0 S[12]: 4 S[13]: 20 S[14]: 0 S[15]: 0 S[16]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 11 SP: 18
+stack: S[11]: 0 S[12]: 4 S[13]: 20 S[14]: 0 S[15]: 0 S[16]: 0 S[17]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 18 SP: 21
+stack: S[18]: 0 S[19]: 11 S[20]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 18 SP: 21
+stack: S[18]: 0 S[19]: 11 S[20]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 18 SP: 24
+stack: S[18]: 0 S[19]: 11 S[20]: 20 S[21]: 0 S[22]: 0 S[23]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 18 SP: 25
+stack: S[18]: 0 S[19]: 11 S[20]: 20 S[21]: 0 S[22]: 0 S[23]: 0 S[24]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 25 SP: 28
+stack: S[25]: 0 S[26]: 18 S[27]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 25 SP: 28
+stack: S[25]: 0 S[26]: 18 S[27]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 25 SP: 31
+stack: S[25]: 0 S[26]: 18 S[27]: 20 S[28]: 0 S[29]: 0 S[30]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 25 SP: 32
+stack: S[25]: 0 S[26]: 18 S[27]: 20 S[28]: 0 S[29]: 0 S[30]: 0 S[31]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 32 SP: 35
+stack: S[32]: 0 S[33]: 25 S[34]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 32 SP: 35
+stack: S[32]: 0 S[33]: 25 S[34]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 32 SP: 38
+stack: S[32]: 0 S[33]: 25 S[34]: 20 S[35]: 0 S[36]: 0 S[37]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 32 SP: 39
+stack: S[32]: 0 S[33]: 25 S[34]: 20 S[35]: 0 S[36]: 0 S[37]: 0 S[38]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 39 SP: 42
+stack: S[39]: 0 S[40]: 32 S[41]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 39 SP: 42
+stack: S[39]: 0 S[40]: 32 S[41]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 39 SP: 45
+stack: S[39]: 0 S[40]: 32 S[41]: 20 S[42]: 0 S[43]: 0 S[44]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 39 SP: 46
+stack: S[39]: 0 S[40]: 32 S[41]: 20 S[42]: 0 S[43]: 0 S[44]: 0 S[45]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 46 SP: 49
+stack: S[46]: 0 S[47]: 39 S[48]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 46 SP: 49
+stack: S[46]: 0 S[47]: 39 S[48]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 46 SP: 52
+stack: S[46]: 0 S[47]: 39 S[48]: 20 S[49]: 0 S[50]: 0 S[51]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 46 SP: 53
+stack: S[46]: 0 S[47]: 39 S[48]: 20 S[49]: 0 S[50]: 0 S[51]: 0 S[52]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 53 SP: 56
+stack: S[53]: 0 S[54]: 46 S[55]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 53 SP: 56
+stack: S[53]: 0 S[54]: 46 S[55]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 53 SP: 59
+stack: S[53]: 0 S[54]: 46 S[55]: 20 S[56]: 0 S[57]: 0 S[58]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 53 SP: 60
+stack: S[53]: 0 S[54]: 46 S[55]: 20 S[56]: 0 S[57]: 0 S[58]: 0 S[59]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 60 SP: 63
+stack: S[60]: 0 S[61]: 53 S[62]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 60 SP: 63
+stack: S[60]: 0 S[61]: 53 S[62]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 60 SP: 66
+stack: S[60]: 0 S[61]: 53 S[62]: 20 S[63]: 0 S[64]: 0 S[65]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 60 SP: 67
+stack: S[60]: 0 S[61]: 53 S[62]: 20 S[63]: 0 S[64]: 0 S[65]: 0 S[66]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 67 SP: 70
+stack: S[67]: 0 S[68]: 60 S[69]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 67 SP: 70
+stack: S[67]: 0 S[68]: 60 S[69]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 67 SP: 73
+stack: S[67]: 0 S[68]: 60 S[69]: 20 S[70]: 0 S[71]: 0 S[72]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 67 SP: 74
+stack: S[67]: 0 S[68]: 60 S[69]: 20 S[70]: 0 S[71]: 0 S[72]: 0 S[73]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 74 SP: 77
+stack: S[74]: 0 S[75]: 67 S[76]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 74 SP: 77
+stack: S[74]: 0 S[75]: 67 S[76]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 74 SP: 80
+stack: S[74]: 0 S[75]: 67 S[76]: 20 S[77]: 0 S[78]: 0 S[79]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 74 SP: 81
+stack: S[74]: 0 S[75]: 67 S[76]: 20 S[77]: 0 S[78]: 0 S[79]: 0 S[80]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 81 SP: 84
+stack: S[81]: 0 S[82]: 74 S[83]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 81 SP: 84
+stack: S[81]: 0 S[82]: 74 S[83]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 81 SP: 87
+stack: S[81]: 0 S[82]: 74 S[83]: 20 S[84]: 0 S[85]: 0 S[86]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 81 SP: 88
+stack: S[81]: 0 S[82]: 74 S[83]: 20 S[84]: 0 S[85]: 0 S[86]: 0 S[87]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 88 SP: 91
+stack: S[88]: 0 S[89]: 81 S[90]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 88 SP: 91
+stack: S[88]: 0 S[89]: 81 S[90]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 88 SP: 94
+stack: S[88]: 0 S[89]: 81 S[90]: 20 S[91]: 0 S[92]: 0 S[93]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 88 SP: 95
+stack: S[88]: 0 S[89]: 81 S[90]: 20 S[91]: 0 S[92]: 0 S[93]: 0 S[94]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 95 SP: 98
+stack: S[95]: 0 S[96]: 88 S[97]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 95 SP: 98
+stack: S[95]: 0 S[96]: 88 S[97]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 95 SP: 101
+stack: S[95]: 0 S[96]: 88 S[97]: 20 S[98]: 0 S[99]: 0 S[100]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 95 SP: 102
+stack: S[95]: 0 S[96]: 88 S[97]: 20 S[98]: 0 S[99]: 0 S[100]: 0 S[101]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 102 SP: 105
+stack: S[102]: 0 S[103]: 95 S[104]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 102 SP: 105
+stack: S[102]: 0 S[103]: 95 S[104]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 102 SP: 108
+stack: S[102]: 0 S[103]: 95 S[104]: 20 S[105]: 0 S[106]: 0 S[107]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 102 SP: 109
+stack: S[102]: 0 S[103]: 95 S[104]: 20 S[105]: 0 S[106]: 0 S[107]: 0 S[108]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 109 SP: 112
+stack: S[109]: 0 S[110]: 102 S[111]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 109 SP: 112
+stack: S[109]: 0 S[110]: 102 S[111]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 109 SP: 115
+stack: S[109]: 0 S[110]: 102 S[111]: 20 S[112]: 0 S[113]: 0 S[114]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 109 SP: 116
+stack: S[109]: 0 S[110]: 102 S[111]: 20 S[112]: 0 S[113]: 0 S[114]: 0 S[115]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 116 SP: 119
+stack: S[116]: 0 S[117]: 109 S[118]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 116 SP: 119
+stack: S[116]: 0 S[117]: 109 S[118]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 116 SP: 122
+stack: S[116]: 0 S[117]: 109 S[118]: 20 S[119]: 0 S[120]: 0 S[121]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 116 SP: 123
+stack: S[116]: 0 S[117]: 109 S[118]: 20 S[119]: 0 S[120]: 0 S[121]: 0 S[122]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 123 SP: 126
+stack: S[123]: 0 S[124]: 116 S[125]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 123 SP: 126
+stack: S[123]: 0 S[124]: 116 S[125]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 123 SP: 129
+stack: S[123]: 0 S[124]: 116 S[125]: 20 S[126]: 0 S[127]: 0 S[128]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 123 SP: 130
+stack: S[123]: 0 S[124]: 116 S[125]: 20 S[126]: 0 S[127]: 0 S[128]: 0 S[129]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 130 SP: 133
+stack: S[130]: 0 S[131]: 123 S[132]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 130 SP: 133
+stack: S[130]: 0 S[131]: 123 S[132]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 130 SP: 136
+stack: S[130]: 0 S[131]: 123 S[132]: 20 S[133]: 0 S[134]: 0 S[135]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 130 SP: 137
+stack: S[130]: 0 S[131]: 123 S[132]: 20 S[133]: 0 S[134]: 0 S[135]: 0 S[136]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 137 SP: 140
+stack: S[137]: 0 S[138]: 130 S[139]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 137 SP: 140
+stack: S[137]: 0 S[138]: 130 S[139]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 137 SP: 143
+stack: S[137]: 0 S[138]: 130 S[139]: 20 S[140]: 0 S[141]: 0 S[142]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 137 SP: 144
+stack: S[137]: 0 S[138]: 130 S[139]: 20 S[140]: 0 S[141]: 0 S[142]: 0 S[143]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 144 SP: 147
+stack: S[144]: 0 S[145]: 137 S[146]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 144 SP: 147
+stack: S[144]: 0 S[145]: 137 S[146]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 144 SP: 150
+stack: S[144]: 0 S[145]: 137 S[146]: 20 S[147]: 0 S[148]: 0 S[149]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 144 SP: 151
+stack: S[144]: 0 S[145]: 137 S[146]: 20 S[147]: 0 S[148]: 0 S[149]: 0 S[150]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 151 SP: 154
+stack: S[151]: 0 S[152]: 144 S[153]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 151 SP: 154
+stack: S[151]: 0 S[152]: 144 S[153]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 151 SP: 157
+stack: S[151]: 0 S[152]: 144 S[153]: 20 S[154]: 0 S[155]: 0 S[156]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 151 SP: 158
+stack: S[151]: 0 S[152]: 144 S[153]: 20 S[154]: 0 S[155]: 0 S[156]: 0 S[157]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 158 SP: 161
+stack: S[158]: 0 S[159]: 151 S[160]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 158 SP: 161
+stack: S[158]: 0 S[159]: 151 S[160]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 158 SP: 164
+stack: S[158]: 0 S[159]: 151 S[160]: 20 S[161]: 0 S[162]: 0 S[163]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 158 SP: 165
+stack: S[158]: 0 S[159]: 151 S[160]: 20 S[161]: 0 S[162]: 0 S[163]: 0 S[164]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 165 SP: 168
+stack: S[165]: 0 S[166]: 158 S[167]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 165 SP: 168
+stack: S[165]: 0 S[166]: 158 S[167]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 165 SP: 171
+stack: S[165]: 0 S[166]: 158 S[167]: 20 S[168]: 0 S[169]: 0 S[170]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 165 SP: 172
+stack: S[165]: 0 S[166]: 158 S[167]: 20 S[168]: 0 S[169]: 0 S[170]: 0 S[171]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 172 SP: 175
+stack: S[172]: 0 S[173]: 165 S[174]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 172 SP: 175
+stack: S[172]: 0 S[173]: 165 S[174]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 172 SP: 178
+stack: S[172]: 0 S[173]: 165 S[174]: 20 S[175]: 0 S[176]: 0 S[177]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 172 SP: 179
+stack: S[172]: 0 S[173]: 165 S[174]: 20 S[175]: 0 S[176]: 0 S[177]: 0 S[178]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 179 SP: 182
+stack: S[179]: 0 S[180]: 172 S[181]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 179 SP: 182
+stack: S[179]: 0 S[180]: 172 S[181]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 179 SP: 185
+stack: S[179]: 0 S[180]: 172 S[181]: 20 S[182]: 0 S[183]: 0 S[184]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 179 SP: 186
+stack: S[179]: 0 S[180]: 172 S[181]: 20 S[182]: 0 S[183]: 0 S[184]: 0 S[185]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 186 SP: 189
+stack: S[186]: 0 S[187]: 179 S[188]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 186 SP: 189
+stack: S[186]: 0 S[187]: 179 S[188]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 186 SP: 192
+stack: S[186]: 0 S[187]: 179 S[188]: 20 S[189]: 0 S[190]: 0 S[191]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 186 SP: 193
+stack: S[186]: 0 S[187]: 179 S[188]: 20 S[189]: 0 S[190]: 0 S[191]: 0 S[192]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 193 SP: 196
+stack: S[193]: 0 S[194]: 186 S[195]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 193 SP: 196
+stack: S[193]: 0 S[194]: 186 S[195]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 193 SP: 199
+stack: S[193]: 0 S[194]: 186 S[195]: 20 S[196]: 0 S[197]: 0 S[198]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 193 SP: 200
+stack: S[193]: 0 S[194]: 186 S[195]: 20 S[196]: 0 S[197]: 0 S[198]: 0 S[199]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 200 SP: 203
+stack: S[200]: 0 S[201]: 193 S[202]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 200 SP: 203
+stack: S[200]: 0 S[201]: 193 S[202]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 200 SP: 206
+stack: S[200]: 0 S[201]: 193 S[202]: 20 S[203]: 0 S[204]: 0 S[205]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 200 SP: 207
+stack: S[200]: 0 S[201]: 193 S[202]: 20 S[203]: 0 S[204]: 0 S[205]: 0 S[206]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 207 SP: 210
+stack: S[207]: 0 S[208]: 200 S[209]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 207 SP: 210
+stack: S[207]: 0 S[208]: 200 S[209]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 207 SP: 213
+stack: S[207]: 0 S[208]: 200 S[209]: 20 S[210]: 0 S[211]: 0 S[212]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 207 SP: 214
+stack: S[207]: 0 S[208]: 200 S[209]: 20 S[210]: 0 S[211]: 0 S[212]: 0 S[213]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 214 SP: 217
+stack: S[214]: 0 S[215]: 207 S[216]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 214 SP: 217
+stack: S[214]: 0 S[215]: 207 S[216]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 214 SP: 220
+stack: S[214]: 0 S[215]: 207 S[216]: 20 S[217]: 0 S[218]: 0 S[219]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 214 SP: 221
+stack: S[214]: 0 S[215]: 207 S[216]: 20 S[217]: 0 S[218]: 0 S[219]: 0 S[220]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 221 SP: 224
+stack: S[221]: 0 S[222]: 214 S[223]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 221 SP: 224
+stack: S[221]: 0 S[222]: 214 S[223]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 221 SP: 227
+stack: S[221]: 0 S[222]: 214 S[223]: 20 S[224]: 0 S[225]: 0 S[226]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 221 SP: 228
+stack: S[221]: 0 S[222]: 214 S[223]: 20 S[224]: 0 S[225]: 0 S[226]: 0 S[227]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 228 SP: 231
+stack: S[228]: 0 S[229]: 221 S[230]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 228 SP: 231
+stack: S[228]: 0 S[229]: 221 S[230]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 228 SP: 234
+stack: S[228]: 0 S[229]: 221 S[230]: 20 S[231]: 0 S[232]: 0 S[233]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 228 SP: 235
+stack: S[228]: 0 S[229]: 221 S[230]: 20 S[231]: 0 S[232]: 0 S[233]: 0 S[234]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 235 SP: 238
+stack: S[235]: 0 S[236]: 228 S[237]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 235 SP: 238
+stack: S[235]: 0 S[236]: 228 S[237]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 235 SP: 241
+stack: S[235]: 0 S[236]: 228 S[237]: 20 S[238]: 0 S[239]: 0 S[240]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 235 SP: 242
+stack: S[235]: 0 S[236]: 228 S[237]: 20 S[238]: 0 S[239]: 0 S[240]: 0 S[241]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 242 SP: 245
+stack: S[242]: 0 S[243]: 235 S[244]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 242 SP: 245
+stack: S[242]: 0 S[243]: 235 S[244]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 242 SP: 248
+stack: S[242]: 0 S[243]: 235 S[244]: 20 S[245]: 0 S[246]: 0 S[247]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 242 SP: 249
+stack: S[242]: 0 S[243]: 235 S[244]: 20 S[245]: 0 S[246]: 0 S[247]: 0 S[248]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 249 SP: 252
+stack: S[249]: 0 S[250]: 242 S[251]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 249 SP: 252
+stack: S[249]: 0 S[250]: 242 S[251]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 249 SP: 255
+stack: S[249]: 0 S[250]: 242 S[251]: 20 S[252]: 0 S[253]: 0 S[254]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 249 SP: 256
+stack: S[249]: 0 S[250]: 242 S[251]: 20 S[252]: 0 S[253]: 0 S[254]: 0 S[255]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 256 SP: 259
+stack: S[256]: 0 S[257]: 249 S[258]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 256 SP: 259
+stack: S[256]: 0 S[257]: 249 S[258]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 256 SP: 262
+stack: S[256]: 0 S[257]: 249 S[258]: 20 S[259]: 0 S[260]: 0 S[261]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 256 SP: 263
+stack: S[256]: 0 S[257]: 249 S[258]: 20 S[259]: 0 S[260]: 0 S[261]: 0 S[262]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 263 SP: 266
+stack: S[263]: 0 S[264]: 256 S[265]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 263 SP: 266
+stack: S[263]: 0 S[264]: 256 S[265]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 263 SP: 269
+stack: S[263]: 0 S[264]: 256 S[265]: 20 S[266]: 0 S[267]: 0 S[268]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 263 SP: 270
+stack: S[263]: 0 S[264]: 256 S[265]: 20 S[266]: 0 S[267]: 0 S[268]: 0 S[269]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 270 SP: 273
+stack: S[270]: 0 S[271]: 263 S[272]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 270 SP: 273
+stack: S[270]: 0 S[271]: 263 S[272]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 270 SP: 276
+stack: S[270]: 0 S[271]: 263 S[272]: 20 S[273]: 0 S[274]: 0 S[275]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 270 SP: 277
+stack: S[270]: 0 S[271]: 263 S[272]: 20 S[273]: 0 S[274]: 0 S[275]: 0 S[276]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 277 SP: 280
+stack: S[277]: 0 S[278]: 270 S[279]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 277 SP: 280
+stack: S[277]: 0 S[278]: 270 S[279]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 277 SP: 283
+stack: S[277]: 0 S[278]: 270 S[279]: 20 S[280]: 0 S[281]: 0 S[282]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 277 SP: 284
+stack: S[277]: 0 S[278]: 270 S[279]: 20 S[280]: 0 S[281]: 0 S[282]: 0 S[283]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 284 SP: 287
+stack: S[284]: 0 S[285]: 277 S[286]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 284 SP: 287
+stack: S[284]: 0 S[285]: 277 S[286]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 284 SP: 290
+stack: S[284]: 0 S[285]: 277 S[286]: 20 S[287]: 0 S[288]: 0 S[289]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 284 SP: 291
+stack: S[284]: 0 S[285]: 277 S[286]: 20 S[287]: 0 S[288]: 0 S[289]: 0 S[290]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 291 SP: 294
+stack: S[291]: 0 S[292]: 284 S[293]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 291 SP: 294
+stack: S[291]: 0 S[292]: 284 S[293]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 291 SP: 297
+stack: S[291]: 0 S[292]: 284 S[293]: 20 S[294]: 0 S[295]: 0 S[296]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 291 SP: 298
+stack: S[291]: 0 S[292]: 284 S[293]: 20 S[294]: 0 S[295]: 0 S[296]: 0 S[297]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 298 SP: 301
+stack: S[298]: 0 S[299]: 291 S[300]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 298 SP: 301
+stack: S[298]: 0 S[299]: 291 S[300]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 298 SP: 304
+stack: S[298]: 0 S[299]: 291 S[300]: 20 S[301]: 0 S[302]: 0 S[303]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 298 SP: 305
+stack: S[298]: 0 S[299]: 291 S[300]: 20 S[301]: 0 S[302]: 0 S[303]: 0 S[304]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 305 SP: 308
+stack: S[305]: 0 S[306]: 298 S[307]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 305 SP: 308
+stack: S[305]: 0 S[306]: 298 S[307]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 305 SP: 311
+stack: S[305]: 0 S[306]: 298 S[307]: 20 S[308]: 0 S[309]: 0 S[310]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 305 SP: 312
+stack: S[305]: 0 S[306]: 298 S[307]: 20 S[308]: 0 S[309]: 0 S[310]: 0 S[311]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 312 SP: 315
+stack: S[312]: 0 S[313]: 305 S[314]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 312 SP: 315
+stack: S[312]: 0 S[313]: 305 S[314]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 312 SP: 318
+stack: S[312]: 0 S[313]: 305 S[314]: 20 S[315]: 0 S[316]: 0 S[317]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 312 SP: 319
+stack: S[312]: 0 S[313]: 305 S[314]: 20 S[315]: 0 S[316]: 0 S[317]: 0 S[318]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 319 SP: 322
+stack: S[319]: 0 S[320]: 312 S[321]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 319 SP: 322
+stack: S[319]: 0 S[320]: 312 S[321]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 319 SP: 325
+stack: S[319]: 0 S[320]: 312 S[321]: 20 S[322]: 0 S[323]: 0 S[324]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 319 SP: 326
+stack: S[319]: 0 S[320]: 312 S[321]: 20 S[322]: 0 S[323]: 0 S[324]: 0 S[325]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 326 SP: 329
+stack: S[326]: 0 S[327]: 319 S[328]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 326 SP: 329
+stack: S[326]: 0 S[327]: 319 S[328]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 326 SP: 332
+stack: S[326]: 0 S[327]: 319 S[328]: 20 S[329]: 0 S[330]: 0 S[331]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 326 SP: 333
+stack: S[326]: 0 S[327]: 319 S[328]: 20 S[329]: 0 S[330]: 0 S[331]: 0 S[332]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 333 SP: 336
+stack: S[333]: 0 S[334]: 326 S[335]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 333 SP: 336
+stack: S[333]: 0 S[334]: 326 S[335]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 333 SP: 339
+stack: S[333]: 0 S[334]: 326 S[335]: 20 S[336]: 0 S[337]: 0 S[338]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 333 SP: 340
+stack: S[333]: 0 S[334]: 326 S[335]: 20 S[336]: 0 S[337]: 0 S[338]: 0 S[339]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 340 SP: 343
+stack: S[340]: 0 S[341]: 333 S[342]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 340 SP: 343
+stack: S[340]: 0 S[341]: 333 S[342]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 340 SP: 346
+stack: S[340]: 0 S[341]: 333 S[342]: 20 S[343]: 0 S[344]: 0 S[345]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 340 SP: 347
+stack: S[340]: 0 S[341]: 333 S[342]: 20 S[343]: 0 S[344]: 0 S[345]: 0 S[346]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 347 SP: 350
+stack: S[347]: 0 S[348]: 340 S[349]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 347 SP: 350
+stack: S[347]: 0 S[348]: 340 S[349]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 347 SP: 353
+stack: S[347]: 0 S[348]: 340 S[349]: 20 S[350]: 0 S[351]: 0 S[352]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 347 SP: 354
+stack: S[347]: 0 S[348]: 340 S[349]: 20 S[350]: 0 S[351]: 0 S[352]: 0 S[353]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 354 SP: 357
+stack: S[354]: 0 S[355]: 347 S[356]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 354 SP: 357
+stack: S[354]: 0 S[355]: 347 S[356]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 354 SP: 360
+stack: S[354]: 0 S[355]: 347 S[356]: 20 S[357]: 0 S[358]: 0 S[359]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 354 SP: 361
+stack: S[354]: 0 S[355]: 347 S[356]: 20 S[357]: 0 S[358]: 0 S[359]: 0 S[360]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 361 SP: 364
+stack: S[361]: 0 S[362]: 354 S[363]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 361 SP: 364
+stack: S[361]: 0 S[362]: 354 S[363]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 361 SP: 367
+stack: S[361]: 0 S[362]: 354 S[363]: 20 S[364]: 0 S[365]: 0 S[366]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 361 SP: 368
+stack: S[361]: 0 S[362]: 354 S[363]: 20 S[364]: 0 S[365]: 0 S[366]: 0 S[367]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 368 SP: 371
+stack: S[368]: 0 S[369]: 361 S[370]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 368 SP: 371
+stack: S[368]: 0 S[369]: 361 S[370]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 368 SP: 374
+stack: S[368]: 0 S[369]: 361 S[370]: 20 S[371]: 0 S[372]: 0 S[373]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 368 SP: 375
+stack: S[368]: 0 S[369]: 361 S[370]: 20 S[371]: 0 S[372]: 0 S[373]: 0 S[374]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 375 SP: 378
+stack: S[375]: 0 S[376]: 368 S[377]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 375 SP: 378
+stack: S[375]: 0 S[376]: 368 S[377]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 375 SP: 381
+stack: S[375]: 0 S[376]: 368 S[377]: 20 S[378]: 0 S[379]: 0 S[380]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 375 SP: 382
+stack: S[375]: 0 S[376]: 368 S[377]: 20 S[378]: 0 S[379]: 0 S[380]: 0 S[381]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 382 SP: 385
+stack: S[382]: 0 S[383]: 375 S[384]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 382 SP: 385
+stack: S[382]: 0 S[383]: 375 S[384]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 382 SP: 388
+stack: S[382]: 0 S[383]: 375 S[384]: 20 S[385]: 0 S[386]: 0 S[387]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 382 SP: 389
+stack: S[382]: 0 S[383]: 375 S[384]: 20 S[385]: 0 S[386]: 0 S[387]: 0 S[388]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 389 SP: 392
+stack: S[389]: 0 S[390]: 382 S[391]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 389 SP: 392
+stack: S[389]: 0 S[390]: 382 S[391]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 389 SP: 395
+stack: S[389]: 0 S[390]: 382 S[391]: 20 S[392]: 0 S[393]: 0 S[394]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 389 SP: 396
+stack: S[389]: 0 S[390]: 382 S[391]: 20 S[392]: 0 S[393]: 0 S[394]: 0 S[395]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 396 SP: 399
+stack: S[396]: 0 S[397]: 389 S[398]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 396 SP: 399
+stack: S[396]: 0 S[397]: 389 S[398]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 396 SP: 402
+stack: S[396]: 0 S[397]: 389 S[398]: 20 S[399]: 0 S[400]: 0 S[401]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 396 SP: 403
+stack: S[396]: 0 S[397]: 389 S[398]: 20 S[399]: 0 S[400]: 0 S[401]: 0 S[402]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 403 SP: 406
+stack: S[403]: 0 S[404]: 396 S[405]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 403 SP: 406
+stack: S[403]: 0 S[404]: 396 S[405]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 403 SP: 409
+stack: S[403]: 0 S[404]: 396 S[405]: 20 S[406]: 0 S[407]: 0 S[408]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 403 SP: 410
+stack: S[403]: 0 S[404]: 396 S[405]: 20 S[406]: 0 S[407]: 0 S[408]: 0 S[409]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 410 SP: 413
+stack: S[410]: 0 S[411]: 403 S[412]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 410 SP: 413
+stack: S[410]: 0 S[411]: 403 S[412]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 410 SP: 416
+stack: S[410]: 0 S[411]: 403 S[412]: 20 S[413]: 0 S[414]: 0 S[415]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 410 SP: 417
+stack: S[410]: 0 S[411]: 403 S[412]: 20 S[413]: 0 S[414]: 0 S[415]: 0 S[416]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 417 SP: 420
+stack: S[417]: 0 S[418]: 410 S[419]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 417 SP: 420
+stack: S[417]: 0 S[418]: 410 S[419]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 417 SP: 423
+stack: S[417]: 0 S[418]: 410 S[419]: 20 S[420]: 0 S[421]: 0 S[422]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 417 SP: 424
+stack: S[417]: 0 S[418]: 410 S[419]: 20 S[420]: 0 S[421]: 0 S[422]: 0 S[423]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 424 SP: 427
+stack: S[424]: 0 S[425]: 417 S[426]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 424 SP: 427
+stack: S[424]: 0 S[425]: 417 S[426]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 424 SP: 430
+stack: S[424]: 0 S[425]: 417 S[426]: 20 S[427]: 0 S[428]: 0 S[429]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 424 SP: 431
+stack: S[424]: 0 S[425]: 417 S[426]: 20 S[427]: 0 S[428]: 0 S[429]: 0 S[430]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 431 SP: 434
+stack: S[431]: 0 S[432]: 424 S[433]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 431 SP: 434
+stack: S[431]: 0 S[432]: 424 S[433]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 431 SP: 437
+stack: S[431]: 0 S[432]: 424 S[433]: 20 S[434]: 0 S[435]: 0 S[436]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 431 SP: 438
+stack: S[431]: 0 S[432]: 424 S[433]: 20 S[434]: 0 S[435]: 0 S[436]: 0 S[437]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 438 SP: 441
+stack: S[438]: 0 S[439]: 431 S[440]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 438 SP: 441
+stack: S[438]: 0 S[439]: 431 S[440]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 438 SP: 444
+stack: S[438]: 0 S[439]: 431 S[440]: 20 S[441]: 0 S[442]: 0 S[443]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 438 SP: 445
+stack: S[438]: 0 S[439]: 431 S[440]: 20 S[441]: 0 S[442]: 0 S[443]: 0 S[444]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 445 SP: 448
+stack: S[445]: 0 S[446]: 438 S[447]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 445 SP: 448
+stack: S[445]: 0 S[446]: 438 S[447]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 445 SP: 451
+stack: S[445]: 0 S[446]: 438 S[447]: 20 S[448]: 0 S[449]: 0 S[450]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 445 SP: 452
+stack: S[445]: 0 S[446]: 438 S[447]: 20 S[448]: 0 S[449]: 0 S[450]: 0 S[451]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 452 SP: 455
+stack: S[452]: 0 S[453]: 445 S[454]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 452 SP: 455
+stack: S[452]: 0 S[453]: 445 S[454]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 452 SP: 458
+stack: S[452]: 0 S[453]: 445 S[454]: 20 S[455]: 0 S[456]: 0 S[457]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 452 SP: 459
+stack: S[452]: 0 S[453]: 445 S[454]: 20 S[455]: 0 S[456]: 0 S[457]: 0 S[458]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 459 SP: 462
+stack: S[459]: 0 S[460]: 452 S[461]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 459 SP: 462
+stack: S[459]: 0 S[460]: 452 S[461]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 459 SP: 465
+stack: S[459]: 0 S[460]: 452 S[461]: 20 S[462]: 0 S[463]: 0 S[464]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 459 SP: 466
+stack: S[459]: 0 S[460]: 452 S[461]: 20 S[462]: 0 S[463]: 0 S[464]: 0 S[465]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 466 SP: 469
+stack: S[466]: 0 S[467]: 459 S[468]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 466 SP: 469
+stack: S[466]: 0 S[467]: 459 S[468]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 466 SP: 472
+stack: S[466]: 0 S[467]: 459 S[468]: 20 S[469]: 0 S[470]: 0 S[471]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 466 SP: 473
+stack: S[466]: 0 S[467]: 459 S[468]: 20 S[469]: 0 S[470]: 0 S[471]: 0 S[472]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 473 SP: 476
+stack: S[473]: 0 S[474]: 466 S[475]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 473 SP: 476
+stack: S[473]: 0 S[474]: 466 S[475]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 473 SP: 479
+stack: S[473]: 0 S[474]: 466 S[475]: 20 S[476]: 0 S[477]: 0 S[478]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 473 SP: 480
+stack: S[473]: 0 S[474]: 466 S[475]: 20 S[476]: 0 S[477]: 0 S[478]: 0 S[479]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 480 SP: 483
+stack: S[480]: 0 S[481]: 473 S[482]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 480 SP: 483
+stack: S[480]: 0 S[481]: 473 S[482]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 480 SP: 486
+stack: S[480]: 0 S[481]: 473 S[482]: 20 S[483]: 0 S[484]: 0 S[485]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 480 SP: 487
+stack: S[480]: 0 S[481]: 473 S[482]: 20 S[483]: 0 S[484]: 0 S[485]: 0 S[486]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 487 SP: 490
+stack: S[487]: 0 S[488]: 480 S[489]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 487 SP: 490
+stack: S[487]: 0 S[488]: 480 S[489]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 487 SP: 493
+stack: S[487]: 0 S[488]: 480 S[489]: 20 S[490]: 0 S[491]: 0 S[492]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 487 SP: 494
+stack: S[487]: 0 S[488]: 480 S[489]: 20 S[490]: 0 S[491]: 0 S[492]: 0 S[493]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 494 SP: 497
+stack: S[494]: 0 S[495]: 487 S[496]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 494 SP: 497
+stack: S[494]: 0 S[495]: 487 S[496]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 494 SP: 500
+stack: S[494]: 0 S[495]: 487 S[496]: 20 S[497]: 0 S[498]: 0 S[499]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 494 SP: 501
+stack: S[494]: 0 S[495]: 487 S[496]: 20 S[497]: 0 S[498]: 0 S[499]: 0 S[500]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 501 SP: 504
+stack: S[501]: 0 S[502]: 494 S[503]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 501 SP: 504
+stack: S[501]: 0 S[502]: 494 S[503]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 501 SP: 507
+stack: S[501]: 0 S[502]: 494 S[503]: 20 S[504]: 0 S[505]: 0 S[506]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 501 SP: 508
+stack: S[501]: 0 S[502]: 494 S[503]: 20 S[504]: 0 S[505]: 0 S[506]: 0 S[507]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 508 SP: 511
+stack: S[508]: 0 S[509]: 501 S[510]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 508 SP: 511
+stack: S[508]: 0 S[509]: 501 S[510]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 508 SP: 514
+stack: S[508]: 0 S[509]: 501 S[510]: 20 S[511]: 0 S[512]: 0 S[513]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 508 SP: 515
+stack: S[508]: 0 S[509]: 501 S[510]: 20 S[511]: 0 S[512]: 0 S[513]: 0 S[514]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 515 SP: 518
+stack: S[515]: 0 S[516]: 508 S[517]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 515 SP: 518
+stack: S[515]: 0 S[516]: 508 S[517]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 515 SP: 521
+stack: S[515]: 0 S[516]: 508 S[517]: 20 S[518]: 0 S[519]: 0 S[520]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 515 SP: 522
+stack: S[515]: 0 S[516]: 508 S[517]: 20 S[518]: 0 S[519]: 0 S[520]: 0 S[521]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 522 SP: 525
+stack: S[522]: 0 S[523]: 515 S[524]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 522 SP: 525
+stack: S[522]: 0 S[523]: 515 S[524]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 522 SP: 528
+stack: S[522]: 0 S[523]: 515 S[524]: 20 S[525]: 0 S[526]: 0 S[527]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 522 SP: 529
+stack: S[522]: 0 S[523]: 515 S[524]: 20 S[525]: 0 S[526]: 0 S[527]: 0 S[528]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 529 SP: 532
+stack: S[529]: 0 S[530]: 522 S[531]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 529 SP: 532
+stack: S[529]: 0 S[530]: 522 S[531]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 529 SP: 535
+stack: S[529]: 0 S[530]: 522 S[531]: 20 S[532]: 0 S[533]: 0 S[534]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 529 SP: 536
+stack: S[529]: 0 S[530]: 522 S[531]: 20 S[532]: 0 S[533]: 0 S[534]: 0 S[535]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 536 SP: 539
+stack: S[536]: 0 S[537]: 529 S[538]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 536 SP: 539
+stack: S[536]: 0 S[537]: 529 S[538]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 536 SP: 542
+stack: S[536]: 0 S[537]: 529 S[538]: 20 S[539]: 0 S[540]: 0 S[541]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 536 SP: 543
+stack: S[536]: 0 S[537]: 529 S[538]: 20 S[539]: 0 S[540]: 0 S[541]: 0 S[542]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 543 SP: 546
+stack: S[543]: 0 S[544]: 536 S[545]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 543 SP: 546
+stack: S[543]: 0 S[544]: 536 S[545]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 543 SP: 549
+stack: S[543]: 0 S[544]: 536 S[545]: 20 S[546]: 0 S[547]: 0 S[548]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 543 SP: 550
+stack: S[543]: 0 S[544]: 536 S[545]: 20 S[546]: 0 S[547]: 0 S[548]: 0 S[549]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 550 SP: 553
+stack: S[550]: 0 S[551]: 543 S[552]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 550 SP: 553
+stack: S[550]: 0 S[551]: 543 S[552]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 550 SP: 556
+stack: S[550]: 0 S[551]: 543 S[552]: 20 S[553]: 0 S[554]: 0 S[555]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 550 SP: 557
+stack: S[550]: 0 S[551]: 543 S[552]: 20 S[553]: 0 S[554]: 0 S[555]: 0 S[556]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 557 SP: 560
+stack: S[557]: 0 S[558]: 550 S[559]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 557 SP: 560
+stack: S[557]: 0 S[558]: 550 S[559]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 557 SP: 563
+stack: S[557]: 0 S[558]: 550 S[559]: 20 S[560]: 0 S[561]: 0 S[562]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 557 SP: 564
+stack: S[557]: 0 S[558]: 550 S[559]: 20 S[560]: 0 S[561]: 0 S[562]: 0 S[563]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 564 SP: 567
+stack: S[564]: 0 S[565]: 557 S[566]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 564 SP: 567
+stack: S[564]: 0 S[565]: 557 S[566]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 564 SP: 570
+stack: S[564]: 0 S[565]: 557 S[566]: 20 S[567]: 0 S[568]: 0 S[569]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 564 SP: 571
+stack: S[564]: 0 S[565]: 557 S[566]: 20 S[567]: 0 S[568]: 0 S[569]: 0 S[570]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 571 SP: 574
+stack: S[571]: 0 S[572]: 564 S[573]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 571 SP: 574
+stack: S[571]: 0 S[572]: 564 S[573]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 571 SP: 577
+stack: S[571]: 0 S[572]: 564 S[573]: 20 S[574]: 0 S[575]: 0 S[576]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 571 SP: 578
+stack: S[571]: 0 S[572]: 564 S[573]: 20 S[574]: 0 S[575]: 0 S[576]: 0 S[577]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 578 SP: 581
+stack: S[578]: 0 S[579]: 571 S[580]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 578 SP: 581
+stack: S[578]: 0 S[579]: 571 S[580]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 578 SP: 584
+stack: S[578]: 0 S[579]: 571 S[580]: 20 S[581]: 0 S[582]: 0 S[583]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 578 SP: 585
+stack: S[578]: 0 S[579]: 571 S[580]: 20 S[581]: 0 S[582]: 0 S[583]: 0 S[584]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 585 SP: 588
+stack: S[585]: 0 S[586]: 578 S[587]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 585 SP: 588
+stack: S[585]: 0 S[586]: 578 S[587]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 585 SP: 591
+stack: S[585]: 0 S[586]: 578 S[587]: 20 S[588]: 0 S[589]: 0 S[590]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 585 SP: 592
+stack: S[585]: 0 S[586]: 578 S[587]: 20 S[588]: 0 S[589]: 0 S[590]: 0 S[591]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 592 SP: 595
+stack: S[592]: 0 S[593]: 585 S[594]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 592 SP: 595
+stack: S[592]: 0 S[593]: 585 S[594]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 592 SP: 598
+stack: S[592]: 0 S[593]: 585 S[594]: 20 S[595]: 0 S[596]: 0 S[597]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 592 SP: 599
+stack: S[592]: 0 S[593]: 585 S[594]: 20 S[595]: 0 S[596]: 0 S[597]: 0 S[598]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 599 SP: 602
+stack: S[599]: 0 S[600]: 592 S[601]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 599 SP: 602
+stack: S[599]: 0 S[600]: 592 S[601]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 599 SP: 605
+stack: S[599]: 0 S[600]: 592 S[601]: 20 S[602]: 0 S[603]: 0 S[604]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 599 SP: 606
+stack: S[599]: 0 S[600]: 592 S[601]: 20 S[602]: 0 S[603]: 0 S[604]: 0 S[605]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 606 SP: 609
+stack: S[606]: 0 S[607]: 599 S[608]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 606 SP: 609
+stack: S[606]: 0 S[607]: 599 S[608]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 606 SP: 612
+stack: S[606]: 0 S[607]: 599 S[608]: 20 S[609]: 0 S[610]: 0 S[611]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 606 SP: 613
+stack: S[606]: 0 S[607]: 599 S[608]: 20 S[609]: 0 S[610]: 0 S[611]: 0 S[612]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 613 SP: 616
+stack: S[613]: 0 S[614]: 606 S[615]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 613 SP: 616
+stack: S[613]: 0 S[614]: 606 S[615]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 613 SP: 619
+stack: S[613]: 0 S[614]: 606 S[615]: 20 S[616]: 0 S[617]: 0 S[618]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 613 SP: 620
+stack: S[613]: 0 S[614]: 606 S[615]: 20 S[616]: 0 S[617]: 0 S[618]: 0 S[619]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 620 SP: 623
+stack: S[620]: 0 S[621]: 613 S[622]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 620 SP: 623
+stack: S[620]: 0 S[621]: 613 S[622]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 620 SP: 626
+stack: S[620]: 0 S[621]: 613 S[622]: 20 S[623]: 0 S[624]: 0 S[625]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 620 SP: 627
+stack: S[620]: 0 S[621]: 613 S[622]: 20 S[623]: 0 S[624]: 0 S[625]: 0 S[626]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 627 SP: 630
+stack: S[627]: 0 S[628]: 620 S[629]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 627 SP: 630
+stack: S[627]: 0 S[628]: 620 S[629]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 627 SP: 633
+stack: S[627]: 0 S[628]: 620 S[629]: 20 S[630]: 0 S[631]: 0 S[632]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 627 SP: 634
+stack: S[627]: 0 S[628]: 620 S[629]: 20 S[630]: 0 S[631]: 0 S[632]: 0 S[633]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 634 SP: 637
+stack: S[634]: 0 S[635]: 627 S[636]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 634 SP: 637
+stack: S[634]: 0 S[635]: 627 S[636]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 634 SP: 640
+stack: S[634]: 0 S[635]: 627 S[636]: 20 S[637]: 0 S[638]: 0 S[639]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 634 SP: 641
+stack: S[634]: 0 S[635]: 627 S[636]: 20 S[637]: 0 S[638]: 0 S[639]: 0 S[640]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 641 SP: 644
+stack: S[641]: 0 S[642]: 634 S[643]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 641 SP: 644
+stack: S[641]: 0 S[642]: 634 S[643]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 641 SP: 647
+stack: S[641]: 0 S[642]: 634 S[643]: 20 S[644]: 0 S[645]: 0 S[646]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 641 SP: 648
+stack: S[641]: 0 S[642]: 634 S[643]: 20 S[644]: 0 S[645]: 0 S[646]: 0 S[647]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 648 SP: 651
+stack: S[648]: 0 S[649]: 641 S[650]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 648 SP: 651
+stack: S[648]: 0 S[649]: 641 S[650]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 648 SP: 654
+stack: S[648]: 0 S[649]: 641 S[650]: 20 S[651]: 0 S[652]: 0 S[653]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 648 SP: 655
+stack: S[648]: 0 S[649]: 641 S[650]: 20 S[651]: 0 S[652]: 0 S[653]: 0 S[654]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 655 SP: 658
+stack: S[655]: 0 S[656]: 648 S[657]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 655 SP: 658
+stack: S[655]: 0 S[656]: 648 S[657]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 655 SP: 661
+stack: S[655]: 0 S[656]: 648 S[657]: 20 S[658]: 0 S[659]: 0 S[660]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 655 SP: 662
+stack: S[655]: 0 S[656]: 648 S[657]: 20 S[658]: 0 S[659]: 0 S[660]: 0 S[661]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 662 SP: 665
+stack: S[662]: 0 S[663]: 655 S[664]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 662 SP: 665
+stack: S[662]: 0 S[663]: 655 S[664]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 662 SP: 668
+stack: S[662]: 0 S[663]: 655 S[664]: 20 S[665]: 0 S[666]: 0 S[667]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 662 SP: 669
+stack: S[662]: 0 S[663]: 655 S[664]: 20 S[665]: 0 S[666]: 0 S[667]: 0 S[668]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 669 SP: 672
+stack: S[669]: 0 S[670]: 662 S[671]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 669 SP: 672
+stack: S[669]: 0 S[670]: 662 S[671]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 669 SP: 675
+stack: S[669]: 0 S[670]: 662 S[671]: 20 S[672]: 0 S[673]: 0 S[674]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 669 SP: 676
+stack: S[669]: 0 S[670]: 662 S[671]: 20 S[672]: 0 S[673]: 0 S[674]: 0 S[675]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 676 SP: 679
+stack: S[676]: 0 S[677]: 669 S[678]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 676 SP: 679
+stack: S[676]: 0 S[677]: 669 S[678]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 676 SP: 682
+stack: S[676]: 0 S[677]: 669 S[678]: 20 S[679]: 0 S[680]: 0 S[681]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 676 SP: 683
+stack: S[676]: 0 S[677]: 669 S[678]: 20 S[679]: 0 S[680]: 0 S[681]: 0 S[682]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 683 SP: 686
+stack: S[683]: 0 S[684]: 676 S[685]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 683 SP: 686
+stack: S[683]: 0 S[684]: 676 S[685]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 683 SP: 689
+stack: S[683]: 0 S[684]: 676 S[685]: 20 S[686]: 0 S[687]: 0 S[688]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 683 SP: 690
+stack: S[683]: 0 S[684]: 676 S[685]: 20 S[686]: 0 S[687]: 0 S[688]: 0 S[689]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 690 SP: 693
+stack: S[690]: 0 S[691]: 683 S[692]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 690 SP: 693
+stack: S[690]: 0 S[691]: 683 S[692]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 690 SP: 696
+stack: S[690]: 0 S[691]: 683 S[692]: 20 S[693]: 0 S[694]: 0 S[695]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 690 SP: 697
+stack: S[690]: 0 S[691]: 683 S[692]: 20 S[693]: 0 S[694]: 0 S[695]: 0 S[696]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 697 SP: 700
+stack: S[697]: 0 S[698]: 690 S[699]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 697 SP: 700
+stack: S[697]: 0 S[698]: 690 S[699]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 697 SP: 703
+stack: S[697]: 0 S[698]: 690 S[699]: 20 S[700]: 0 S[701]: 0 S[702]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 697 SP: 704
+stack: S[697]: 0 S[698]: 690 S[699]: 20 S[700]: 0 S[701]: 0 S[702]: 0 S[703]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 704 SP: 707
+stack: S[704]: 0 S[705]: 697 S[706]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 704 SP: 707
+stack: S[704]: 0 S[705]: 697 S[706]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 704 SP: 710
+stack: S[704]: 0 S[705]: 697 S[706]: 20 S[707]: 0 S[708]: 0 S[709]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 704 SP: 711
+stack: S[704]: 0 S[705]: 697 S[706]: 20 S[707]: 0 S[708]: 0 S[709]: 0 S[710]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 711 SP: 714
+stack: S[711]: 0 S[712]: 704 S[713]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 711 SP: 714
+stack: S[711]: 0 S[712]: 704 S[713]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 711 SP: 717
+stack: S[711]: 0 S[712]: 704 S[713]: 20 S[714]: 0 S[715]: 0 S[716]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 711 SP: 718
+stack: S[711]: 0 S[712]: 704 S[713]: 20 S[714]: 0 S[715]: 0 S[716]: 0 S[717]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 718 SP: 721
+stack: S[718]: 0 S[719]: 711 S[720]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 718 SP: 721
+stack: S[718]: 0 S[719]: 711 S[720]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 718 SP: 724
+stack: S[718]: 0 S[719]: 711 S[720]: 20 S[721]: 0 S[722]: 0 S[723]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 718 SP: 725
+stack: S[718]: 0 S[719]: 711 S[720]: 20 S[721]: 0 S[722]: 0 S[723]: 0 S[724]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 725 SP: 728
+stack: S[725]: 0 S[726]: 718 S[727]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 725 SP: 728
+stack: S[725]: 0 S[726]: 718 S[727]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 725 SP: 731
+stack: S[725]: 0 S[726]: 718 S[727]: 20 S[728]: 0 S[729]: 0 S[730]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 725 SP: 732
+stack: S[725]: 0 S[726]: 718 S[727]: 20 S[728]: 0 S[729]: 0 S[730]: 0 S[731]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 732 SP: 735
+stack: S[732]: 0 S[733]: 725 S[734]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 732 SP: 735
+stack: S[732]: 0 S[733]: 725 S[734]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 732 SP: 738
+stack: S[732]: 0 S[733]: 725 S[734]: 20 S[735]: 0 S[736]: 0 S[737]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 732 SP: 739
+stack: S[732]: 0 S[733]: 725 S[734]: 20 S[735]: 0 S[736]: 0 S[737]: 0 S[738]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 739 SP: 742
+stack: S[739]: 0 S[740]: 732 S[741]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 739 SP: 742
+stack: S[739]: 0 S[740]: 732 S[741]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 739 SP: 745
+stack: S[739]: 0 S[740]: 732 S[741]: 20 S[742]: 0 S[743]: 0 S[744]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 739 SP: 746
+stack: S[739]: 0 S[740]: 732 S[741]: 20 S[742]: 0 S[743]: 0 S[744]: 0 S[745]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 746 SP: 749
+stack: S[746]: 0 S[747]: 739 S[748]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 746 SP: 749
+stack: S[746]: 0 S[747]: 739 S[748]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 746 SP: 752
+stack: S[746]: 0 S[747]: 739 S[748]: 20 S[749]: 0 S[750]: 0 S[751]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 746 SP: 753
+stack: S[746]: 0 S[747]: 739 S[748]: 20 S[749]: 0 S[750]: 0 S[751]: 0 S[752]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 753 SP: 756
+stack: S[753]: 0 S[754]: 746 S[755]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 753 SP: 756
+stack: S[753]: 0 S[754]: 746 S[755]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 753 SP: 759
+stack: S[753]: 0 S[754]: 746 S[755]: 20 S[756]: 0 S[757]: 0 S[758]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 753 SP: 760
+stack: S[753]: 0 S[754]: 746 S[755]: 20 S[756]: 0 S[757]: 0 S[758]: 0 S[759]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 760 SP: 763
+stack: S[760]: 0 S[761]: 753 S[762]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 760 SP: 763
+stack: S[760]: 0 S[761]: 753 S[762]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 760 SP: 766
+stack: S[760]: 0 S[761]: 753 S[762]: 20 S[763]: 0 S[764]: 0 S[765]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 760 SP: 767
+stack: S[760]: 0 S[761]: 753 S[762]: 20 S[763]: 0 S[764]: 0 S[765]: 0 S[766]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 767 SP: 770
+stack: S[767]: 0 S[768]: 760 S[769]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 767 SP: 770
+stack: S[767]: 0 S[768]: 760 S[769]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 767 SP: 773
+stack: S[767]: 0 S[768]: 760 S[769]: 20 S[770]: 0 S[771]: 0 S[772]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 767 SP: 774
+stack: S[767]: 0 S[768]: 760 S[769]: 20 S[770]: 0 S[771]: 0 S[772]: 0 S[773]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 774 SP: 777
+stack: S[774]: 0 S[775]: 767 S[776]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 774 SP: 777
+stack: S[774]: 0 S[775]: 767 S[776]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 774 SP: 780
+stack: S[774]: 0 S[775]: 767 S[776]: 20 S[777]: 0 S[778]: 0 S[779]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 774 SP: 781
+stack: S[774]: 0 S[775]: 767 S[776]: 20 S[777]: 0 S[778]: 0 S[779]: 0 S[780]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 781 SP: 784
+stack: S[781]: 0 S[782]: 774 S[783]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 781 SP: 784
+stack: S[781]: 0 S[782]: 774 S[783]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 781 SP: 787
+stack: S[781]: 0 S[782]: 774 S[783]: 20 S[784]: 0 S[785]: 0 S[786]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 781 SP: 788
+stack: S[781]: 0 S[782]: 774 S[783]: 20 S[784]: 0 S[785]: 0 S[786]: 0 S[787]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 788 SP: 791
+stack: S[788]: 0 S[789]: 781 S[790]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 788 SP: 791
+stack: S[788]: 0 S[789]: 781 S[790]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 788 SP: 794
+stack: S[788]: 0 S[789]: 781 S[790]: 20 S[791]: 0 S[792]: 0 S[793]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 788 SP: 795
+stack: S[788]: 0 S[789]: 781 S[790]: 20 S[791]: 0 S[792]: 0 S[793]: 0 S[794]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 795 SP: 798
+stack: S[795]: 0 S[796]: 788 S[797]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 795 SP: 798
+stack: S[795]: 0 S[796]: 788 S[797]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 795 SP: 801
+stack: S[795]: 0 S[796]: 788 S[797]: 20 S[798]: 0 S[799]: 0 S[800]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 795 SP: 802
+stack: S[795]: 0 S[796]: 788 S[797]: 20 S[798]: 0 S[799]: 0 S[800]: 0 S[801]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 802 SP: 805
+stack: S[802]: 0 S[803]: 795 S[804]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 802 SP: 805
+stack: S[802]: 0 S[803]: 795 S[804]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 802 SP: 808
+stack: S[802]: 0 S[803]: 795 S[804]: 20 S[805]: 0 S[806]: 0 S[807]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 802 SP: 809
+stack: S[802]: 0 S[803]: 795 S[804]: 20 S[805]: 0 S[806]: 0 S[807]: 0 S[808]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 809 SP: 812
+stack: S[809]: 0 S[810]: 802 S[811]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 809 SP: 812
+stack: S[809]: 0 S[810]: 802 S[811]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 809 SP: 815
+stack: S[809]: 0 S[810]: 802 S[811]: 20 S[812]: 0 S[813]: 0 S[814]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 809 SP: 816
+stack: S[809]: 0 S[810]: 802 S[811]: 20 S[812]: 0 S[813]: 0 S[814]: 0 S[815]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 816 SP: 819
+stack: S[816]: 0 S[817]: 809 S[818]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 816 SP: 819
+stack: S[816]: 0 S[817]: 809 S[818]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 816 SP: 822
+stack: S[816]: 0 S[817]: 809 S[818]: 20 S[819]: 0 S[820]: 0 S[821]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 816 SP: 823
+stack: S[816]: 0 S[817]: 809 S[818]: 20 S[819]: 0 S[820]: 0 S[821]: 0 S[822]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 823 SP: 826
+stack: S[823]: 0 S[824]: 816 S[825]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 823 SP: 826
+stack: S[823]: 0 S[824]: 816 S[825]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 823 SP: 829
+stack: S[823]: 0 S[824]: 816 S[825]: 20 S[826]: 0 S[827]: 0 S[828]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 823 SP: 830
+stack: S[823]: 0 S[824]: 816 S[825]: 20 S[826]: 0 S[827]: 0 S[828]: 0 S[829]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 830 SP: 833
+stack: S[830]: 0 S[831]: 823 S[832]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 830 SP: 833
+stack: S[830]: 0 S[831]: 823 S[832]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 830 SP: 836
+stack: S[830]: 0 S[831]: 823 S[832]: 20 S[833]: 0 S[834]: 0 S[835]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 830 SP: 837
+stack: S[830]: 0 S[831]: 823 S[832]: 20 S[833]: 0 S[834]: 0 S[835]: 0 S[836]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 837 SP: 840
+stack: S[837]: 0 S[838]: 830 S[839]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 837 SP: 840
+stack: S[837]: 0 S[838]: 830 S[839]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 837 SP: 843
+stack: S[837]: 0 S[838]: 830 S[839]: 20 S[840]: 0 S[841]: 0 S[842]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 837 SP: 844
+stack: S[837]: 0 S[838]: 830 S[839]: 20 S[840]: 0 S[841]: 0 S[842]: 0 S[843]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 844 SP: 847
+stack: S[844]: 0 S[845]: 837 S[846]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 844 SP: 847
+stack: S[844]: 0 S[845]: 837 S[846]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 844 SP: 850
+stack: S[844]: 0 S[845]: 837 S[846]: 20 S[847]: 0 S[848]: 0 S[849]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 844 SP: 851
+stack: S[844]: 0 S[845]: 837 S[846]: 20 S[847]: 0 S[848]: 0 S[849]: 0 S[850]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 851 SP: 854
+stack: S[851]: 0 S[852]: 844 S[853]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 851 SP: 854
+stack: S[851]: 0 S[852]: 844 S[853]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 851 SP: 857
+stack: S[851]: 0 S[852]: 844 S[853]: 20 S[854]: 0 S[855]: 0 S[856]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 851 SP: 858
+stack: S[851]: 0 S[852]: 844 S[853]: 20 S[854]: 0 S[855]: 0 S[856]: 0 S[857]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 858 SP: 861
+stack: S[858]: 0 S[859]: 851 S[860]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 858 SP: 861
+stack: S[858]: 0 S[859]: 851 S[860]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 858 SP: 864
+stack: S[858]: 0 S[859]: 851 S[860]: 20 S[861]: 0 S[862]: 0 S[863]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 858 SP: 865
+stack: S[858]: 0 S[859]: 851 S[860]: 20 S[861]: 0 S[862]: 0 S[863]: 0 S[864]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 865 SP: 868
+stack: S[865]: 0 S[866]: 858 S[867]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 865 SP: 868
+stack: S[865]: 0 S[866]: 858 S[867]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 865 SP: 871
+stack: S[865]: 0 S[866]: 858 S[867]: 20 S[868]: 0 S[869]: 0 S[870]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 865 SP: 872
+stack: S[865]: 0 S[866]: 858 S[867]: 20 S[868]: 0 S[869]: 0 S[870]: 0 S[871]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 872 SP: 875
+stack: S[872]: 0 S[873]: 865 S[874]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 872 SP: 875
+stack: S[872]: 0 S[873]: 865 S[874]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 872 SP: 878
+stack: S[872]: 0 S[873]: 865 S[874]: 20 S[875]: 0 S[876]: 0 S[877]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 872 SP: 879
+stack: S[872]: 0 S[873]: 865 S[874]: 20 S[875]: 0 S[876]: 0 S[877]: 0 S[878]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 879 SP: 882
+stack: S[879]: 0 S[880]: 872 S[881]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 879 SP: 882
+stack: S[879]: 0 S[880]: 872 S[881]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 879 SP: 885
+stack: S[879]: 0 S[880]: 872 S[881]: 20 S[882]: 0 S[883]: 0 S[884]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 879 SP: 886
+stack: S[879]: 0 S[880]: 872 S[881]: 20 S[882]: 0 S[883]: 0 S[884]: 0 S[885]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 886 SP: 889
+stack: S[886]: 0 S[887]: 879 S[888]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 886 SP: 889
+stack: S[886]: 0 S[887]: 879 S[888]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 886 SP: 892
+stack: S[886]: 0 S[887]: 879 S[888]: 20 S[889]: 0 S[890]: 0 S[891]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 886 SP: 893
+stack: S[886]: 0 S[887]: 879 S[888]: 20 S[889]: 0 S[890]: 0 S[891]: 0 S[892]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 893 SP: 896
+stack: S[893]: 0 S[894]: 886 S[895]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 893 SP: 896
+stack: S[893]: 0 S[894]: 886 S[895]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 893 SP: 899
+stack: S[893]: 0 S[894]: 886 S[895]: 20 S[896]: 0 S[897]: 0 S[898]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 893 SP: 900
+stack: S[893]: 0 S[894]: 886 S[895]: 20 S[896]: 0 S[897]: 0 S[898]: 0 S[899]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 900 SP: 903
+stack: S[900]: 0 S[901]: 893 S[902]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 900 SP: 903
+stack: S[900]: 0 S[901]: 893 S[902]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 900 SP: 906
+stack: S[900]: 0 S[901]: 893 S[902]: 20 S[903]: 0 S[904]: 0 S[905]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 900 SP: 907
+stack: S[900]: 0 S[901]: 893 S[902]: 20 S[903]: 0 S[904]: 0 S[905]: 0 S[906]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 907 SP: 910
+stack: S[907]: 0 S[908]: 900 S[909]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 907 SP: 910
+stack: S[907]: 0 S[908]: 900 S[909]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 907 SP: 913
+stack: S[907]: 0 S[908]: 900 S[909]: 20 S[910]: 0 S[911]: 0 S[912]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 907 SP: 914
+stack: S[907]: 0 S[908]: 900 S[909]: 20 S[910]: 0 S[911]: 0 S[912]: 0 S[913]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 914 SP: 917
+stack: S[914]: 0 S[915]: 907 S[916]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 914 SP: 917
+stack: S[914]: 0 S[915]: 907 S[916]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 914 SP: 920
+stack: S[914]: 0 S[915]: 907 S[916]: 20 S[917]: 0 S[918]: 0 S[919]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 914 SP: 921
+stack: S[914]: 0 S[915]: 907 S[916]: 20 S[917]: 0 S[918]: 0 S[919]: 0 S[920]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 921 SP: 924
+stack: S[921]: 0 S[922]: 914 S[923]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 921 SP: 924
+stack: S[921]: 0 S[922]: 914 S[923]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 921 SP: 927
+stack: S[921]: 0 S[922]: 914 S[923]: 20 S[924]: 0 S[925]: 0 S[926]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 921 SP: 928
+stack: S[921]: 0 S[922]: 914 S[923]: 20 S[924]: 0 S[925]: 0 S[926]: 0 S[927]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 928 SP: 931
+stack: S[928]: 0 S[929]: 921 S[930]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 928 SP: 931
+stack: S[928]: 0 S[929]: 921 S[930]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 928 SP: 934
+stack: S[928]: 0 S[929]: 921 S[930]: 20 S[931]: 0 S[932]: 0 S[933]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 928 SP: 935
+stack: S[928]: 0 S[929]: 921 S[930]: 20 S[931]: 0 S[932]: 0 S[933]: 0 S[934]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 935 SP: 938
+stack: S[935]: 0 S[936]: 928 S[937]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 935 SP: 938
+stack: S[935]: 0 S[936]: 928 S[937]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 935 SP: 941
+stack: S[935]: 0 S[936]: 928 S[937]: 20 S[938]: 0 S[939]: 0 S[940]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 935 SP: 942
+stack: S[935]: 0 S[936]: 928 S[937]: 20 S[938]: 0 S[939]: 0 S[940]: 0 S[941]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 942 SP: 945
+stack: S[942]: 0 S[943]: 935 S[944]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 942 SP: 945
+stack: S[942]: 0 S[943]: 935 S[944]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 942 SP: 948
+stack: S[942]: 0 S[943]: 935 S[944]: 20 S[945]: 0 S[946]: 0 S[947]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 942 SP: 949
+stack: S[942]: 0 S[943]: 935 S[944]: 20 S[945]: 0 S[946]: 0 S[947]: 0 S[948]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 949 SP: 952
+stack: S[949]: 0 S[950]: 942 S[951]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 949 SP: 952
+stack: S[949]: 0 S[950]: 942 S[951]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 949 SP: 955
+stack: S[949]: 0 S[950]: 942 S[951]: 20 S[952]: 0 S[953]: 0 S[954]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 949 SP: 956
+stack: S[949]: 0 S[950]: 942 S[951]: 20 S[952]: 0 S[953]: 0 S[954]: 0 S[955]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 956 SP: 959
+stack: S[956]: 0 S[957]: 949 S[958]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 956 SP: 959
+stack: S[956]: 0 S[957]: 949 S[958]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 956 SP: 962
+stack: S[956]: 0 S[957]: 949 S[958]: 20 S[959]: 0 S[960]: 0 S[961]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 956 SP: 963
+stack: S[956]: 0 S[957]: 949 S[958]: 20 S[959]: 0 S[960]: 0 S[961]: 0 S[962]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 963 SP: 966
+stack: S[963]: 0 S[964]: 956 S[965]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 963 SP: 966
+stack: S[963]: 0 S[964]: 956 S[965]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 963 SP: 969
+stack: S[963]: 0 S[964]: 956 S[965]: 20 S[966]: 0 S[967]: 0 S[968]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 963 SP: 970
+stack: S[963]: 0 S[964]: 956 S[965]: 20 S[966]: 0 S[967]: 0 S[968]: 0 S[969]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 970 SP: 973
+stack: S[970]: 0 S[971]: 963 S[972]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 970 SP: 973
+stack: S[970]: 0 S[971]: 963 S[972]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 970 SP: 976
+stack: S[970]: 0 S[971]: 963 S[972]: 20 S[973]: 0 S[974]: 0 S[975]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 970 SP: 977
+stack: S[970]: 0 S[971]: 963 S[972]: 20 S[973]: 0 S[974]: 0 S[975]: 0 S[976]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 977 SP: 980
+stack: S[977]: 0 S[978]: 970 S[979]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 977 SP: 980
+stack: S[977]: 0 S[978]: 970 S[979]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 977 SP: 983
+stack: S[977]: 0 S[978]: 970 S[979]: 20 S[980]: 0 S[981]: 0 S[982]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 977 SP: 984
+stack: S[977]: 0 S[978]: 970 S[979]: 20 S[980]: 0 S[981]: 0 S[982]: 0 S[983]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 984 SP: 987
+stack: S[984]: 0 S[985]: 977 S[986]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 984 SP: 987
+stack: S[984]: 0 S[985]: 977 S[986]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 984 SP: 990
+stack: S[984]: 0 S[985]: 977 S[986]: 20 S[987]: 0 S[988]: 0 S[989]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 984 SP: 991
+stack: S[984]: 0 S[985]: 977 S[986]: 20 S[987]: 0 S[988]: 0 S[989]: 0 S[990]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 991 SP: 994
+stack: S[991]: 0 S[992]: 984 S[993]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 991 SP: 994
+stack: S[991]: 0 S[992]: 984 S[993]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 991 SP: 997
+stack: S[991]: 0 S[992]: 984 S[993]: 20 S[994]: 0 S[995]: 0 S[996]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 991 SP: 998
+stack: S[991]: 0 S[992]: 984 S[993]: 20 S[994]: 0 S[995]: 0 S[996]: 0 S[997]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 998 SP: 1001
+stack: S[998]: 0 S[999]: 991 S[1000]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 998 SP: 1001
+stack: S[998]: 0 S[999]: 991 S[1000]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 998 SP: 1004
+stack: S[998]: 0 S[999]: 991 S[1000]: 20 S[1001]: 0 S[1002]: 0 S[1003]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 998 SP: 1005
+stack: S[998]: 0 S[999]: 991 S[1000]: 20 S[1001]: 0 S[1002]: 0 S[1003]: 0 S[1004]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1005 SP: 1008
+stack: S[1005]: 0 S[1006]: 998 S[1007]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1005 SP: 1008
+stack: S[1005]: 0 S[1006]: 998 S[1007]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1005 SP: 1011
+stack: S[1005]: 0 S[1006]: 998 S[1007]: 20 S[1008]: 0 S[1009]: 0 S[1010]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1005 SP: 1012
+stack: S[1005]: 0 S[1006]: 998 S[1007]: 20 S[1008]: 0 S[1009]: 0 S[1010]: 0 S[1011]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1012 SP: 1015
+stack: S[1012]: 0 S[1013]: 1005 S[1014]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1012 SP: 1015
+stack: S[1012]: 0 S[1013]: 1005 S[1014]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1012 SP: 1018
+stack: S[1012]: 0 S[1013]: 1005 S[1014]: 20 S[1015]: 0 S[1016]: 0 S[1017]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1012 SP: 1019
+stack: S[1012]: 0 S[1013]: 1005 S[1014]: 20 S[1015]: 0 S[1016]: 0 S[1017]: 0 S[1018]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1019 SP: 1022
+stack: S[1019]: 0 S[1020]: 1012 S[1021]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1019 SP: 1022
+stack: S[1019]: 0 S[1020]: 1012 S[1021]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1019 SP: 1025
+stack: S[1019]: 0 S[1020]: 1012 S[1021]: 20 S[1022]: 0 S[1023]: 0 S[1024]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1019 SP: 1026
+stack: S[1019]: 0 S[1020]: 1012 S[1021]: 20 S[1022]: 0 S[1023]: 0 S[1024]: 0 S[1025]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1026 SP: 1029
+stack: S[1026]: 0 S[1027]: 1019 S[1028]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1026 SP: 1029
+stack: S[1026]: 0 S[1027]: 1019 S[1028]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1026 SP: 1032
+stack: S[1026]: 0 S[1027]: 1019 S[1028]: 20 S[1029]: 0 S[1030]: 0 S[1031]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1026 SP: 1033
+stack: S[1026]: 0 S[1027]: 1019 S[1028]: 20 S[1029]: 0 S[1030]: 0 S[1031]: 0 S[1032]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1033 SP: 1036
+stack: S[1033]: 0 S[1034]: 1026 S[1035]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1033 SP: 1036
+stack: S[1033]: 0 S[1034]: 1026 S[1035]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1033 SP: 1039
+stack: S[1033]: 0 S[1034]: 1026 S[1035]: 20 S[1036]: 0 S[1037]: 0 S[1038]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1033 SP: 1040
+stack: S[1033]: 0 S[1034]: 1026 S[1035]: 20 S[1036]: 0 S[1037]: 0 S[1038]: 0 S[1039]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1040 SP: 1043
+stack: S[1040]: 0 S[1041]: 1033 S[1042]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1040 SP: 1043
+stack: S[1040]: 0 S[1041]: 1033 S[1042]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1040 SP: 1046
+stack: S[1040]: 0 S[1041]: 1033 S[1042]: 20 S[1043]: 0 S[1044]: 0 S[1045]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1040 SP: 1047
+stack: S[1040]: 0 S[1041]: 1033 S[1042]: 20 S[1043]: 0 S[1044]: 0 S[1045]: 0 S[1046]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1047 SP: 1050
+stack: S[1047]: 0 S[1048]: 1040 S[1049]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1047 SP: 1050
+stack: S[1047]: 0 S[1048]: 1040 S[1049]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1047 SP: 1053
+stack: S[1047]: 0 S[1048]: 1040 S[1049]: 20 S[1050]: 0 S[1051]: 0 S[1052]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1047 SP: 1054
+stack: S[1047]: 0 S[1048]: 1040 S[1049]: 20 S[1050]: 0 S[1051]: 0 S[1052]: 0 S[1053]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1054 SP: 1057
+stack: S[1054]: 0 S[1055]: 1047 S[1056]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1054 SP: 1057
+stack: S[1054]: 0 S[1055]: 1047 S[1056]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1054 SP: 1060
+stack: S[1054]: 0 S[1055]: 1047 S[1056]: 20 S[1057]: 0 S[1058]: 0 S[1059]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1054 SP: 1061
+stack: S[1054]: 0 S[1055]: 1047 S[1056]: 20 S[1057]: 0 S[1058]: 0 S[1059]: 0 S[1060]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1061 SP: 1064
+stack: S[1061]: 0 S[1062]: 1054 S[1063]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1061 SP: 1064
+stack: S[1061]: 0 S[1062]: 1054 S[1063]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1061 SP: 1067
+stack: S[1061]: 0 S[1062]: 1054 S[1063]: 20 S[1064]: 0 S[1065]: 0 S[1066]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1061 SP: 1068
+stack: S[1061]: 0 S[1062]: 1054 S[1063]: 20 S[1064]: 0 S[1065]: 0 S[1066]: 0 S[1067]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1068 SP: 1071
+stack: S[1068]: 0 S[1069]: 1061 S[1070]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1068 SP: 1071
+stack: S[1068]: 0 S[1069]: 1061 S[1070]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1068 SP: 1074
+stack: S[1068]: 0 S[1069]: 1061 S[1070]: 20 S[1071]: 0 S[1072]: 0 S[1073]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1068 SP: 1075
+stack: S[1068]: 0 S[1069]: 1061 S[1070]: 20 S[1071]: 0 S[1072]: 0 S[1073]: 0 S[1074]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1075 SP: 1078
+stack: S[1075]: 0 S[1076]: 1068 S[1077]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1075 SP: 1078
+stack: S[1075]: 0 S[1076]: 1068 S[1077]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1075 SP: 1081
+stack: S[1075]: 0 S[1076]: 1068 S[1077]: 20 S[1078]: 0 S[1079]: 0 S[1080]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1075 SP: 1082
+stack: S[1075]: 0 S[1076]: 1068 S[1077]: 20 S[1078]: 0 S[1079]: 0 S[1080]: 0 S[1081]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1082 SP: 1085
+stack: S[1082]: 0 S[1083]: 1075 S[1084]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1082 SP: 1085
+stack: S[1082]: 0 S[1083]: 1075 S[1084]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1082 SP: 1088
+stack: S[1082]: 0 S[1083]: 1075 S[1084]: 20 S[1085]: 0 S[1086]: 0 S[1087]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1082 SP: 1089
+stack: S[1082]: 0 S[1083]: 1075 S[1084]: 20 S[1085]: 0 S[1086]: 0 S[1087]: 0 S[1088]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1089 SP: 1092
+stack: S[1089]: 0 S[1090]: 1082 S[1091]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1089 SP: 1092
+stack: S[1089]: 0 S[1090]: 1082 S[1091]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1089 SP: 1095
+stack: S[1089]: 0 S[1090]: 1082 S[1091]: 20 S[1092]: 0 S[1093]: 0 S[1094]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1089 SP: 1096
+stack: S[1089]: 0 S[1090]: 1082 S[1091]: 20 S[1092]: 0 S[1093]: 0 S[1094]: 0 S[1095]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1096 SP: 1099
+stack: S[1096]: 0 S[1097]: 1089 S[1098]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1096 SP: 1099
+stack: S[1096]: 0 S[1097]: 1089 S[1098]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1096 SP: 1102
+stack: S[1096]: 0 S[1097]: 1089 S[1098]: 20 S[1099]: 0 S[1100]: 0 S[1101]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1096 SP: 1103
+stack: S[1096]: 0 S[1097]: 1089 S[1098]: 20 S[1099]: 0 S[1100]: 0 S[1101]: 0 S[1102]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1103 SP: 1106
+stack: S[1103]: 0 S[1104]: 1096 S[1105]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1103 SP: 1106
+stack: S[1103]: 0 S[1104]: 1096 S[1105]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1103 SP: 1109
+stack: S[1103]: 0 S[1104]: 1096 S[1105]: 20 S[1106]: 0 S[1107]: 0 S[1108]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1103 SP: 1110
+stack: S[1103]: 0 S[1104]: 1096 S[1105]: 20 S[1106]: 0 S[1107]: 0 S[1108]: 0 S[1109]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1110 SP: 1113
+stack: S[1110]: 0 S[1111]: 1103 S[1112]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1110 SP: 1113
+stack: S[1110]: 0 S[1111]: 1103 S[1112]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1110 SP: 1116
+stack: S[1110]: 0 S[1111]: 1103 S[1112]: 20 S[1113]: 0 S[1114]: 0 S[1115]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1110 SP: 1117
+stack: S[1110]: 0 S[1111]: 1103 S[1112]: 20 S[1113]: 0 S[1114]: 0 S[1115]: 0 S[1116]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1117 SP: 1120
+stack: S[1117]: 0 S[1118]: 1110 S[1119]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1117 SP: 1120
+stack: S[1117]: 0 S[1118]: 1110 S[1119]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1117 SP: 1123
+stack: S[1117]: 0 S[1118]: 1110 S[1119]: 20 S[1120]: 0 S[1121]: 0 S[1122]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1117 SP: 1124
+stack: S[1117]: 0 S[1118]: 1110 S[1119]: 20 S[1120]: 0 S[1121]: 0 S[1122]: 0 S[1123]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1124 SP: 1127
+stack: S[1124]: 0 S[1125]: 1117 S[1126]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1124 SP: 1127
+stack: S[1124]: 0 S[1125]: 1117 S[1126]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1124 SP: 1130
+stack: S[1124]: 0 S[1125]: 1117 S[1126]: 20 S[1127]: 0 S[1128]: 0 S[1129]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1124 SP: 1131
+stack: S[1124]: 0 S[1125]: 1117 S[1126]: 20 S[1127]: 0 S[1128]: 0 S[1129]: 0 S[1130]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1131 SP: 1134
+stack: S[1131]: 0 S[1132]: 1124 S[1133]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1131 SP: 1134
+stack: S[1131]: 0 S[1132]: 1124 S[1133]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1131 SP: 1137
+stack: S[1131]: 0 S[1132]: 1124 S[1133]: 20 S[1134]: 0 S[1135]: 0 S[1136]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1131 SP: 1138
+stack: S[1131]: 0 S[1132]: 1124 S[1133]: 20 S[1134]: 0 S[1135]: 0 S[1136]: 0 S[1137]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1138 SP: 1141
+stack: S[1138]: 0 S[1139]: 1131 S[1140]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1138 SP: 1141
+stack: S[1138]: 0 S[1139]: 1131 S[1140]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1138 SP: 1144
+stack: S[1138]: 0 S[1139]: 1131 S[1140]: 20 S[1141]: 0 S[1142]: 0 S[1143]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1138 SP: 1145
+stack: S[1138]: 0 S[1139]: 1131 S[1140]: 20 S[1141]: 0 S[1142]: 0 S[1143]: 0 S[1144]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1145 SP: 1148
+stack: S[1145]: 0 S[1146]: 1138 S[1147]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1145 SP: 1148
+stack: S[1145]: 0 S[1146]: 1138 S[1147]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1145 SP: 1151
+stack: S[1145]: 0 S[1146]: 1138 S[1147]: 20 S[1148]: 0 S[1149]: 0 S[1150]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1145 SP: 1152
+stack: S[1145]: 0 S[1146]: 1138 S[1147]: 20 S[1148]: 0 S[1149]: 0 S[1150]: 0 S[1151]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1152 SP: 1155
+stack: S[1152]: 0 S[1153]: 1145 S[1154]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1152 SP: 1155
+stack: S[1152]: 0 S[1153]: 1145 S[1154]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1152 SP: 1158
+stack: S[1152]: 0 S[1153]: 1145 S[1154]: 20 S[1155]: 0 S[1156]: 0 S[1157]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1152 SP: 1159
+stack: S[1152]: 0 S[1153]: 1145 S[1154]: 20 S[1155]: 0 S[1156]: 0 S[1157]: 0 S[1158]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1159 SP: 1162
+stack: S[1159]: 0 S[1160]: 1152 S[1161]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1159 SP: 1162
+stack: S[1159]: 0 S[1160]: 1152 S[1161]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1159 SP: 1165
+stack: S[1159]: 0 S[1160]: 1152 S[1161]: 20 S[1162]: 0 S[1163]: 0 S[1164]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1159 SP: 1166
+stack: S[1159]: 0 S[1160]: 1152 S[1161]: 20 S[1162]: 0 S[1163]: 0 S[1164]: 0 S[1165]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1166 SP: 1169
+stack: S[1166]: 0 S[1167]: 1159 S[1168]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1166 SP: 1169
+stack: S[1166]: 0 S[1167]: 1159 S[1168]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1166 SP: 1172
+stack: S[1166]: 0 S[1167]: 1159 S[1168]: 20 S[1169]: 0 S[1170]: 0 S[1171]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1166 SP: 1173
+stack: S[1166]: 0 S[1167]: 1159 S[1168]: 20 S[1169]: 0 S[1170]: 0 S[1171]: 0 S[1172]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1173 SP: 1176
+stack: S[1173]: 0 S[1174]: 1166 S[1175]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1173 SP: 1176
+stack: S[1173]: 0 S[1174]: 1166 S[1175]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1173 SP: 1179
+stack: S[1173]: 0 S[1174]: 1166 S[1175]: 20 S[1176]: 0 S[1177]: 0 S[1178]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1173 SP: 1180
+stack: S[1173]: 0 S[1174]: 1166 S[1175]: 20 S[1176]: 0 S[1177]: 0 S[1178]: 0 S[1179]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1180 SP: 1183
+stack: S[1180]: 0 S[1181]: 1173 S[1182]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1180 SP: 1183
+stack: S[1180]: 0 S[1181]: 1173 S[1182]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1180 SP: 1186
+stack: S[1180]: 0 S[1181]: 1173 S[1182]: 20 S[1183]: 0 S[1184]: 0 S[1185]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1180 SP: 1187
+stack: S[1180]: 0 S[1181]: 1173 S[1182]: 20 S[1183]: 0 S[1184]: 0 S[1185]: 0 S[1186]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1187 SP: 1190
+stack: S[1187]: 0 S[1188]: 1180 S[1189]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1187 SP: 1190
+stack: S[1187]: 0 S[1188]: 1180 S[1189]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1187 SP: 1193
+stack: S[1187]: 0 S[1188]: 1180 S[1189]: 20 S[1190]: 0 S[1191]: 0 S[1192]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1187 SP: 1194
+stack: S[1187]: 0 S[1188]: 1180 S[1189]: 20 S[1190]: 0 S[1191]: 0 S[1192]: 0 S[1193]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1194 SP: 1197
+stack: S[1194]: 0 S[1195]: 1187 S[1196]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1194 SP: 1197
+stack: S[1194]: 0 S[1195]: 1187 S[1196]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1194 SP: 1200
+stack: S[1194]: 0 S[1195]: 1187 S[1196]: 20 S[1197]: 0 S[1198]: 0 S[1199]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1194 SP: 1201
+stack: S[1194]: 0 S[1195]: 1187 S[1196]: 20 S[1197]: 0 S[1198]: 0 S[1199]: 0 S[1200]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1201 SP: 1204
+stack: S[1201]: 0 S[1202]: 1194 S[1203]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1201 SP: 1204
+stack: S[1201]: 0 S[1202]: 1194 S[1203]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1201 SP: 1207
+stack: S[1201]: 0 S[1202]: 1194 S[1203]: 20 S[1204]: 0 S[1205]: 0 S[1206]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1201 SP: 1208
+stack: S[1201]: 0 S[1202]: 1194 S[1203]: 20 S[1204]: 0 S[1205]: 0 S[1206]: 0 S[1207]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1208 SP: 1211
+stack: S[1208]: 0 S[1209]: 1201 S[1210]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1208 SP: 1211
+stack: S[1208]: 0 S[1209]: 1201 S[1210]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1208 SP: 1214
+stack: S[1208]: 0 S[1209]: 1201 S[1210]: 20 S[1211]: 0 S[1212]: 0 S[1213]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1208 SP: 1215
+stack: S[1208]: 0 S[1209]: 1201 S[1210]: 20 S[1211]: 0 S[1212]: 0 S[1213]: 0 S[1214]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1215 SP: 1218
+stack: S[1215]: 0 S[1216]: 1208 S[1217]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1215 SP: 1218
+stack: S[1215]: 0 S[1216]: 1208 S[1217]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1215 SP: 1221
+stack: S[1215]: 0 S[1216]: 1208 S[1217]: 20 S[1218]: 0 S[1219]: 0 S[1220]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1215 SP: 1222
+stack: S[1215]: 0 S[1216]: 1208 S[1217]: 20 S[1218]: 0 S[1219]: 0 S[1220]: 0 S[1221]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1222 SP: 1225
+stack: S[1222]: 0 S[1223]: 1215 S[1224]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1222 SP: 1225
+stack: S[1222]: 0 S[1223]: 1215 S[1224]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1222 SP: 1228
+stack: S[1222]: 0 S[1223]: 1215 S[1224]: 20 S[1225]: 0 S[1226]: 0 S[1227]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1222 SP: 1229
+stack: S[1222]: 0 S[1223]: 1215 S[1224]: 20 S[1225]: 0 S[1226]: 0 S[1227]: 0 S[1228]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1229 SP: 1232
+stack: S[1229]: 0 S[1230]: 1222 S[1231]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1229 SP: 1232
+stack: S[1229]: 0 S[1230]: 1222 S[1231]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1229 SP: 1235
+stack: S[1229]: 0 S[1230]: 1222 S[1231]: 20 S[1232]: 0 S[1233]: 0 S[1234]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1229 SP: 1236
+stack: S[1229]: 0 S[1230]: 1222 S[1231]: 20 S[1232]: 0 S[1233]: 0 S[1234]: 0 S[1235]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1236 SP: 1239
+stack: S[1236]: 0 S[1237]: 1229 S[1238]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1236 SP: 1239
+stack: S[1236]: 0 S[1237]: 1229 S[1238]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1236 SP: 1242
+stack: S[1236]: 0 S[1237]: 1229 S[1238]: 20 S[1239]: 0 S[1240]: 0 S[1241]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1236 SP: 1243
+stack: S[1236]: 0 S[1237]: 1229 S[1238]: 20 S[1239]: 0 S[1240]: 0 S[1241]: 0 S[1242]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1243 SP: 1246
+stack: S[1243]: 0 S[1244]: 1236 S[1245]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1243 SP: 1246
+stack: S[1243]: 0 S[1244]: 1236 S[1245]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1243 SP: 1249
+stack: S[1243]: 0 S[1244]: 1236 S[1245]: 20 S[1246]: 0 S[1247]: 0 S[1248]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1243 SP: 1250
+stack: S[1243]: 0 S[1244]: 1236 S[1245]: 20 S[1246]: 0 S[1247]: 0 S[1248]: 0 S[1249]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1250 SP: 1253
+stack: S[1250]: 0 S[1251]: 1243 S[1252]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1250 SP: 1253
+stack: S[1250]: 0 S[1251]: 1243 S[1252]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1250 SP: 1256
+stack: S[1250]: 0 S[1251]: 1243 S[1252]: 20 S[1253]: 0 S[1254]: 0 S[1255]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1250 SP: 1257
+stack: S[1250]: 0 S[1251]: 1243 S[1252]: 20 S[1253]: 0 S[1254]: 0 S[1255]: 0 S[1256]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1257 SP: 1260
+stack: S[1257]: 0 S[1258]: 1250 S[1259]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1257 SP: 1260
+stack: S[1257]: 0 S[1258]: 1250 S[1259]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1257 SP: 1263
+stack: S[1257]: 0 S[1258]: 1250 S[1259]: 20 S[1260]: 0 S[1261]: 0 S[1262]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1257 SP: 1264
+stack: S[1257]: 0 S[1258]: 1250 S[1259]: 20 S[1260]: 0 S[1261]: 0 S[1262]: 0 S[1263]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1264 SP: 1267
+stack: S[1264]: 0 S[1265]: 1257 S[1266]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1264 SP: 1267
+stack: S[1264]: 0 S[1265]: 1257 S[1266]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1264 SP: 1270
+stack: S[1264]: 0 S[1265]: 1257 S[1266]: 20 S[1267]: 0 S[1268]: 0 S[1269]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1264 SP: 1271
+stack: S[1264]: 0 S[1265]: 1257 S[1266]: 20 S[1267]: 0 S[1268]: 0 S[1269]: 0 S[1270]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1271 SP: 1274
+stack: S[1271]: 0 S[1272]: 1264 S[1273]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1271 SP: 1274
+stack: S[1271]: 0 S[1272]: 1264 S[1273]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1271 SP: 1277
+stack: S[1271]: 0 S[1272]: 1264 S[1273]: 20 S[1274]: 0 S[1275]: 0 S[1276]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1271 SP: 1278
+stack: S[1271]: 0 S[1272]: 1264 S[1273]: 20 S[1274]: 0 S[1275]: 0 S[1276]: 0 S[1277]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1278 SP: 1281
+stack: S[1278]: 0 S[1279]: 1271 S[1280]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1278 SP: 1281
+stack: S[1278]: 0 S[1279]: 1271 S[1280]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1278 SP: 1284
+stack: S[1278]: 0 S[1279]: 1271 S[1280]: 20 S[1281]: 0 S[1282]: 0 S[1283]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1278 SP: 1285
+stack: S[1278]: 0 S[1279]: 1271 S[1280]: 20 S[1281]: 0 S[1282]: 0 S[1283]: 0 S[1284]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1285 SP: 1288
+stack: S[1285]: 0 S[1286]: 1278 S[1287]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1285 SP: 1288
+stack: S[1285]: 0 S[1286]: 1278 S[1287]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1285 SP: 1291
+stack: S[1285]: 0 S[1286]: 1278 S[1287]: 20 S[1288]: 0 S[1289]: 0 S[1290]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1285 SP: 1292
+stack: S[1285]: 0 S[1286]: 1278 S[1287]: 20 S[1288]: 0 S[1289]: 0 S[1290]: 0 S[1291]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1292 SP: 1295
+stack: S[1292]: 0 S[1293]: 1285 S[1294]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1292 SP: 1295
+stack: S[1292]: 0 S[1293]: 1285 S[1294]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1292 SP: 1298
+stack: S[1292]: 0 S[1293]: 1285 S[1294]: 20 S[1295]: 0 S[1296]: 0 S[1297]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1292 SP: 1299
+stack: S[1292]: 0 S[1293]: 1285 S[1294]: 20 S[1295]: 0 S[1296]: 0 S[1297]: 0 S[1298]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1299 SP: 1302
+stack: S[1299]: 0 S[1300]: 1292 S[1301]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1299 SP: 1302
+stack: S[1299]: 0 S[1300]: 1292 S[1301]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1299 SP: 1305
+stack: S[1299]: 0 S[1300]: 1292 S[1301]: 20 S[1302]: 0 S[1303]: 0 S[1304]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1299 SP: 1306
+stack: S[1299]: 0 S[1300]: 1292 S[1301]: 20 S[1302]: 0 S[1303]: 0 S[1304]: 0 S[1305]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1306 SP: 1309
+stack: S[1306]: 0 S[1307]: 1299 S[1308]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1306 SP: 1309
+stack: S[1306]: 0 S[1307]: 1299 S[1308]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1306 SP: 1312
+stack: S[1306]: 0 S[1307]: 1299 S[1308]: 20 S[1309]: 0 S[1310]: 0 S[1311]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1306 SP: 1313
+stack: S[1306]: 0 S[1307]: 1299 S[1308]: 20 S[1309]: 0 S[1310]: 0 S[1311]: 0 S[1312]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1313 SP: 1316
+stack: S[1313]: 0 S[1314]: 1306 S[1315]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1313 SP: 1316
+stack: S[1313]: 0 S[1314]: 1306 S[1315]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1313 SP: 1319
+stack: S[1313]: 0 S[1314]: 1306 S[1315]: 20 S[1316]: 0 S[1317]: 0 S[1318]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1313 SP: 1320
+stack: S[1313]: 0 S[1314]: 1306 S[1315]: 20 S[1316]: 0 S[1317]: 0 S[1318]: 0 S[1319]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1320 SP: 1323
+stack: S[1320]: 0 S[1321]: 1313 S[1322]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1320 SP: 1323
+stack: S[1320]: 0 S[1321]: 1313 S[1322]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1320 SP: 1326
+stack: S[1320]: 0 S[1321]: 1313 S[1322]: 20 S[1323]: 0 S[1324]: 0 S[1325]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1320 SP: 1327
+stack: S[1320]: 0 S[1321]: 1313 S[1322]: 20 S[1323]: 0 S[1324]: 0 S[1325]: 0 S[1326]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1327 SP: 1330
+stack: S[1327]: 0 S[1328]: 1320 S[1329]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1327 SP: 1330
+stack: S[1327]: 0 S[1328]: 1320 S[1329]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1327 SP: 1333
+stack: S[1327]: 0 S[1328]: 1320 S[1329]: 20 S[1330]: 0 S[1331]: 0 S[1332]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1327 SP: 1334
+stack: S[1327]: 0 S[1328]: 1320 S[1329]: 20 S[1330]: 0 S[1331]: 0 S[1332]: 0 S[1333]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1334 SP: 1337
+stack: S[1334]: 0 S[1335]: 1327 S[1336]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1334 SP: 1337
+stack: S[1334]: 0 S[1335]: 1327 S[1336]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1334 SP: 1340
+stack: S[1334]: 0 S[1335]: 1327 S[1336]: 20 S[1337]: 0 S[1338]: 0 S[1339]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1334 SP: 1341
+stack: S[1334]: 0 S[1335]: 1327 S[1336]: 20 S[1337]: 0 S[1338]: 0 S[1339]: 0 S[1340]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1341 SP: 1344
+stack: S[1341]: 0 S[1342]: 1334 S[1343]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1341 SP: 1344
+stack: S[1341]: 0 S[1342]: 1334 S[1343]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1341 SP: 1347
+stack: S[1341]: 0 S[1342]: 1334 S[1343]: 20 S[1344]: 0 S[1345]: 0 S[1346]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1341 SP: 1348
+stack: S[1341]: 0 S[1342]: 1334 S[1343]: 20 S[1344]: 0 S[1345]: 0 S[1346]: 0 S[1347]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1348 SP: 1351
+stack: S[1348]: 0 S[1349]: 1341 S[1350]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1348 SP: 1351
+stack: S[1348]: 0 S[1349]: 1341 S[1350]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1348 SP: 1354
+stack: S[1348]: 0 S[1349]: 1341 S[1350]: 20 S[1351]: 0 S[1352]: 0 S[1353]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1348 SP: 1355
+stack: S[1348]: 0 S[1349]: 1341 S[1350]: 20 S[1351]: 0 S[1352]: 0 S[1353]: 0 S[1354]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1355 SP: 1358
+stack: S[1355]: 0 S[1356]: 1348 S[1357]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1355 SP: 1358
+stack: S[1355]: 0 S[1356]: 1348 S[1357]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1355 SP: 1361
+stack: S[1355]: 0 S[1356]: 1348 S[1357]: 20 S[1358]: 0 S[1359]: 0 S[1360]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1355 SP: 1362
+stack: S[1355]: 0 S[1356]: 1348 S[1357]: 20 S[1358]: 0 S[1359]: 0 S[1360]: 0 S[1361]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1362 SP: 1365
+stack: S[1362]: 0 S[1363]: 1355 S[1364]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1362 SP: 1365
+stack: S[1362]: 0 S[1363]: 1355 S[1364]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1362 SP: 1368
+stack: S[1362]: 0 S[1363]: 1355 S[1364]: 20 S[1365]: 0 S[1366]: 0 S[1367]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1362 SP: 1369
+stack: S[1362]: 0 S[1363]: 1355 S[1364]: 20 S[1365]: 0 S[1366]: 0 S[1367]: 0 S[1368]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1369 SP: 1372
+stack: S[1369]: 0 S[1370]: 1362 S[1371]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1369 SP: 1372
+stack: S[1369]: 0 S[1370]: 1362 S[1371]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1369 SP: 1375
+stack: S[1369]: 0 S[1370]: 1362 S[1371]: 20 S[1372]: 0 S[1373]: 0 S[1374]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1369 SP: 1376
+stack: S[1369]: 0 S[1370]: 1362 S[1371]: 20 S[1372]: 0 S[1373]: 0 S[1374]: 0 S[1375]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1376 SP: 1379
+stack: S[1376]: 0 S[1377]: 1369 S[1378]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1376 SP: 1379
+stack: S[1376]: 0 S[1377]: 1369 S[1378]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1376 SP: 1382
+stack: S[1376]: 0 S[1377]: 1369 S[1378]: 20 S[1379]: 0 S[1380]: 0 S[1381]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1376 SP: 1383
+stack: S[1376]: 0 S[1377]: 1369 S[1378]: 20 S[1379]: 0 S[1380]: 0 S[1381]: 0 S[1382]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1383 SP: 1386
+stack: S[1383]: 0 S[1384]: 1376 S[1385]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1383 SP: 1386
+stack: S[1383]: 0 S[1384]: 1376 S[1385]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1383 SP: 1389
+stack: S[1383]: 0 S[1384]: 1376 S[1385]: 20 S[1386]: 0 S[1387]: 0 S[1388]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1383 SP: 1390
+stack: S[1383]: 0 S[1384]: 1376 S[1385]: 20 S[1386]: 0 S[1387]: 0 S[1388]: 0 S[1389]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1390 SP: 1393
+stack: S[1390]: 0 S[1391]: 1383 S[1392]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1390 SP: 1393
+stack: S[1390]: 0 S[1391]: 1383 S[1392]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1390 SP: 1396
+stack: S[1390]: 0 S[1391]: 1383 S[1392]: 20 S[1393]: 0 S[1394]: 0 S[1395]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1390 SP: 1397
+stack: S[1390]: 0 S[1391]: 1383 S[1392]: 20 S[1393]: 0 S[1394]: 0 S[1395]: 0 S[1396]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1397 SP: 1400
+stack: S[1397]: 0 S[1398]: 1390 S[1399]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1397 SP: 1400
+stack: S[1397]: 0 S[1398]: 1390 S[1399]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1397 SP: 1403
+stack: S[1397]: 0 S[1398]: 1390 S[1399]: 20 S[1400]: 0 S[1401]: 0 S[1402]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1397 SP: 1404
+stack: S[1397]: 0 S[1398]: 1390 S[1399]: 20 S[1400]: 0 S[1401]: 0 S[1402]: 0 S[1403]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1404 SP: 1407
+stack: S[1404]: 0 S[1405]: 1397 S[1406]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1404 SP: 1407
+stack: S[1404]: 0 S[1405]: 1397 S[1406]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1404 SP: 1410
+stack: S[1404]: 0 S[1405]: 1397 S[1406]: 20 S[1407]: 0 S[1408]: 0 S[1409]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1404 SP: 1411
+stack: S[1404]: 0 S[1405]: 1397 S[1406]: 20 S[1407]: 0 S[1408]: 0 S[1409]: 0 S[1410]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1411 SP: 1414
+stack: S[1411]: 0 S[1412]: 1404 S[1413]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1411 SP: 1414
+stack: S[1411]: 0 S[1412]: 1404 S[1413]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1411 SP: 1417
+stack: S[1411]: 0 S[1412]: 1404 S[1413]: 20 S[1414]: 0 S[1415]: 0 S[1416]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1411 SP: 1418
+stack: S[1411]: 0 S[1412]: 1404 S[1413]: 20 S[1414]: 0 S[1415]: 0 S[1416]: 0 S[1417]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1418 SP: 1421
+stack: S[1418]: 0 S[1419]: 1411 S[1420]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1418 SP: 1421
+stack: S[1418]: 0 S[1419]: 1411 S[1420]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1418 SP: 1424
+stack: S[1418]: 0 S[1419]: 1411 S[1420]: 20 S[1421]: 0 S[1422]: 0 S[1423]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1418 SP: 1425
+stack: S[1418]: 0 S[1419]: 1411 S[1420]: 20 S[1421]: 0 S[1422]: 0 S[1423]: 0 S[1424]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1425 SP: 1428
+stack: S[1425]: 0 S[1426]: 1418 S[1427]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1425 SP: 1428
+stack: S[1425]: 0 S[1426]: 1418 S[1427]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1425 SP: 1431
+stack: S[1425]: 0 S[1426]: 1418 S[1427]: 20 S[1428]: 0 S[1429]: 0 S[1430]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1425 SP: 1432
+stack: S[1425]: 0 S[1426]: 1418 S[1427]: 20 S[1428]: 0 S[1429]: 0 S[1430]: 0 S[1431]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1432 SP: 1435
+stack: S[1432]: 0 S[1433]: 1425 S[1434]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1432 SP: 1435
+stack: S[1432]: 0 S[1433]: 1425 S[1434]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1432 SP: 1438
+stack: S[1432]: 0 S[1433]: 1425 S[1434]: 20 S[1435]: 0 S[1436]: 0 S[1437]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1432 SP: 1439
+stack: S[1432]: 0 S[1433]: 1425 S[1434]: 20 S[1435]: 0 S[1436]: 0 S[1437]: 0 S[1438]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1439 SP: 1442
+stack: S[1439]: 0 S[1440]: 1432 S[1441]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1439 SP: 1442
+stack: S[1439]: 0 S[1440]: 1432 S[1441]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1439 SP: 1445
+stack: S[1439]: 0 S[1440]: 1432 S[1441]: 20 S[1442]: 0 S[1443]: 0 S[1444]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1439 SP: 1446
+stack: S[1439]: 0 S[1440]: 1432 S[1441]: 20 S[1442]: 0 S[1443]: 0 S[1444]: 0 S[1445]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1446 SP: 1449
+stack: S[1446]: 0 S[1447]: 1439 S[1448]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1446 SP: 1449
+stack: S[1446]: 0 S[1447]: 1439 S[1448]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1446 SP: 1452
+stack: S[1446]: 0 S[1447]: 1439 S[1448]: 20 S[1449]: 0 S[1450]: 0 S[1451]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1446 SP: 1453
+stack: S[1446]: 0 S[1447]: 1439 S[1448]: 20 S[1449]: 0 S[1450]: 0 S[1451]: 0 S[1452]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1453 SP: 1456
+stack: S[1453]: 0 S[1454]: 1446 S[1455]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1453 SP: 1456
+stack: S[1453]: 0 S[1454]: 1446 S[1455]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1453 SP: 1459
+stack: S[1453]: 0 S[1454]: 1446 S[1455]: 20 S[1456]: 0 S[1457]: 0 S[1458]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1453 SP: 1460
+stack: S[1453]: 0 S[1454]: 1446 S[1455]: 20 S[1456]: 0 S[1457]: 0 S[1458]: 0 S[1459]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1460 SP: 1463
+stack: S[1460]: 0 S[1461]: 1453 S[1462]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1460 SP: 1463
+stack: S[1460]: 0 S[1461]: 1453 S[1462]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1460 SP: 1466
+stack: S[1460]: 0 S[1461]: 1453 S[1462]: 20 S[1463]: 0 S[1464]: 0 S[1465]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1460 SP: 1467
+stack: S[1460]: 0 S[1461]: 1453 S[1462]: 20 S[1463]: 0 S[1464]: 0 S[1465]: 0 S[1466]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1467 SP: 1470
+stack: S[1467]: 0 S[1468]: 1460 S[1469]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1467 SP: 1470
+stack: S[1467]: 0 S[1468]: 1460 S[1469]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1467 SP: 1473
+stack: S[1467]: 0 S[1468]: 1460 S[1469]: 20 S[1470]: 0 S[1471]: 0 S[1472]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1467 SP: 1474
+stack: S[1467]: 0 S[1468]: 1460 S[1469]: 20 S[1470]: 0 S[1471]: 0 S[1472]: 0 S[1473]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1474 SP: 1477
+stack: S[1474]: 0 S[1475]: 1467 S[1476]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1474 SP: 1477
+stack: S[1474]: 0 S[1475]: 1467 S[1476]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1474 SP: 1480
+stack: S[1474]: 0 S[1475]: 1467 S[1476]: 20 S[1477]: 0 S[1478]: 0 S[1479]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1474 SP: 1481
+stack: S[1474]: 0 S[1475]: 1467 S[1476]: 20 S[1477]: 0 S[1478]: 0 S[1479]: 0 S[1480]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1481 SP: 1484
+stack: S[1481]: 0 S[1482]: 1474 S[1483]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1481 SP: 1484
+stack: S[1481]: 0 S[1482]: 1474 S[1483]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1481 SP: 1487
+stack: S[1481]: 0 S[1482]: 1474 S[1483]: 20 S[1484]: 0 S[1485]: 0 S[1486]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1481 SP: 1488
+stack: S[1481]: 0 S[1482]: 1474 S[1483]: 20 S[1484]: 0 S[1485]: 0 S[1486]: 0 S[1487]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1488 SP: 1491
+stack: S[1488]: 0 S[1489]: 1481 S[1490]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1488 SP: 1491
+stack: S[1488]: 0 S[1489]: 1481 S[1490]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1488 SP: 1494
+stack: S[1488]: 0 S[1489]: 1481 S[1490]: 20 S[1491]: 0 S[1492]: 0 S[1493]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1488 SP: 1495
+stack: S[1488]: 0 S[1489]: 1481 S[1490]: 20 S[1491]: 0 S[1492]: 0 S[1493]: 0 S[1494]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1495 SP: 1498
+stack: S[1495]: 0 S[1496]: 1488 S[1497]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1495 SP: 1498
+stack: S[1495]: 0 S[1496]: 1488 S[1497]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1495 SP: 1501
+stack: S[1495]: 0 S[1496]: 1488 S[1497]: 20 S[1498]: 0 S[1499]: 0 S[1500]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1495 SP: 1502
+stack: S[1495]: 0 S[1496]: 1488 S[1497]: 20 S[1498]: 0 S[1499]: 0 S[1500]: 0 S[1501]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1502 SP: 1505
+stack: S[1502]: 0 S[1503]: 1495 S[1504]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1502 SP: 1505
+stack: S[1502]: 0 S[1503]: 1495 S[1504]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1502 SP: 1508
+stack: S[1502]: 0 S[1503]: 1495 S[1504]: 20 S[1505]: 0 S[1506]: 0 S[1507]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1502 SP: 1509
+stack: S[1502]: 0 S[1503]: 1495 S[1504]: 20 S[1505]: 0 S[1506]: 0 S[1507]: 0 S[1508]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1509 SP: 1512
+stack: S[1509]: 0 S[1510]: 1502 S[1511]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1509 SP: 1512
+stack: S[1509]: 0 S[1510]: 1502 S[1511]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1509 SP: 1515
+stack: S[1509]: 0 S[1510]: 1502 S[1511]: 20 S[1512]: 0 S[1513]: 0 S[1514]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1509 SP: 1516
+stack: S[1509]: 0 S[1510]: 1502 S[1511]: 20 S[1512]: 0 S[1513]: 0 S[1514]: 0 S[1515]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1516 SP: 1519
+stack: S[1516]: 0 S[1517]: 1509 S[1518]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1516 SP: 1519
+stack: S[1516]: 0 S[1517]: 1509 S[1518]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1516 SP: 1522
+stack: S[1516]: 0 S[1517]: 1509 S[1518]: 20 S[1519]: 0 S[1520]: 0 S[1521]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1516 SP: 1523
+stack: S[1516]: 0 S[1517]: 1509 S[1518]: 20 S[1519]: 0 S[1520]: 0 S[1521]: 0 S[1522]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1523 SP: 1526
+stack: S[1523]: 0 S[1524]: 1516 S[1525]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1523 SP: 1526
+stack: S[1523]: 0 S[1524]: 1516 S[1525]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1523 SP: 1529
+stack: S[1523]: 0 S[1524]: 1516 S[1525]: 20 S[1526]: 0 S[1527]: 0 S[1528]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1523 SP: 1530
+stack: S[1523]: 0 S[1524]: 1516 S[1525]: 20 S[1526]: 0 S[1527]: 0 S[1528]: 0 S[1529]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1530 SP: 1533
+stack: S[1530]: 0 S[1531]: 1523 S[1532]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1530 SP: 1533
+stack: S[1530]: 0 S[1531]: 1523 S[1532]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1530 SP: 1536
+stack: S[1530]: 0 S[1531]: 1523 S[1532]: 20 S[1533]: 0 S[1534]: 0 S[1535]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1530 SP: 1537
+stack: S[1530]: 0 S[1531]: 1523 S[1532]: 20 S[1533]: 0 S[1534]: 0 S[1535]: 0 S[1536]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1537 SP: 1540
+stack: S[1537]: 0 S[1538]: 1530 S[1539]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1537 SP: 1540
+stack: S[1537]: 0 S[1538]: 1530 S[1539]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1537 SP: 1543
+stack: S[1537]: 0 S[1538]: 1530 S[1539]: 20 S[1540]: 0 S[1541]: 0 S[1542]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1537 SP: 1544
+stack: S[1537]: 0 S[1538]: 1530 S[1539]: 20 S[1540]: 0 S[1541]: 0 S[1542]: 0 S[1543]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1544 SP: 1547
+stack: S[1544]: 0 S[1545]: 1537 S[1546]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1544 SP: 1547
+stack: S[1544]: 0 S[1545]: 1537 S[1546]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1544 SP: 1550
+stack: S[1544]: 0 S[1545]: 1537 S[1546]: 20 S[1547]: 0 S[1548]: 0 S[1549]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1544 SP: 1551
+stack: S[1544]: 0 S[1545]: 1537 S[1546]: 20 S[1547]: 0 S[1548]: 0 S[1549]: 0 S[1550]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1551 SP: 1554
+stack: S[1551]: 0 S[1552]: 1544 S[1553]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1551 SP: 1554
+stack: S[1551]: 0 S[1552]: 1544 S[1553]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1551 SP: 1557
+stack: S[1551]: 0 S[1552]: 1544 S[1553]: 20 S[1554]: 0 S[1555]: 0 S[1556]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1551 SP: 1558
+stack: S[1551]: 0 S[1552]: 1544 S[1553]: 20 S[1554]: 0 S[1555]: 0 S[1556]: 0 S[1557]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1558 SP: 1561
+stack: S[1558]: 0 S[1559]: 1551 S[1560]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1558 SP: 1561
+stack: S[1558]: 0 S[1559]: 1551 S[1560]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1558 SP: 1564
+stack: S[1558]: 0 S[1559]: 1551 S[1560]: 20 S[1561]: 0 S[1562]: 0 S[1563]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1558 SP: 1565
+stack: S[1558]: 0 S[1559]: 1551 S[1560]: 20 S[1561]: 0 S[1562]: 0 S[1563]: 0 S[1564]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1565 SP: 1568
+stack: S[1565]: 0 S[1566]: 1558 S[1567]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1565 SP: 1568
+stack: S[1565]: 0 S[1566]: 1558 S[1567]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1565 SP: 1571
+stack: S[1565]: 0 S[1566]: 1558 S[1567]: 20 S[1568]: 0 S[1569]: 0 S[1570]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1565 SP: 1572
+stack: S[1565]: 0 S[1566]: 1558 S[1567]: 20 S[1568]: 0 S[1569]: 0 S[1570]: 0 S[1571]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1572 SP: 1575
+stack: S[1572]: 0 S[1573]: 1565 S[1574]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1572 SP: 1575
+stack: S[1572]: 0 S[1573]: 1565 S[1574]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1572 SP: 1578
+stack: S[1572]: 0 S[1573]: 1565 S[1574]: 20 S[1575]: 0 S[1576]: 0 S[1577]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1572 SP: 1579
+stack: S[1572]: 0 S[1573]: 1565 S[1574]: 20 S[1575]: 0 S[1576]: 0 S[1577]: 0 S[1578]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1579 SP: 1582
+stack: S[1579]: 0 S[1580]: 1572 S[1581]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1579 SP: 1582
+stack: S[1579]: 0 S[1580]: 1572 S[1581]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1579 SP: 1585
+stack: S[1579]: 0 S[1580]: 1572 S[1581]: 20 S[1582]: 0 S[1583]: 0 S[1584]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1579 SP: 1586
+stack: S[1579]: 0 S[1580]: 1572 S[1581]: 20 S[1582]: 0 S[1583]: 0 S[1584]: 0 S[1585]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1586 SP: 1589
+stack: S[1586]: 0 S[1587]: 1579 S[1588]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1586 SP: 1589
+stack: S[1586]: 0 S[1587]: 1579 S[1588]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1586 SP: 1592
+stack: S[1586]: 0 S[1587]: 1579 S[1588]: 20 S[1589]: 0 S[1590]: 0 S[1591]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1586 SP: 1593
+stack: S[1586]: 0 S[1587]: 1579 S[1588]: 20 S[1589]: 0 S[1590]: 0 S[1591]: 0 S[1592]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1593 SP: 1596
+stack: S[1593]: 0 S[1594]: 1586 S[1595]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1593 SP: 1596
+stack: S[1593]: 0 S[1594]: 1586 S[1595]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1593 SP: 1599
+stack: S[1593]: 0 S[1594]: 1586 S[1595]: 20 S[1596]: 0 S[1597]: 0 S[1598]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1593 SP: 1600
+stack: S[1593]: 0 S[1594]: 1586 S[1595]: 20 S[1596]: 0 S[1597]: 0 S[1598]: 0 S[1599]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1600 SP: 1603
+stack: S[1600]: 0 S[1601]: 1593 S[1602]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1600 SP: 1603
+stack: S[1600]: 0 S[1601]: 1593 S[1602]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1600 SP: 1606
+stack: S[1600]: 0 S[1601]: 1593 S[1602]: 20 S[1603]: 0 S[1604]: 0 S[1605]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1600 SP: 1607
+stack: S[1600]: 0 S[1601]: 1593 S[1602]: 20 S[1603]: 0 S[1604]: 0 S[1605]: 0 S[1606]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1607 SP: 1610
+stack: S[1607]: 0 S[1608]: 1600 S[1609]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1607 SP: 1610
+stack: S[1607]: 0 S[1608]: 1600 S[1609]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1607 SP: 1613
+stack: S[1607]: 0 S[1608]: 1600 S[1609]: 20 S[1610]: 0 S[1611]: 0 S[1612]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1607 SP: 1614
+stack: S[1607]: 0 S[1608]: 1600 S[1609]: 20 S[1610]: 0 S[1611]: 0 S[1612]: 0 S[1613]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1614 SP: 1617
+stack: S[1614]: 0 S[1615]: 1607 S[1616]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1614 SP: 1617
+stack: S[1614]: 0 S[1615]: 1607 S[1616]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1614 SP: 1620
+stack: S[1614]: 0 S[1615]: 1607 S[1616]: 20 S[1617]: 0 S[1618]: 0 S[1619]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1614 SP: 1621
+stack: S[1614]: 0 S[1615]: 1607 S[1616]: 20 S[1617]: 0 S[1618]: 0 S[1619]: 0 S[1620]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1621 SP: 1624
+stack: S[1621]: 0 S[1622]: 1614 S[1623]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1621 SP: 1624
+stack: S[1621]: 0 S[1622]: 1614 S[1623]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1621 SP: 1627
+stack: S[1621]: 0 S[1622]: 1614 S[1623]: 20 S[1624]: 0 S[1625]: 0 S[1626]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1621 SP: 1628
+stack: S[1621]: 0 S[1622]: 1614 S[1623]: 20 S[1624]: 0 S[1625]: 0 S[1626]: 0 S[1627]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1628 SP: 1631
+stack: S[1628]: 0 S[1629]: 1621 S[1630]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1628 SP: 1631
+stack: S[1628]: 0 S[1629]: 1621 S[1630]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1628 SP: 1634
+stack: S[1628]: 0 S[1629]: 1621 S[1630]: 20 S[1631]: 0 S[1632]: 0 S[1633]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1628 SP: 1635
+stack: S[1628]: 0 S[1629]: 1621 S[1630]: 20 S[1631]: 0 S[1632]: 0 S[1633]: 0 S[1634]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1635 SP: 1638
+stack: S[1635]: 0 S[1636]: 1628 S[1637]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1635 SP: 1638
+stack: S[1635]: 0 S[1636]: 1628 S[1637]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1635 SP: 1641
+stack: S[1635]: 0 S[1636]: 1628 S[1637]: 20 S[1638]: 0 S[1639]: 0 S[1640]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1635 SP: 1642
+stack: S[1635]: 0 S[1636]: 1628 S[1637]: 20 S[1638]: 0 S[1639]: 0 S[1640]: 0 S[1641]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1642 SP: 1645
+stack: S[1642]: 0 S[1643]: 1635 S[1644]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1642 SP: 1645
+stack: S[1642]: 0 S[1643]: 1635 S[1644]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1642 SP: 1648
+stack: S[1642]: 0 S[1643]: 1635 S[1644]: 20 S[1645]: 0 S[1646]: 0 S[1647]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1642 SP: 1649
+stack: S[1642]: 0 S[1643]: 1635 S[1644]: 20 S[1645]: 0 S[1646]: 0 S[1647]: 0 S[1648]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1649 SP: 1652
+stack: S[1649]: 0 S[1650]: 1642 S[1651]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1649 SP: 1652
+stack: S[1649]: 0 S[1650]: 1642 S[1651]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1649 SP: 1655
+stack: S[1649]: 0 S[1650]: 1642 S[1651]: 20 S[1652]: 0 S[1653]: 0 S[1654]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1649 SP: 1656
+stack: S[1649]: 0 S[1650]: 1642 S[1651]: 20 S[1652]: 0 S[1653]: 0 S[1654]: 0 S[1655]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1656 SP: 1659
+stack: S[1656]: 0 S[1657]: 1649 S[1658]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1656 SP: 1659
+stack: S[1656]: 0 S[1657]: 1649 S[1658]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1656 SP: 1662
+stack: S[1656]: 0 S[1657]: 1649 S[1658]: 20 S[1659]: 0 S[1660]: 0 S[1661]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1656 SP: 1663
+stack: S[1656]: 0 S[1657]: 1649 S[1658]: 20 S[1659]: 0 S[1660]: 0 S[1661]: 0 S[1662]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1663 SP: 1666
+stack: S[1663]: 0 S[1664]: 1656 S[1665]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1663 SP: 1666
+stack: S[1663]: 0 S[1664]: 1656 S[1665]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1663 SP: 1669
+stack: S[1663]: 0 S[1664]: 1656 S[1665]: 20 S[1666]: 0 S[1667]: 0 S[1668]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1663 SP: 1670
+stack: S[1663]: 0 S[1664]: 1656 S[1665]: 20 S[1666]: 0 S[1667]: 0 S[1668]: 0 S[1669]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1670 SP: 1673
+stack: S[1670]: 0 S[1671]: 1663 S[1672]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1670 SP: 1673
+stack: S[1670]: 0 S[1671]: 1663 S[1672]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1670 SP: 1676
+stack: S[1670]: 0 S[1671]: 1663 S[1672]: 20 S[1673]: 0 S[1674]: 0 S[1675]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1670 SP: 1677
+stack: S[1670]: 0 S[1671]: 1663 S[1672]: 20 S[1673]: 0 S[1674]: 0 S[1675]: 0 S[1676]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1677 SP: 1680
+stack: S[1677]: 0 S[1678]: 1670 S[1679]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1677 SP: 1680
+stack: S[1677]: 0 S[1678]: 1670 S[1679]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1677 SP: 1683
+stack: S[1677]: 0 S[1678]: 1670 S[1679]: 20 S[1680]: 0 S[1681]: 0 S[1682]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1677 SP: 1684
+stack: S[1677]: 0 S[1678]: 1670 S[1679]: 20 S[1680]: 0 S[1681]: 0 S[1682]: 0 S[1683]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1684 SP: 1687
+stack: S[1684]: 0 S[1685]: 1677 S[1686]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1684 SP: 1687
+stack: S[1684]: 0 S[1685]: 1677 S[1686]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1684 SP: 1690
+stack: S[1684]: 0 S[1685]: 1677 S[1686]: 20 S[1687]: 0 S[1688]: 0 S[1689]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1684 SP: 1691
+stack: S[1684]: 0 S[1685]: 1677 S[1686]: 20 S[1687]: 0 S[1688]: 0 S[1689]: 0 S[1690]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1691 SP: 1694
+stack: S[1691]: 0 S[1692]: 1684 S[1693]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1691 SP: 1694
+stack: S[1691]: 0 S[1692]: 1684 S[1693]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1691 SP: 1697
+stack: S[1691]: 0 S[1692]: 1684 S[1693]: 20 S[1694]: 0 S[1695]: 0 S[1696]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1691 SP: 1698
+stack: S[1691]: 0 S[1692]: 1684 S[1693]: 20 S[1694]: 0 S[1695]: 0 S[1696]: 0 S[1697]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1698 SP: 1701
+stack: S[1698]: 0 S[1699]: 1691 S[1700]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1698 SP: 1701
+stack: S[1698]: 0 S[1699]: 1691 S[1700]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1698 SP: 1704
+stack: S[1698]: 0 S[1699]: 1691 S[1700]: 20 S[1701]: 0 S[1702]: 0 S[1703]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1698 SP: 1705
+stack: S[1698]: 0 S[1699]: 1691 S[1700]: 20 S[1701]: 0 S[1702]: 0 S[1703]: 0 S[1704]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1705 SP: 1708
+stack: S[1705]: 0 S[1706]: 1698 S[1707]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1705 SP: 1708
+stack: S[1705]: 0 S[1706]: 1698 S[1707]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1705 SP: 1711
+stack: S[1705]: 0 S[1706]: 1698 S[1707]: 20 S[1708]: 0 S[1709]: 0 S[1710]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1705 SP: 1712
+stack: S[1705]: 0 S[1706]: 1698 S[1707]: 20 S[1708]: 0 S[1709]: 0 S[1710]: 0 S[1711]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1712 SP: 1715
+stack: S[1712]: 0 S[1713]: 1705 S[1714]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1712 SP: 1715
+stack: S[1712]: 0 S[1713]: 1705 S[1714]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1712 SP: 1718
+stack: S[1712]: 0 S[1713]: 1705 S[1714]: 20 S[1715]: 0 S[1716]: 0 S[1717]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1712 SP: 1719
+stack: S[1712]: 0 S[1713]: 1705 S[1714]: 20 S[1715]: 0 S[1716]: 0 S[1717]: 0 S[1718]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1719 SP: 1722
+stack: S[1719]: 0 S[1720]: 1712 S[1721]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1719 SP: 1722
+stack: S[1719]: 0 S[1720]: 1712 S[1721]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1719 SP: 1725
+stack: S[1719]: 0 S[1720]: 1712 S[1721]: 20 S[1722]: 0 S[1723]: 0 S[1724]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1719 SP: 1726
+stack: S[1719]: 0 S[1720]: 1712 S[1721]: 20 S[1722]: 0 S[1723]: 0 S[1724]: 0 S[1725]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1726 SP: 1729
+stack: S[1726]: 0 S[1727]: 1719 S[1728]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1726 SP: 1729
+stack: S[1726]: 0 S[1727]: 1719 S[1728]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1726 SP: 1732
+stack: S[1726]: 0 S[1727]: 1719 S[1728]: 20 S[1729]: 0 S[1730]: 0 S[1731]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1726 SP: 1733
+stack: S[1726]: 0 S[1727]: 1719 S[1728]: 20 S[1729]: 0 S[1730]: 0 S[1731]: 0 S[1732]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1733 SP: 1736
+stack: S[1733]: 0 S[1734]: 1726 S[1735]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1733 SP: 1736
+stack: S[1733]: 0 S[1734]: 1726 S[1735]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1733 SP: 1739
+stack: S[1733]: 0 S[1734]: 1726 S[1735]: 20 S[1736]: 0 S[1737]: 0 S[1738]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1733 SP: 1740
+stack: S[1733]: 0 S[1734]: 1726 S[1735]: 20 S[1736]: 0 S[1737]: 0 S[1738]: 0 S[1739]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1740 SP: 1743
+stack: S[1740]: 0 S[1741]: 1733 S[1742]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1740 SP: 1743
+stack: S[1740]: 0 S[1741]: 1733 S[1742]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1740 SP: 1746
+stack: S[1740]: 0 S[1741]: 1733 S[1742]: 20 S[1743]: 0 S[1744]: 0 S[1745]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1740 SP: 1747
+stack: S[1740]: 0 S[1741]: 1733 S[1742]: 20 S[1743]: 0 S[1744]: 0 S[1745]: 0 S[1746]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1747 SP: 1750
+stack: S[1747]: 0 S[1748]: 1740 S[1749]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1747 SP: 1750
+stack: S[1747]: 0 S[1748]: 1740 S[1749]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1747 SP: 1753
+stack: S[1747]: 0 S[1748]: 1740 S[1749]: 20 S[1750]: 0 S[1751]: 0 S[1752]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1747 SP: 1754
+stack: S[1747]: 0 S[1748]: 1740 S[1749]: 20 S[1750]: 0 S[1751]: 0 S[1752]: 0 S[1753]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1754 SP: 1757
+stack: S[1754]: 0 S[1755]: 1747 S[1756]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1754 SP: 1757
+stack: S[1754]: 0 S[1755]: 1747 S[1756]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1754 SP: 1760
+stack: S[1754]: 0 S[1755]: 1747 S[1756]: 20 S[1757]: 0 S[1758]: 0 S[1759]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1754 SP: 1761
+stack: S[1754]: 0 S[1755]: 1747 S[1756]: 20 S[1757]: 0 S[1758]: 0 S[1759]: 0 S[1760]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1761 SP: 1764
+stack: S[1761]: 0 S[1762]: 1754 S[1763]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1761 SP: 1764
+stack: S[1761]: 0 S[1762]: 1754 S[1763]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1761 SP: 1767
+stack: S[1761]: 0 S[1762]: 1754 S[1763]: 20 S[1764]: 0 S[1765]: 0 S[1766]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1761 SP: 1768
+stack: S[1761]: 0 S[1762]: 1754 S[1763]: 20 S[1764]: 0 S[1765]: 0 S[1766]: 0 S[1767]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1768 SP: 1771
+stack: S[1768]: 0 S[1769]: 1761 S[1770]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1768 SP: 1771
+stack: S[1768]: 0 S[1769]: 1761 S[1770]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1768 SP: 1774
+stack: S[1768]: 0 S[1769]: 1761 S[1770]: 20 S[1771]: 0 S[1772]: 0 S[1773]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1768 SP: 1775
+stack: S[1768]: 0 S[1769]: 1761 S[1770]: 20 S[1771]: 0 S[1772]: 0 S[1773]: 0 S[1774]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1775 SP: 1778
+stack: S[1775]: 0 S[1776]: 1768 S[1777]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1775 SP: 1778
+stack: S[1775]: 0 S[1776]: 1768 S[1777]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1775 SP: 1781
+stack: S[1775]: 0 S[1776]: 1768 S[1777]: 20 S[1778]: 0 S[1779]: 0 S[1780]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1775 SP: 1782
+stack: S[1775]: 0 S[1776]: 1768 S[1777]: 20 S[1778]: 0 S[1779]: 0 S[1780]: 0 S[1781]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1782 SP: 1785
+stack: S[1782]: 0 S[1783]: 1775 S[1784]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1782 SP: 1785
+stack: S[1782]: 0 S[1783]: 1775 S[1784]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1782 SP: 1788
+stack: S[1782]: 0 S[1783]: 1775 S[1784]: 20 S[1785]: 0 S[1786]: 0 S[1787]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1782 SP: 1789
+stack: S[1782]: 0 S[1783]: 1775 S[1784]: 20 S[1785]: 0 S[1786]: 0 S[1787]: 0 S[1788]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1789 SP: 1792
+stack: S[1789]: 0 S[1790]: 1782 S[1791]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1789 SP: 1792
+stack: S[1789]: 0 S[1790]: 1782 S[1791]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1789 SP: 1795
+stack: S[1789]: 0 S[1790]: 1782 S[1791]: 20 S[1792]: 0 S[1793]: 0 S[1794]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1789 SP: 1796
+stack: S[1789]: 0 S[1790]: 1782 S[1791]: 20 S[1792]: 0 S[1793]: 0 S[1794]: 0 S[1795]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1796 SP: 1799
+stack: S[1796]: 0 S[1797]: 1789 S[1798]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1796 SP: 1799
+stack: S[1796]: 0 S[1797]: 1789 S[1798]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1796 SP: 1802
+stack: S[1796]: 0 S[1797]: 1789 S[1798]: 20 S[1799]: 0 S[1800]: 0 S[1801]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1796 SP: 1803
+stack: S[1796]: 0 S[1797]: 1789 S[1798]: 20 S[1799]: 0 S[1800]: 0 S[1801]: 0 S[1802]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1803 SP: 1806
+stack: S[1803]: 0 S[1804]: 1796 S[1805]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1803 SP: 1806
+stack: S[1803]: 0 S[1804]: 1796 S[1805]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1803 SP: 1809
+stack: S[1803]: 0 S[1804]: 1796 S[1805]: 20 S[1806]: 0 S[1807]: 0 S[1808]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1803 SP: 1810
+stack: S[1803]: 0 S[1804]: 1796 S[1805]: 20 S[1806]: 0 S[1807]: 0 S[1808]: 0 S[1809]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1810 SP: 1813
+stack: S[1810]: 0 S[1811]: 1803 S[1812]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1810 SP: 1813
+stack: S[1810]: 0 S[1811]: 1803 S[1812]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1810 SP: 1816
+stack: S[1810]: 0 S[1811]: 1803 S[1812]: 20 S[1813]: 0 S[1814]: 0 S[1815]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1810 SP: 1817
+stack: S[1810]: 0 S[1811]: 1803 S[1812]: 20 S[1813]: 0 S[1814]: 0 S[1815]: 0 S[1816]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1817 SP: 1820
+stack: S[1817]: 0 S[1818]: 1810 S[1819]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1817 SP: 1820
+stack: S[1817]: 0 S[1818]: 1810 S[1819]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1817 SP: 1823
+stack: S[1817]: 0 S[1818]: 1810 S[1819]: 20 S[1820]: 0 S[1821]: 0 S[1822]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1817 SP: 1824
+stack: S[1817]: 0 S[1818]: 1810 S[1819]: 20 S[1820]: 0 S[1821]: 0 S[1822]: 0 S[1823]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1824 SP: 1827
+stack: S[1824]: 0 S[1825]: 1817 S[1826]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1824 SP: 1827
+stack: S[1824]: 0 S[1825]: 1817 S[1826]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1824 SP: 1830
+stack: S[1824]: 0 S[1825]: 1817 S[1826]: 20 S[1827]: 0 S[1828]: 0 S[1829]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1824 SP: 1831
+stack: S[1824]: 0 S[1825]: 1817 S[1826]: 20 S[1827]: 0 S[1828]: 0 S[1829]: 0 S[1830]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1831 SP: 1834
+stack: S[1831]: 0 S[1832]: 1824 S[1833]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1831 SP: 1834
+stack: S[1831]: 0 S[1832]: 1824 S[1833]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1831 SP: 1837
+stack: S[1831]: 0 S[1832]: 1824 S[1833]: 20 S[1834]: 0 S[1835]: 0 S[1836]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1831 SP: 1838
+stack: S[1831]: 0 S[1832]: 1824 S[1833]: 20 S[1834]: 0 S[1835]: 0 S[1836]: 0 S[1837]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1838 SP: 1841
+stack: S[1838]: 0 S[1839]: 1831 S[1840]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1838 SP: 1841
+stack: S[1838]: 0 S[1839]: 1831 S[1840]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1838 SP: 1844
+stack: S[1838]: 0 S[1839]: 1831 S[1840]: 20 S[1841]: 0 S[1842]: 0 S[1843]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1838 SP: 1845
+stack: S[1838]: 0 S[1839]: 1831 S[1840]: 20 S[1841]: 0 S[1842]: 0 S[1843]: 0 S[1844]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1845 SP: 1848
+stack: S[1845]: 0 S[1846]: 1838 S[1847]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1845 SP: 1848
+stack: S[1845]: 0 S[1846]: 1838 S[1847]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1845 SP: 1851
+stack: S[1845]: 0 S[1846]: 1838 S[1847]: 20 S[1848]: 0 S[1849]: 0 S[1850]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1845 SP: 1852
+stack: S[1845]: 0 S[1846]: 1838 S[1847]: 20 S[1848]: 0 S[1849]: 0 S[1850]: 0 S[1851]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1852 SP: 1855
+stack: S[1852]: 0 S[1853]: 1845 S[1854]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1852 SP: 1855
+stack: S[1852]: 0 S[1853]: 1845 S[1854]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1852 SP: 1858
+stack: S[1852]: 0 S[1853]: 1845 S[1854]: 20 S[1855]: 0 S[1856]: 0 S[1857]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1852 SP: 1859
+stack: S[1852]: 0 S[1853]: 1845 S[1854]: 20 S[1855]: 0 S[1856]: 0 S[1857]: 0 S[1858]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1859 SP: 1862
+stack: S[1859]: 0 S[1860]: 1852 S[1861]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1859 SP: 1862
+stack: S[1859]: 0 S[1860]: 1852 S[1861]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1859 SP: 1865
+stack: S[1859]: 0 S[1860]: 1852 S[1861]: 20 S[1862]: 0 S[1863]: 0 S[1864]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1859 SP: 1866
+stack: S[1859]: 0 S[1860]: 1852 S[1861]: 20 S[1862]: 0 S[1863]: 0 S[1864]: 0 S[1865]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1866 SP: 1869
+stack: S[1866]: 0 S[1867]: 1859 S[1868]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1866 SP: 1869
+stack: S[1866]: 0 S[1867]: 1859 S[1868]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1866 SP: 1872
+stack: S[1866]: 0 S[1867]: 1859 S[1868]: 20 S[1869]: 0 S[1870]: 0 S[1871]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1866 SP: 1873
+stack: S[1866]: 0 S[1867]: 1859 S[1868]: 20 S[1869]: 0 S[1870]: 0 S[1871]: 0 S[1872]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1873 SP: 1876
+stack: S[1873]: 0 S[1874]: 1866 S[1875]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1873 SP: 1876
+stack: S[1873]: 0 S[1874]: 1866 S[1875]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1873 SP: 1879
+stack: S[1873]: 0 S[1874]: 1866 S[1875]: 20 S[1876]: 0 S[1877]: 0 S[1878]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1873 SP: 1880
+stack: S[1873]: 0 S[1874]: 1866 S[1875]: 20 S[1876]: 0 S[1877]: 0 S[1878]: 0 S[1879]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1880 SP: 1883
+stack: S[1880]: 0 S[1881]: 1873 S[1882]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1880 SP: 1883
+stack: S[1880]: 0 S[1881]: 1873 S[1882]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1880 SP: 1886
+stack: S[1880]: 0 S[1881]: 1873 S[1882]: 20 S[1883]: 0 S[1884]: 0 S[1885]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1880 SP: 1887
+stack: S[1880]: 0 S[1881]: 1873 S[1882]: 20 S[1883]: 0 S[1884]: 0 S[1885]: 0 S[1886]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1887 SP: 1890
+stack: S[1887]: 0 S[1888]: 1880 S[1889]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1887 SP: 1890
+stack: S[1887]: 0 S[1888]: 1880 S[1889]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1887 SP: 1893
+stack: S[1887]: 0 S[1888]: 1880 S[1889]: 20 S[1890]: 0 S[1891]: 0 S[1892]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1887 SP: 1894
+stack: S[1887]: 0 S[1888]: 1880 S[1889]: 20 S[1890]: 0 S[1891]: 0 S[1892]: 0 S[1893]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1894 SP: 1897
+stack: S[1894]: 0 S[1895]: 1887 S[1896]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1894 SP: 1897
+stack: S[1894]: 0 S[1895]: 1887 S[1896]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1894 SP: 1900
+stack: S[1894]: 0 S[1895]: 1887 S[1896]: 20 S[1897]: 0 S[1898]: 0 S[1899]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1894 SP: 1901
+stack: S[1894]: 0 S[1895]: 1887 S[1896]: 20 S[1897]: 0 S[1898]: 0 S[1899]: 0 S[1900]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1901 SP: 1904
+stack: S[1901]: 0 S[1902]: 1894 S[1903]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1901 SP: 1904
+stack: S[1901]: 0 S[1902]: 1894 S[1903]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1901 SP: 1907
+stack: S[1901]: 0 S[1902]: 1894 S[1903]: 20 S[1904]: 0 S[1905]: 0 S[1906]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1901 SP: 1908
+stack: S[1901]: 0 S[1902]: 1894 S[1903]: 20 S[1904]: 0 S[1905]: 0 S[1906]: 0 S[1907]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1908 SP: 1911
+stack: S[1908]: 0 S[1909]: 1901 S[1910]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1908 SP: 1911
+stack: S[1908]: 0 S[1909]: 1901 S[1910]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1908 SP: 1914
+stack: S[1908]: 0 S[1909]: 1901 S[1910]: 20 S[1911]: 0 S[1912]: 0 S[1913]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1908 SP: 1915
+stack: S[1908]: 0 S[1909]: 1901 S[1910]: 20 S[1911]: 0 S[1912]: 0 S[1913]: 0 S[1914]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1915 SP: 1918
+stack: S[1915]: 0 S[1916]: 1908 S[1917]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1915 SP: 1918
+stack: S[1915]: 0 S[1916]: 1908 S[1917]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1915 SP: 1921
+stack: S[1915]: 0 S[1916]: 1908 S[1917]: 20 S[1918]: 0 S[1919]: 0 S[1920]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1915 SP: 1922
+stack: S[1915]: 0 S[1916]: 1908 S[1917]: 20 S[1918]: 0 S[1919]: 0 S[1920]: 0 S[1921]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1922 SP: 1925
+stack: S[1922]: 0 S[1923]: 1915 S[1924]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1922 SP: 1925
+stack: S[1922]: 0 S[1923]: 1915 S[1924]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1922 SP: 1928
+stack: S[1922]: 0 S[1923]: 1915 S[1924]: 20 S[1925]: 0 S[1926]: 0 S[1927]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1922 SP: 1929
+stack: S[1922]: 0 S[1923]: 1915 S[1924]: 20 S[1925]: 0 S[1926]: 0 S[1927]: 0 S[1928]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1929 SP: 1932
+stack: S[1929]: 0 S[1930]: 1922 S[1931]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1929 SP: 1932
+stack: S[1929]: 0 S[1930]: 1922 S[1931]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1929 SP: 1935
+stack: S[1929]: 0 S[1930]: 1922 S[1931]: 20 S[1932]: 0 S[1933]: 0 S[1934]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1929 SP: 1936
+stack: S[1929]: 0 S[1930]: 1922 S[1931]: 20 S[1932]: 0 S[1933]: 0 S[1934]: 0 S[1935]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1936 SP: 1939
+stack: S[1936]: 0 S[1937]: 1929 S[1938]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1936 SP: 1939
+stack: S[1936]: 0 S[1937]: 1929 S[1938]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1936 SP: 1942
+stack: S[1936]: 0 S[1937]: 1929 S[1938]: 20 S[1939]: 0 S[1940]: 0 S[1941]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1936 SP: 1943
+stack: S[1936]: 0 S[1937]: 1929 S[1938]: 20 S[1939]: 0 S[1940]: 0 S[1941]: 0 S[1942]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1943 SP: 1946
+stack: S[1943]: 0 S[1944]: 1936 S[1945]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1943 SP: 1946
+stack: S[1943]: 0 S[1944]: 1936 S[1945]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1943 SP: 1949
+stack: S[1943]: 0 S[1944]: 1936 S[1945]: 20 S[1946]: 0 S[1947]: 0 S[1948]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1943 SP: 1950
+stack: S[1943]: 0 S[1944]: 1936 S[1945]: 20 S[1946]: 0 S[1947]: 0 S[1948]: 0 S[1949]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1950 SP: 1953
+stack: S[1950]: 0 S[1951]: 1943 S[1952]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1950 SP: 1953
+stack: S[1950]: 0 S[1951]: 1943 S[1952]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1950 SP: 1956
+stack: S[1950]: 0 S[1951]: 1943 S[1952]: 20 S[1953]: 0 S[1954]: 0 S[1955]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1950 SP: 1957
+stack: S[1950]: 0 S[1951]: 1943 S[1952]: 20 S[1953]: 0 S[1954]: 0 S[1955]: 0 S[1956]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1957 SP: 1960
+stack: S[1957]: 0 S[1958]: 1950 S[1959]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1957 SP: 1960
+stack: S[1957]: 0 S[1958]: 1950 S[1959]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1957 SP: 1963
+stack: S[1957]: 0 S[1958]: 1950 S[1959]: 20 S[1960]: 0 S[1961]: 0 S[1962]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1957 SP: 1964
+stack: S[1957]: 0 S[1958]: 1950 S[1959]: 20 S[1960]: 0 S[1961]: 0 S[1962]: 0 S[1963]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1964 SP: 1967
+stack: S[1964]: 0 S[1965]: 1957 S[1966]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1964 SP: 1967
+stack: S[1964]: 0 S[1965]: 1957 S[1966]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1964 SP: 1970
+stack: S[1964]: 0 S[1965]: 1957 S[1966]: 20 S[1967]: 0 S[1968]: 0 S[1969]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1964 SP: 1971
+stack: S[1964]: 0 S[1965]: 1957 S[1966]: 20 S[1967]: 0 S[1968]: 0 S[1969]: 0 S[1970]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1971 SP: 1974
+stack: S[1971]: 0 S[1972]: 1964 S[1973]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1971 SP: 1974
+stack: S[1971]: 0 S[1972]: 1964 S[1973]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1971 SP: 1977
+stack: S[1971]: 0 S[1972]: 1964 S[1973]: 20 S[1974]: 0 S[1975]: 0 S[1976]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1971 SP: 1978
+stack: S[1971]: 0 S[1972]: 1964 S[1973]: 20 S[1974]: 0 S[1975]: 0 S[1976]: 0 S[1977]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1978 SP: 1981
+stack: S[1978]: 0 S[1979]: 1971 S[1980]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1978 SP: 1981
+stack: S[1978]: 0 S[1979]: 1971 S[1980]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1978 SP: 1984
+stack: S[1978]: 0 S[1979]: 1971 S[1980]: 20 S[1981]: 0 S[1982]: 0 S[1983]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1978 SP: 1985
+stack: S[1978]: 0 S[1979]: 1971 S[1980]: 20 S[1981]: 0 S[1982]: 0 S[1983]: 0 S[1984]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1985 SP: 1988
+stack: S[1985]: 0 S[1986]: 1978 S[1987]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1985 SP: 1988
+stack: S[1985]: 0 S[1986]: 1978 S[1987]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1985 SP: 1991
+stack: S[1985]: 0 S[1986]: 1978 S[1987]: 20 S[1988]: 0 S[1989]: 0 S[1990]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1985 SP: 1992
+stack: S[1985]: 0 S[1986]: 1978 S[1987]: 20 S[1988]: 0 S[1989]: 0 S[1990]: 0 S[1991]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1992 SP: 1995
+stack: S[1992]: 0 S[1993]: 1985 S[1994]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1992 SP: 1995
+stack: S[1992]: 0 S[1993]: 1985 S[1994]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1992 SP: 1998
+stack: S[1992]: 0 S[1993]: 1985 S[1994]: 20 S[1995]: 0 S[1996]: 0 S[1997]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1992 SP: 1999
+stack: S[1992]: 0 S[1993]: 1985 S[1994]: 20 S[1995]: 0 S[1996]: 0 S[1997]: 0 S[1998]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 1999 SP: 2002
+stack: S[1999]: 0 S[2000]: 1992 S[2001]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 1999 SP: 2002
+stack: S[1999]: 0 S[2000]: 1992 S[2001]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 1999 SP: 2005
+stack: S[1999]: 0 S[2000]: 1992 S[2001]: 20 S[2002]: 0 S[2003]: 0 S[2004]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 1999 SP: 2006
+stack: S[1999]: 0 S[2000]: 1992 S[2001]: 20 S[2002]: 0 S[2003]: 0 S[2004]: 0 S[2005]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 2006 SP: 2009
+stack: S[2006]: 0 S[2007]: 1999 S[2008]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 2006 SP: 2009
+stack: S[2006]: 0 S[2007]: 1999 S[2008]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 2006 SP: 2012
+stack: S[2006]: 0 S[2007]: 1999 S[2008]: 20 S[2009]: 0 S[2010]: 0 S[2011]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 2006 SP: 2013
+stack: S[2006]: 0 S[2007]: 1999 S[2008]: 20 S[2009]: 0 S[2010]: 0 S[2011]: 0 S[2012]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 2013 SP: 2016
+stack: S[2013]: 0 S[2014]: 2006 S[2015]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 2013 SP: 2016
+stack: S[2013]: 0 S[2014]: 2006 S[2015]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 2013 SP: 2019
+stack: S[2013]: 0 S[2014]: 2006 S[2015]: 20 S[2016]: 0 S[2017]: 0 S[2018]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 2013 SP: 2020
+stack: S[2013]: 0 S[2014]: 2006 S[2015]: 20 S[2016]: 0 S[2017]: 0 S[2018]: 0 S[2019]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 2020 SP: 2023
+stack: S[2020]: 0 S[2021]: 2013 S[2022]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 2020 SP: 2023
+stack: S[2020]: 0 S[2021]: 2013 S[2022]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 2020 SP: 2026
+stack: S[2020]: 0 S[2021]: 2013 S[2022]: 20 S[2023]: 0 S[2024]: 0 S[2025]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 2020 SP: 2027
+stack: S[2020]: 0 S[2021]: 2013 S[2022]: 20 S[2023]: 0 S[2024]: 0 S[2025]: 0 S[2026]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 2027 SP: 2030
+stack: S[2027]: 0 S[2028]: 2020 S[2029]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 2027 SP: 2030
+stack: S[2027]: 0 S[2028]: 2020 S[2029]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 2027 SP: 2033
+stack: S[2027]: 0 S[2028]: 2020 S[2029]: 20 S[2030]: 0 S[2031]: 0 S[2032]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 2027 SP: 2034
+stack: S[2027]: 0 S[2028]: 2020 S[2029]: 20 S[2030]: 0 S[2031]: 0 S[2032]: 0 S[2033]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 2034 SP: 2037
+stack: S[2034]: 0 S[2035]: 2027 S[2036]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 2034 SP: 2037
+stack: S[2034]: 0 S[2035]: 2027 S[2036]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 2034 SP: 2040
+stack: S[2034]: 0 S[2035]: 2027 S[2036]: 20 S[2037]: 0 S[2038]: 0 S[2039]: 0 
+==> addr: 18    LIT   49   
+PC: 19 BP: 2034 SP: 2041
+stack: S[2034]: 0 S[2035]: 2027 S[2036]: 20 S[2037]: 0 S[2038]: 0 S[2039]: 0 S[2040]: 49 
+==> addr: 19    CAL   0    
+PC: 0 BP: 2041 SP: 2044
+stack: S[2041]: 0 S[2042]: 2034 S[2043]: 20 
+==> addr: 0     JMP   17   
+PC: 17 BP: 2041 SP: 2044
+stack: S[2041]: 0 S[2042]: 2034 S[2043]: 20 
+==> addr: 17    INC   3    
+PC: 18 BP: 2041 SP: 2047
+stack: S[2041]: 0 S[2042]: 2034 S[2043]: 20 S[2044]: 0 S[2045]: 0 S[2046]: 0 
+==> addr: 18    LIT   49   
+Trying to push on a full stack!
+
