@@ -1,0 +1,15 @@
+const c1 = 49;
+procedure one;
+  write c1;
+procedure two;
+  write (c1 + 1);
+procedure nl;
+  const c = 10;
+  write c;
+begin
+  call one;
+  call nl;
+  call two;
+  call nl
+end
+.
