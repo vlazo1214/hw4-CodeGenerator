@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.28 2023/03/30 00:42:13 leavens Exp leavens $
+# $Id: Makefile,v 1.31 2023/04/14 14:30:46 leavens Exp leavens $
 # Makefile for PL/0 compiler and code generation
 
 # Add .exe to the end of target to get that suffix in the rules
@@ -23,6 +23,7 @@ EXPECTEDVMINPUTS = `echo $(VMTESTS) | sed -e 's/\\.$(SUF)/.vmi/g'`
 EXPECTEDVMOUTPUTS = `echo $(VMTESTS) | sed -e 's/\\.$(SUF)/.vmo/g'`
 
 # create the VM executable
+.PRECIOUS: $(VM)/$(VM)
 $(VM): $(VM)/$(VM)
 
 $(VM)/$(VM):
@@ -46,10 +47,12 @@ clean:
 # Rules for making individual outputs (e.g., execute  make vmtest1.myvi)
 
 # the .myvi files are outputs of the compiler on the given PL/0 programs
+.PRECIOUS: %.myvi
 %.myvi: %.$(SUF) $(COMPILER)
 	./$(COMPILER) $< > $@
 
 # the .myvo files are outputs from running compiled .myvi files in the VM
+.PRECIOUS: %.myvo
 %.myvo: %.myvi $(VM)
 	$(VM)/$(VM) $< > $@ 2>&1
 
@@ -77,8 +80,8 @@ check-vm-outputs: $(VM) $(COMPILER) $(VMTESTS)
 	fi
 
 # Automatically generate the submission zip file
-$(SUBMISSIONZIPFILE): $(SOURCESLIST) *.c *.h *.myo *.myvo
-	$(ZIP) $(SUBMISSIONZIPFILE) $(SOURCESLIST) *.c *.h *.myo *.myvo Makefile
+$(SUBMISSIONZIPFILE): $(SOURCESLIST) *.c *.h *.myvi *.myvo
+	$(ZIP) $(SUBMISSIONZIPFILE) $(SOURCESLIST) *.c *.h *.myvi *.myvo Makefile
 
 # Automatically regenerate the sources.txt file
 .PRECIOUS: $(SOURCESLIST)
