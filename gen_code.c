@@ -12,6 +12,7 @@
 // procDecls is the ptr to the whole list of decls, procDecl is an indexing
 // ptr that helps concatenate the decls
 int procDeclsSize;
+list *addressIndex;
 code_seq procDecls;
 code_seq procDecl;
 
@@ -22,11 +23,14 @@ void gen_code_initialize()
 	procDecls = code_seq_empty();
 	procDecl = code_seq_empty();
 	procDeclsSize = 0;
+	addressIndex = createList();
 }
 
 code_seq gen_code_program(AST *prog)
 {
 	code_seq ret = code_seq_empty();
+	
+	// <program> ::= { cds }{ vds }{ pds } stmt
 	code_seq block = gen_code_block(prog);
 	int procSize = code_seq_size(procDecls);
 
@@ -40,7 +44,11 @@ code_seq gen_code_program(AST *prog)
 	ret = code_seq_concat(ret, block);
 	ret = code_seq_add_to_end(ret, code_hlt());
 
-	// procDeclSize, get jmp 
+
+	// fix labels
+	code_seq_fix_labels(procDecls);
+
+	addressIndex = destroy_linked_list(addressIndex);
 
 	return ret;
 }
@@ -61,8 +69,8 @@ code_seq gen_code_block(AST *prog)
 
 	gen_code_procDecls(prog->data.program.pds);
 
-	// code_fix_labels
-	code_seq_fix_labels(procDecls);	
+	// // code_fix_labels
+	// code_seq_fix_labels(procDecls);	
 
 	// ret = code_seq_concat(ret, procDecls);
 	ret = code_seq_concat(ret, cds);
@@ -128,7 +136,7 @@ void gen_code_procDecls(AST_list pds)
 			procDeclsSize++;
 		}
 
-		procDecls = code_seq_add_to_end(procDecls, code_rtn());
+		// procDecls = code_seq_add_to_end(procDecls, code_rtn());
 
 	}
 }
@@ -140,7 +148,10 @@ void gen_code_procDecls(AST_list pds)
 void gen_code_procDecl(AST *pd)
 {
 	AST *tempAST = pd->data.proc_decl.block;
-	code_seq tempProg = gen_code_block(tempAST);
+	code_seq tempBlock = gen_code_block(tempAST);
+
+	// concat tempBlock
+	procDecl = code_seq_concat(procDecl, tempBlock);
 
 	// INC to pop call if > 0
 	// consolidate
@@ -149,17 +160,14 @@ void gen_code_procDecl(AST *pd)
 		int negativeCDSize = -1 * ast_list_size(tempAST->data.program.cds);
 		procDecl = code_seq_add_to_end(procDecl, code_inc(negativeCDSize));
 	}
-	if (ast_list_size(tempAST->data.program.vds) > 0 )
+	if (ast_list_size(tempAST->data.program.vds) > 0)
 	{
 		int negativeVDSize = -1 * ast_list_size(tempAST->data.program.vds);
 		procDecl = code_seq_add_to_end(procDecl, code_inc(negativeVDSize));
 	}
 
-	// 9 totalSize 
-	// procDecl = code_seq_singleton(code_jmp(code_seq_size(tempProg) + 2));
-	// concat tempProg
-	procDecl = code_seq_concat(procDecl, tempProg);
 	// 2 0
+	procDecl = code_seq_add_to_end(procDecls, code_rtn());
 
 	// procDecl->lab = label_create();
 	// label_set(procDecl->lab, pd->data.proc_decl.lab->addr);
